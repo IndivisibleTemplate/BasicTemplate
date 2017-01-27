@@ -2,7 +2,7 @@ body {
   background: #EFEBE9;
 }
 
-h1 {
+h1, h2 {
   font-weight: 200;
 }
 
@@ -22,6 +22,9 @@ p i.material-icons {
     }
   }
 
+ol {
+  padding: 0 0 0 15px;
+}
 
 .spacer {
   height: 36px;
@@ -133,3 +136,17 @@ p i.material-icons {
     .card .emoji img {
       height: 90px;
     }
+
+
+/* FOOTER */
+
+footer {
+  background: #fff;
+}
+
+footer.social {
+  background: #2196F3;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
