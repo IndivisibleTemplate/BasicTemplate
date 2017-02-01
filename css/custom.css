@@ -141,7 +141,8 @@ ol {
 /* FOOTER */
 
 footer {
-  background: #fff;
+    background: #333;
+    color: #fff;
 }
 
 footer.social {
