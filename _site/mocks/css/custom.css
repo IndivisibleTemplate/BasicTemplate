@@ -1,0 +1,153 @@
+body {
+  background: #EFEBE9;
+}
+
+h1, h2 {
+  font-weight: 200;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+p i.material-icons {
+  vertical-align: middle;
+}
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 75px;
+    }
+  }
+
+ol {
+  padding: 0 0 0 15px;
+}
+
+.spacer {
+  height: 36px;
+}
+
+  .spacer-sm {
+    height: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .spacer {
+      height: 18px;
+    }
+  }
+
+.jumbotron {
+  background: #fff;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+  height: 37px;
+}
+
+  .navbar-brand {
+    padding: 0;
+    font-weight: bold;
+    line-height: 37px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+    .navbar-brand img {
+      height: 37px;
+      margin-right: 10px;
+    }
+
+  .navbar-toggler {
+    background: #fff;
+    top: 3px;
+    right: 3px;
+  }
+
+    .navbar-toggler-icon {
+      width: 1em;
+      height: 1em;
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)");
+    }
+
+  .navbar input {
+    background: rgba(255,255,255,.3);
+  }
+
+  .navbar input::-webkit-input-placeholder {
+     color: rgba(255,255,255,.75)
+    }
+
+  .navbar .btn-default {
+    color: #3c3b6e;
+  }
+
+  #navbarText {
+    width: auto;
+    margin-right: 10px;
+  }
+
+    #navbarText, #navbarText a {
+      color: rgba(255,255,255,.75);
+
+    }
+
+    #navbarText ul {
+      margin-left: 30px;
+    }
+
+    .navbar.fixed-bottom {
+      height: auto;
+      display: flex;
+      padding: 10px 15px;
+      background: transparent;
+    }
+
+      .navbar.fixed-bottom a {
+        flex: 1;
+      }
+
+        .navbar.fixed-bottom a:first-child {
+          margin-right: 10px;
+        }
+
+.card {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+  .card-img-top {
+    width: 100%;
+  }
+
+  .card .emoji {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -10px;
+    right: 3em;
+  }
+
+    .card .emoji img {
+      height: 90px;
+    }
+
+
+/* FOOTER */
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+footer.social {
+  background: #2196F3;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
