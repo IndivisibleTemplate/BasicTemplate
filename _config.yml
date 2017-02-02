@@ -8,8 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: Indivisible SF Pages
+email: sahadeva@sahadeva.com
+description: "Indivisible SF Pages. Inspired by Indivisible Guide.\n\n"
 baseurl: 
 url: 
 twitter_username: jekyllrb
