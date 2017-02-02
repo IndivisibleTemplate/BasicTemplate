@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+
+       </div>
+
+       <div id="navbar" class="navbar-collapse collapse">
+
+
+
+         <form class="navbar-form navbar-right">
+           <div class="form-group">
+             <input type="text" placeholder="Email" class="form-control">
+           </div>
+           <button class="btn btn-success">Go</button>
+         </form>
+
+         <ul class="nav navbar-nav navbar-right">
+           {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {% endif %}
+           {% endfor %}
+         </ul>
+       </div><!--/.navbar-collapse -->
+     </div>
+   </nav>
