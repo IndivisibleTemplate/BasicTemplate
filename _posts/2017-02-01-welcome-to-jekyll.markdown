@@ -1,6 +1,6 @@
 ---
-title: Welcome to Jekyll!
-date: 2017-02-01 23:50:31 Z
+title: Post 1 (Regular)
+date: 2017-02-01 23:50:00 Z
 categories:
 - jekyll
 - update
