@@ -15,7 +15,7 @@ baseurl:
 url: 
 twitter_username: jekyllrb
 github_username: jekyll
-background-image: 
+background-image: "/uploads/oakland.jpg"
 markdown: kramdown
 theme: minima
 gems:
