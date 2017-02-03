@@ -16,6 +16,14 @@ ul, ol {
 .post-list li {
   margin-top: 60px; }
 
+.home-header {
+  margin-top: -24px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
 footer {
   margin-top: 30px;
   padding-top: 30px;

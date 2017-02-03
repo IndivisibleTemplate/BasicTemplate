@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="home ">
+<div class="home">
 
-  <div class="clearfix" style="background-image: url('{{ site.background-image}}')">
+  <div class="clearfix home-header" style="background-image: url('{{ site.background-image}}')">
 
     <h1 class="text-center">{{ site.title | escape }}</h1>
     <h4 class="text-center">{{ site.subtitle | escape }}</h4>
@@ -16,7 +16,7 @@ layout: default
 
   <div class="container">
   <div class="row">
-    <div class="col-sm-8 offset-2">
+    <div class="col-sm-8 offset-sm-2">
 
       <ul class="post-list">
         {% for post in site.posts %}

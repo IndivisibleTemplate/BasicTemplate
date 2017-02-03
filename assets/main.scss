@@ -48,6 +48,17 @@ ul, ol {
   margin-top: $spacing-unit * 2;
 }
 
+// CONTENT
+
+.home-header {
+  margin-top: -24px;
+  color: $light;
+  background-size: cover;
+  background-position: center;
+  padding-top: $spacing-unit*2;
+  padding-bottom: $spacing-unit*2;
+}
+
 footer {
   margin-top: $spacing-unit;
   padding-top: $spacing-unit;
