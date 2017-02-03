@@ -2,29 +2,60 @@
 layout: default
 ---
 
-<div class="home container">
+<div class="home ">
 
-  <h1 class="text-center">{{ site.title | escape }}</h1>
-  <h4>{{ site.subtitle | escape }}</h4>
+  <div class="clearfix" style="background-image: url('{{ site.background-image}}')">
+
+    <h1 class="text-center">{{ site.title | escape }}</h1>
+    <h4 class="text-center">{{ site.subtitle | escape }}</h4>
+
+  </div>
 
   {{ content }}
 
+
+  <div class="container">
   <div class="row">
     <div class="col-sm-8 offset-2">
 
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
+            {% if post.categories contains 'action' %}
+            <div class="card">
+              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
+              <div class="card-block">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <div class="post-content" itemprop="articleBody">
+                  {{ content | truncate: 160 | escape }}
+                </div>
+                <a href="#" class="btn btn-success btn-lg"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
+              </div>
+            </div>
+            {% elsif post.categories contains 'event' %}
+            <div class="card">
+              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
+              <div class="card-block">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <div class="post-content" itemprop="articleBody">
+                  {{ content | truncate: 160 | escape }}
+                </div>
+                <a href="#" class="btn btn-success btn-lg"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
+              </div>
+            </div>
+            {% else %}
+            <p class="post-meta text-center">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <h3 class="text-center">
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
+            </h3>
+            {{ post.content | truncate: 160 | escape }}
+
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
     </div>
   </div>

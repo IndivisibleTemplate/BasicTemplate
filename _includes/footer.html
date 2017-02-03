@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer dark-bg">
 
   <div class="container">
 
@@ -35,10 +35,14 @@
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
+
+            <p>{{ site.description | escape }}</p>
+            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
         </ul>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -54,9 +58,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-4">
-        <p>{{ site.description | escape }}</p>
-      </div>
+
     </div>
 
   </div>
