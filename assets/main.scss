@@ -21,14 +21,33 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// RESETS
+
+body {
+  background: #f4f7f9;
+}
+
+.bg-inverse {
+    background-color: #001d59!important;
+}
+
 // TYPE
 
 h1 {
-  font-size: $base-font-size * 4;
+  font-size: $base-font-size * 5;
   font-weight: 200;
 }
 
-// CONTENT
+h2 {
+  font-size: $base-font-size * 2.5;
+  font-weight: normal;
+}
+
+h3.card-header {
+  font-weight: bold;
+}
+
+// FORM
 
 .spacer {
   height: $spacing-unit;
@@ -41,26 +60,44 @@ h1 {
 ul, ol {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 $spacing-unit;
+  margin: 0 0 $spacing-unit*3;
 }
 
 .post-list li {
-  margin-top: $spacing-unit * 2;
+  margin: $spacing-unit*3 0 $spacing-unit*3;
 }
 
 // CONTENT
 
+
+
 .home-header {
-  margin-top: -24px;
-  color: $light;
+  position: relative;
+  margin-top: -25px;
+  color: $dark;
   background-size: cover;
   background-position: center;
   padding-top: $spacing-unit*2;
-  padding-bottom: $spacing-unit*2;
 }
 
+  .gradient {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.0));
+  }
+
+  .home-header h1, .home-header h4 {
+    position: relative;
+    z-index: 2;
+  }
+
+
 footer {
-  margin-top: $spacing-unit;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
   color: $light;

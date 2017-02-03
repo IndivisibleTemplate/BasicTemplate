@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
-  <div class="clearfix home-header" style="background-image: url('{{ site.background-image}}')">
+  <!-- style="background-image: url('{{ site.background-image}}')" -->
+
+  <div class="clearfix home-header" >
 
     <h1 class="text-center">{{ site.title | escape }}</h1>
     <h4 class="text-center">{{ site.subtitle | escape }}</h4>
@@ -23,10 +25,10 @@ layout: default
           <li>
             {% if post.categories contains 'action' %}
             <div class="card">
-              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
+              <h3 class="card-header bg-danger text-white">Urgent Action Needed</h3>
               <div class="card-block">
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <h3 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
                 <div class="post-content" itemprop="articleBody">
                   {{ content | truncate: 160 | escape }}
                 </div>
@@ -35,22 +37,29 @@ layout: default
             </div>
             {% elsif post.categories contains 'event' %}
             <div class="card">
-              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
               <div class="card-block">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
                 <h3 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                <div class="post-content" itemprop="articleBody">
-                  {{ content | truncate: 160 | escape }}
-                </div>
-                <a href="#" class="btn btn-success btn-lg"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
               </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{ post.date | escape }}</li>
+                <li class="list-group-item">{{ post.time | escape }}</li>
+                <li class="list-group-item">{{ post.location | escape }}</li>
+              </ul>
             </div>
             {% else %}
-            <p class="post-meta text-center">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <h3 class="text-center">
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h3>
-            {{ post.content | truncate: 160 | escape }}
+            <div class="media">
+              <div class="media-body">
+                <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p>
+                <h2 class="mt-0">
+                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h2>
+              </div>
+              <img class="d-flex mr-3 col-xs-4 col-sm-3" class="img-flex" src="{{ site.background-image}}">
+
+            </div>
+
+
 
             {% endif %}
           </li>
