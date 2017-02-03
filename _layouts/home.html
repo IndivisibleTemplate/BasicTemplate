@@ -39,13 +39,16 @@ layout: default
             <div class="card">
               <div class="card-block">
                 <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-                <h3 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">{{ post.date | escape }}</li>
                 <li class="list-group-item">{{ post.time | escape }}</li>
-                <li class="list-group-item">{{ post.location | escape }}</li>
+                <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
+              <div class="card-block">
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a>
+              </div>
             </div>
             {% else %}
             <div class="media">
