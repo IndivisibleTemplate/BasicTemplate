@@ -47,7 +47,7 @@ layout: default
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
               <div class="card-block">
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a> <a href="{{ post.url | relative_url }}" class="btn">Read more...</a> 
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a> <a href="{{ post.url | relative_url }}" class="btn">Read more...</a>
               </div>
             </div>
             {% else %}
@@ -58,7 +58,7 @@ layout: default
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h2>
               </div>
-              <img class="d-flex mr-3 col-xs-4 col-sm-3" class="img-flex" src="{{ site.background-image}}">
+              <img class="d-flex mr-3 col-xs-4 col-sm-3" class="img-flex" src="{{ post.featured-image}}">
 
             </div>
 
