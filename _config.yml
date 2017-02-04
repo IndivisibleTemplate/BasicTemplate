@@ -33,6 +33,6 @@ defaults:
   scope:
     type: "posts"
   values:
-    featured-image: "/uploads/oakland.jpg"
+    featured-image:
     call-script:
     is-featured:
