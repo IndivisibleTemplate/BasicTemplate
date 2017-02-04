@@ -8,6 +8,8 @@ collections:
   representatives:
     title: Representatives
     output: false
+    phone numbers:
+    - 
   uploads:
     title: Uploads
     output: true
