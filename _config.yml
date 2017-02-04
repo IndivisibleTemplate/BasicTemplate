@@ -5,6 +5,11 @@ collections:
   posts:
     title: Posts
     output: true
+  representatives:
+    title: Representatives
+    output: false
+    phone-numbers:
+    - 
   uploads:
     title: Uploads
     output: true
