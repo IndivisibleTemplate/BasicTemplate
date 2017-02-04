@@ -30,9 +30,5 @@ exclude:
 - Gemfile.lock
 
 defaults:
-  scope:
-    type: "posts"
-  values:
-    featured-image:
-    call-script:
-    is-featured:
+  - scope:
+      type: "posts"
