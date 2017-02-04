@@ -33,6 +33,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 background-image: "/uploads/oakland.jpg"
+mailchimp-form-id: 
 markdown: kramdown
 theme: minima
 gems:
@@ -40,4 +41,3 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-mailchimp-form-id: 
