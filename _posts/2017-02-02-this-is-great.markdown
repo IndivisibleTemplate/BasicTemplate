@@ -4,6 +4,7 @@ date: 2017-02-02 02:20:00 Z
 categories:
 - action
 - urgent
+featured-image: 
 call-script: |-
   Hi, my name is _________ and I'm one of Senator [Harris/Feinstein]'s constituents. My zip code is ______.
 
