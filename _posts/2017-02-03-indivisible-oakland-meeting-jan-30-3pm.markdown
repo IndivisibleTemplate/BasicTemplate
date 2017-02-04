@@ -8,7 +8,6 @@ tags:
 Date: 2017-02-05 00:00:00 Z
 Location: 512 Filmore St, San Francisco, CA
 RSVP-link: http://facebook.com/event
-featured-image: 
+main-image: 
 layout: event
 ---
-

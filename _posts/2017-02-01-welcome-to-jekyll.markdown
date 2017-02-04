@@ -4,7 +4,7 @@ date: 2017-02-01 23:50:00 Z
 categories:
 - jekyll
 - update
-featured-image: "/uploads/oakland.jpg"
+main-image: "/uploads/oakland.jpg"
 layout: post
 ---
 

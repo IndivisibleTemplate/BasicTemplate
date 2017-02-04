@@ -34,7 +34,7 @@ defaults:
     type: posts
   values:
     is featured: false
-    featured-image: # blank values are okay here
+    main-image: # blank values are okay here
     call-script:
     Date:
     Location:
