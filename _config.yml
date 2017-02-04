@@ -30,7 +30,7 @@ exclude:
 - Gemfile.lock
 
 defaults:
-  - scope:
+  scope:
     type: "posts"
   values:
     featured-image: "/uploads/oakland.jpg"
