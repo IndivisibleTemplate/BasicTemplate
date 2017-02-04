@@ -30,5 +30,13 @@ exclude:
 - Gemfile.lock
 
 defaults:
-  - scope:
-      type: "posts"
+- scope:
+    type: posts
+  values:
+    is featured: false
+    featured-image: # blank values are okay here
+    call-script:
+    Date:
+    Location:
+    RSVP-link:
+    layout: post
