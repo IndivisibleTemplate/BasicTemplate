@@ -40,3 +40,4 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+mailchimp-form-id: 
