@@ -8,7 +8,7 @@ collections:
   representatives:
     title: Representatives
     output: false
-    phone numbers:
+    phone-numbers:
     - 
   uploads:
     title: Uploads
