@@ -4,6 +4,7 @@ date: 2017-02-01 23:50:00 Z
 categories:
 - jekyll
 - update
+featured-image: 
 layout: post
 ---
 
