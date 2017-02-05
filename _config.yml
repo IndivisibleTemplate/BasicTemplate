@@ -35,7 +35,7 @@ defaults:
   values:
     is featured: false
     main-image: # blank values are okay here
-    call-script:
+    call-script-text:
     Date:
     Location:
     RSVP-link:

@@ -24,6 +24,7 @@ layout: default
         {% for post in site.posts %}
           <li>
             {% if post.categories contains 'action' %}
+            <!-- TEMPLATE FOR ACTIONS -->
             <div class="card">
               <h3 class="card-header bg-danger text-white">Urgent Action Needed</h3>
               <div class="card-block">
@@ -36,6 +37,7 @@ layout: default
               </div>
             </div>
             {% elsif post.categories contains 'event' %}
+            <!-- TEMPLATE FOR EVENTS -->
             <div class="card">
               <div class="card-block">
                 <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
@@ -51,6 +53,7 @@ layout: default
               </div>
             </div>
             {% else %}
+            <!-- GENERIC POST TEMPLATE -->
             <div class="media">
               <div class="media-body">
                 <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -59,11 +62,7 @@ layout: default
                 </h2>
               </div>
               <img class="d-flex mr-3 col-xs-4 col-sm-3" class="img-flex" src="{{ post.main-image}}">
-
             </div>
-
-
-
             {% endif %}
           </li>
         {% endfor %}

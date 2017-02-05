@@ -4,8 +4,8 @@ date: 2017-02-02 02:20:00 Z
 categories:
 - action
 - urgent
-main-image: 
-call-script: |-
+main-image:
+call-script-text: |-
   Hi, my name is _________ and I'm one of Senator [Harris/Feinstein]'s constituents. My zip code is ______.
 
   I'm also a member of Indivisible SF. We are San Francisco residents who oppose Trump's agenda.

@@ -4,14 +4,54 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+  <div class="container">
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <div class="clearfix spacer"></div>
+
+    <div class="row">
+      <div class="col">
+        <div class="clearfix spacer"></div>
+        <header class="post-header">
+          {% if post.categories contains 'action' %}
+          <span class="badge badge-pill badge-danger">ACTION REQUIRED</span>
+          {% endif %}
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        </header>
+        <div class="clearfix spacer"></div>
+        <div class="clearfix spacer"></div>
+      </div>
+    </div>
+
+    <div class="row post-content" itemprop="articleBody">
+      {% if post.categories contains 'action' %}
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-header">
+            <strong>Call Numbers</strong>
+          </div>
+          <div class="card-block">
+            <p class="card-text"><a href="#">Senator Diane Feinstein</a> and <a href="#">Senator Kamala Harris</a> are the senators for CA. Try to reach a live person at different office numbers. If you can't reach anyone leave a voicemail.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Sen. Feinstein SF</strong>(202) 224-3841</li>
+            <li class="list-group-item"><strong>Sen. Harris SF</strong>(213) 894-5000</li>
+            <li class="list-group-item"><strong>Sen. Harris DC</strong>(202) 224-3553</li>
+            <li class="list-group-item"><strong>Sen. Harris Sacramento</strong>(916) 448-2787</li>
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+      {% if post.categories contains 'action' %}
+      <div class="col-sm-8 offset-sm-1">
+      {% else %}
+      <div class="col-sm-9">
+      {% endif %}
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="clearfix spacer"></div>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
