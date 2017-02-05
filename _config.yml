@@ -9,7 +9,7 @@ collections:
     title: Representatives
     output: false
     phone-numbers:
-    -
+    - 
   uploads:
     title: Uploads
     output: true
@@ -19,21 +19,28 @@ defaults:
     type: posts
   values:
     is featured: false
-    featured-image:
-    call-script:
-    Date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    Date: 
+    Location: 
+    RSVP-link: 
     layout: post
+- scope:
+    path: ''
+    type: representatives
+  values:
+    main-image: 
+    phone-numbers: 
+    website: 
 subtitle: Resisting the Trump Agenda
 email: sahadeva@sahadeva.com
 description: "Indivisible SF Pages. Inspired by Indivisible Guide.\n\n"
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 background-image: "/uploads/oakland.jpg"
-mailchimp-form-id:
+mailchimp-form-id: 
 markdown: kramdown
 theme: minima
 gems:
@@ -41,23 +48,3 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-
-# These defaults determin what fields editors see in CMS
-
-defaults:
-- scope:
-    type: posts
-  values:
-    is featured: false
-    main-image: # blank values are okay here
-    call-script-text:
-    Date:
-    Location:
-    RSVP-link:
-    layout: post
-- scope:
-    type: representatives
-  values:
-    main-image: # blank values are okay here
-    phone-numbers:
-    website:
