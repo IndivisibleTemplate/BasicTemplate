@@ -34,6 +34,11 @@ layout: default
             <p class="card-text">Here are numbers for our primary local reps. Try to reach a live person at different office numbers. If you can't reach anyone leave a voicemail.</p>
           </div>
           <ul class="list-group list-group-flush">
+
+            {% for phone-numbers in site.representatives %}
+              <li class="list-group-item">{{ phone-numbers }}</li>
+            {% endfor %}
+
             <li class="list-group-item"><strong>Sen. Feinstein SF</strong>(202) 224-3841</li>
             <li class="list-group-item"><strong>Sen. Harris SF</strong>(213) 894-5000</li>
             <li class="list-group-item"><strong>Sen. Harris DC</strong>(202) 224-3553</li>
