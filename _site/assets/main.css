@@ -4,6 +4,9 @@ body {
 .bg-inverse {
   background-color: #001d59 !important; }
 
+.bg-dark {
+  background: #f7f7f9; }
+
 h1 {
   font-size: 90px;
   font-weight: 200; }
