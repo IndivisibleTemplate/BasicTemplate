@@ -13,6 +13,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    is featured: false
+    featured-image:
+    call-script:
+    Date:
+    Location:
+    RSVP-link:
+    layout: post
 subtitle: Resisting the Trump Agenda
 email: sahadeva@sahadeva.com
 description: "Indivisible SF Pages. Inspired by Indivisible Guide.\n\n"
@@ -21,6 +33,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 background-image: "/uploads/oakland.jpg"
+mailchimp-form-id:
 markdown: kramdown
 theme: minima
 gems:
@@ -40,3 +53,9 @@ defaults:
     Location:
     RSVP-link:
     layout: post
+- scope:
+    type: representatives
+  values:
+    main-image: # blank values are okay here
+    phone-numbers:
+    website:
