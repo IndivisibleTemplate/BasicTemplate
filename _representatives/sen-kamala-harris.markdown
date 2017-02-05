@@ -5,7 +5,7 @@ phone-numbers:
   SF Office: "(213) 894-5000"
   DC Office: "(202) 224-3553"
   Sacramento Office: "(916) 448-2787"
-rep-photo: "/uploads/karris.jpg"
+main-image: "/uploads/karris.jpg"
 website: https://www.harris.senate.gov/
 ---
 
