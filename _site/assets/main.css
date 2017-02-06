@@ -42,11 +42,6 @@ h4 {
 .spacer-sm {
   height: 15px; }
 
-ul, ol {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 0 90px; }
-
 .post-list > li {
   margin: 0 0 90px; }
 

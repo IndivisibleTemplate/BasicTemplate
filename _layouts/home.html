@@ -22,9 +22,8 @@ layout: default
   <div class="row">
     <div class="col-sm-8 offset-sm-2">
 
-      <ul class="post-list">
+      <div class="post-list">
         {% for post in site.posts %}
-          <li>
 
             {% if post.categories contains 'action' %}
             <!-- TEMPLATE FOR ACTIONS -->
@@ -74,9 +73,11 @@ layout: default
             </div>
             {% endif %}
 
-          </li>
+            <div class="spacer clearfix"></div>
+            <div class="spacer clearfix"></div>
+
         {% endfor %}
-      </ul>
+      </div>
 
     </div>
   </div>
