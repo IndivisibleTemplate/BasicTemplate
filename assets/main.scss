@@ -145,3 +145,9 @@ footer {
   color: $light;
   background-color: $dark;
 }
+
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }

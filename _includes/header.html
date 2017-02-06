@@ -5,12 +5,12 @@
   <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
       {% for my_page in site.pages %}
        {% if my_page.title %}
        <li class="nav-item"><a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
        {% endif %}
       {% endfor %}
+      <li class="nav-item"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
     </ul>
 
     <form class="form-inline mt-2 mt-md-0">
