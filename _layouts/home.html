@@ -85,12 +85,13 @@ layout: default
 
     <!-- TEAM MEDIA -->
     <div class="col-sm-4 offset-sm-1">
+      <h4>About Us</h4>
       {{ site.description }}
-
+      <p><a href="/about/">Read more...</a></p>
       <div class="row">
         {% for media-items in site.media-items %}
             <div class="col-xs-6 col-sm-6">
-              <img src="{{ media-items.main-image }}" class="img-fluid img-rounded">
+              <img src="{{ media-items.main-image }}" class="img-fluid rounded">
             </div>
         {% endfor %}
       </div>
