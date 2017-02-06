@@ -4,7 +4,6 @@ date: 2017-02-02 02:20:00 Z
 categories:
 - action
 - urgent
-main-image: 
 call-script-text: |-
   Hi, my name is _________ and I'm one of Senator [Harris/Feinstein]'s constituents. My zip code is ______.
 
@@ -14,4 +13,8 @@ call-script-text: |-
 layout: post
 ---
 
-Some text
+**Specific Asks**
+
+* Oppose Steven Bannon
+* Prevent a Trump Supreme Court nominee
+* No on Sessions (Feinstein still hasn’t committed!)
