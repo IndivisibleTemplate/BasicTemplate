@@ -2,6 +2,9 @@
 title: Indivisible SF
 timezone: UTC
 collections:
+  media:
+    title: Media
+    output: true
   posts:
     title: Posts
     output: true
