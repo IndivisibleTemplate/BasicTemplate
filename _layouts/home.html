@@ -83,11 +83,18 @@ layout: default
     </div>
 
     <div class="col-sm-4">
-      {% for Media in site.Media %}
+      hello
+      {% for medium in site.media %}
+
+        {{ medium.title }}
           <div class="col-xs-4">
-            {{ Media.title }}
-            <img src="{{ media.main-image }}" class="img-fluid img-rounded">
+            <!-- <img src="{{ media.media-file }}" class="img-fluid img-rounded"> -->
           </div>
+      {% endfor %}
+
+      {% for representatives in site.representatives %}
+            <li class="list-group-item bg-dark"><strong>{{ representatives.title }}</strong></li>
+
       {% endfor %}
 
     </div>
