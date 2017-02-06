@@ -44,11 +44,34 @@ h1 {
 
 h2 {
   font-size: $base-font-size * 2.5;
-  font-weight: normal;
+  font-weight: 200;
 }
 
 h3.card-header {
   font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.post-meta {
+  color: $grey-color-dark;
+}
+
+@media (max-width: 758px) {
+  h1 {
+    font-size: $base-font-size * 2;
+  }
+  h2 {
+    font-size: $base-font-size * 1.5;
+  }
+  h4 {
+    font-size: $base-font-size;
+  }
+  .card-title {
+    margin-bottom: 0;
+  }
 }
 
 // FORM
@@ -68,12 +91,19 @@ ul, ol {
 }
 
 .post-list>li {
-  margin: $spacing-unit*3 0 $spacing-unit*3;
+  margin: 0 0 $spacing-unit*3;
+}
+
+@media (max-width: 768px) {
+  .spacer {
+    height: $spacing-unit/2;
+  }
+  .post-list>li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 // CONTENT
-
-
 
 .home-header {
   position: relative;
@@ -84,21 +114,35 @@ ul, ol {
   padding-top: $spacing-unit*2;
 }
 
-  .gradient {
-    display: block;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.0));
-  }
-
   .home-header h1, .home-header h4 {
     position: relative;
     z-index: 2;
   }
+
+// BLOG POSTS
+
+.header-image {
+  margin-top: -50px;
+  margin-bottom: -$spacing-unit;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+@media (min-width: 768px) {
+  .script {
+    padding: 1em;
+    font-size: $base-font-size*1.25;
+    line-height: $base-line-height*1.1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-header {
+    padding-top: $spacing-unit;
+  }
+}
 
 
 footer {

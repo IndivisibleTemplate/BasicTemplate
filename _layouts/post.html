@@ -4,22 +4,25 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
+  {% if page.main-image %}
+    <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
+  {% endif %}
+
   <div class="container">
 
-    <div class="clearfix spacer"></div>
+    <div class="clearfix spacer hidden-xs-down"></div>
 
     <div class="row">
       <div class="col">
         <div class="clearfix spacer"></div>
         <header class="post-header">
           {% if page.categories contains 'action' %}
-          <span class="badge badge-pill badge-danger">ACTION REQUIRED</span>
+          <span class="badge badge-pill badge-danger">ACTION NEEDED</span>
           {% endif %}
           <h1 class="post-title">{{ page.title | escape }}</h1>
           <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
         </header>
-        <div class="clearfix spacer"></div>
-        <div class="clearfix spacer"></div>
+        <div class="clearfix spacer hidden-xs-down"></div>
       </div>
     </div>
 
@@ -49,13 +52,35 @@ layout: default
           <!-- END list -->
 
           <div class="card-footer">
-            <p class="card-text"><a href="http://www.house.gov/representatives/find/">Find A Representative</a></p>
+            <p class="card-text"><a href="http://www.house.gov/representatives/find/">Find your representative</a></p>
           </div>
 
         </div>
+        <div class="clearfix spacer visibile-xs-down"></div>
+        <div class="clearfix spacer visibile-xs-down"></div>
+      </div>
+
+      {% elsif page.categories contains 'event' %}
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-header">
+            <strong>Event Details</strong>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ page.date | date: "%B %-d, %Y" }}</li>
+            <li class="list-group-item">{{ page.date | date: "%r" }}</li>
+            <li class="list-group-item">{{ page.Location | escape }}</li>
+          </ul>
+          {% if page.RSVP-link %}
+          <div class="card-block">
+            <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-block">RSVP to Event</a>
+          </div>
+          {% endif %}
+        </div>
       </div>
       {% endif %}
-      {% if page.categories contains 'action' %}
+
+      {% if page.categories contains 'action'|'event' %}
       <div class="col-sm-8 offset-sm-1">
       {% else %}
       <div class="col-sm-9">
@@ -65,7 +90,7 @@ layout: default
           <h3>Call Script</h3>
           <div class="clearfix spacer-sm"></div>
 
-          <div class="card">
+          <div class="card script">
             <div class="card-block">
               {{ page.call-script-text }}
             </div>

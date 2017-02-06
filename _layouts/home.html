@@ -13,8 +13,10 @@ layout: default
 
   </div>
 
-  {{ content }}
+  <div class="clearfix spacer"></div>
+  <div class="clearfix spacer"></div>
 
+  {{ content }}
 
   <div class="container">
   <div class="row">
@@ -23,19 +25,23 @@ layout: default
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
+
             {% if post.categories contains 'action' %}
             <!-- TEMPLATE FOR ACTIONS -->
             <div class="card">
-              <h3 class="card-header bg-danger text-white">Urgent Action Needed</h3>
+              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
               <div class="card-block">
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
                 <div class="post-content" itemprop="articleBody">
                   {{ content | truncate: 160 | escape }}
                 </div>
-                <a href="#" class="btn btn-success btn-lg"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-success btn-xs-block"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
               </div>
             </div>
+
             {% elsif post.categories contains 'event' %}
             <!-- TEMPLATE FOR EVENTS -->
             <div class="card">
@@ -48,10 +54,13 @@ layout: default
                 <li class="list-group-item">{{ post.date | date: "%r" }}</li>
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
+              {% if post.RSVP-link %}
               <div class="card-block">
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a> <a href="{{ post.url | relative_url }}" class="btn">Read more...</a>
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a>
               </div>
+              {% endif %}
             </div>
+
             {% else %}
             <!-- GENERIC POST TEMPLATE -->
             <div class="media">
@@ -61,9 +70,10 @@ layout: default
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h2>
               </div>
-              <img class="d-flex mr-3 col-xs-4 col-sm-3" class="img-flex" src="{{ post.main-image}}">
+              <img class="d-flex mr-3 col-xs-2 col-sm-3" class="img-flex" src="{{ post.main-image}}">
             </div>
             {% endif %}
+
           </li>
         {% endfor %}
       </ul>
