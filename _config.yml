@@ -9,47 +9,46 @@ collections:
     title: Representatives
     output: false
     phone-numbers:
-    -
+    - 
   uploads:
     title: Uploads
     output: true
   media-items:
     title: media-items
     output: false
-    main-image:
 defaults:
 - scope:
     path: ''
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    Date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    Date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
     type: representatives
   values:
-    main-image:
-    phone-numbers:
-    website:
+    main-image: 
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: media-items
   values:
-    main-image:
+    main-image: 
 subtitle: Resisting the Trump Agenda
 email: sahadeva@sahadeva.com
 description: "Indivisible SF Pages. Inspired by Indivisible Guide.\n\n"
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 background-image: "/uploads/oakland.jpg"
-mailchimp-form-id:
+mailchimp-form-id: 
 markdown: kramdown
 theme: minima
 gems:
