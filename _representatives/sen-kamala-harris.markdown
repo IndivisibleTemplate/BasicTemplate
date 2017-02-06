@@ -6,7 +6,6 @@ phone-numbers:
   SF Office: "(213) 894-5000"
   DC Office: "(202) 224-3553"
   Sacramento Office: "(916) 448-2787"
-  Oakland Office: 555.555.5555
 website: https://www.harris.senate.gov/
 ---
 
