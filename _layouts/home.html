@@ -21,15 +21,11 @@ layout: default
   <div class="container">
   <div class="row">
 
-    <div class="col-sm-8">
+    <div class="col-sm-7">
 
       <div class="post-list">
 
         {% for post in site.posts %}
-
-          {% if post.[is featured] == true %}
-
-          {% else %}
 
             {% if post.categories contains 'action' %}
             <!-- TEMPLATE FOR ACTIONS -->
@@ -82,15 +78,15 @@ layout: default
             <div class="spacer clearfix"></div>
             <div class="spacer clearfix"></div>
 
-          {% endif %}
-
         {% endfor %}
       </div>
 
     </div>
 
     <!-- TEAM MEDIA -->
-    <div class="col-sm-4">
+    <div class="col-sm-4 offset-sm-1">
+      {{ site.description | escape }}
+
       <div class="row">
         {% for media-items in site.media-items %}
             <div class="col-xs-6 col-sm-6">
