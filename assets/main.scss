@@ -113,6 +113,14 @@ h4 {
     z-index: 2;
   }
 
+.site-photos:nth-child(2n+1) {
+  clear: both;
+}
+
+.site-photos img {
+  margin-bottom: $spacing-unit/2;
+}
+
 // BLOG POSTS
 
 .header-image {

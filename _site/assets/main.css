@@ -63,6 +63,12 @@ h4 {
   position: relative;
   z-index: 2; }
 
+.site-photos:nth-child(2n+1) {
+  clear: both; }
+
+.site-photos img {
+  margin-bottom: 15px; }
+
 .header-image {
   margin-top: -50px;
   margin-bottom: -15px;
