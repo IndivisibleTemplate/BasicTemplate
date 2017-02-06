@@ -2,11 +2,6 @@
 title: Indivisible SF
 timezone: UTC
 collections:
-  media:
-    title: media-items
-    output: false
-    main-image:
-    -
   posts:
     title: Posts
     output: true
@@ -18,6 +13,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  media-items:
+    title: media-items
+    output: false
+    main-image:
 defaults:
 - scope:
     path: ''
