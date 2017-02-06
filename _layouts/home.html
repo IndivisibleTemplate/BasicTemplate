@@ -24,7 +24,12 @@ layout: default
     <div class="col-sm-8">
 
       <div class="post-list">
+
         {% for post in site.posts %}
+
+          {% if post.status == 'pinned' %}
+
+          {% else %}
 
             {% if post.categories contains 'action' %}
             <!-- TEMPLATE FOR ACTIONS -->
@@ -82,15 +87,17 @@ layout: default
 
     </div>
 
+    <!-- TEAM MEDIA -->
     <div class="col-sm-4">
-      {% for media-items in site.media-items %}
-          <div class="col-xs-4">
-            <img src="{{ media-items.main-image }}" class="img-fluid img-rounded">
-          </div>
-      {% endfor %}
-
-
+      <div class="row">
+        {% for media-items in site.media-items %}
+            <div class="col-xs-6 col-sm-6">
+              <img src="{{ media-items.main-image }}" class="img-fluid img-rounded">
+            </div>
+        {% endfor %}
+      </div>
     </div>
+    <!-- TEAM MEDIA -->
 
   </div>
 
