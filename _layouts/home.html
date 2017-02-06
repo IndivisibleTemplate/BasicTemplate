@@ -83,10 +83,9 @@ layout: default
     </div>
 
     <div class="col-sm-4">
-      hello
       {% for media-items in site.media-items %}
-        {{ media-items.title }}
           <div class="col-xs-4">
+            <img src="{{ media-items.main-image }}" class="img-fluid img-rounded">
           </div>
       {% endfor %}
 
