@@ -11,15 +11,16 @@ layout: default
     <h1 class="text-center">{{ site.title | escape }}</h1>
     <h4 class="text-center">{{ site.subtitle | escape }}</h4>
 
+    {{ content }}
+
   </div>
 
   <div class="clearfix spacer"></div>
   <div class="clearfix spacer"></div>
 
-  {{ content }}
-
   <div class="container">
   <div class="row">
+
     <div class="col-sm-8 offset-sm-2">
 
       <div class="post-list">
@@ -81,5 +82,9 @@ layout: default
 
     </div>
   </div>
+
+  <div class="spacer clearfix"></div>
+  <div class="spacer clearfix"></div>
+
 
 </div>
