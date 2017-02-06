@@ -13,6 +13,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  media-items:
+    title: media-items
+    output: true
 defaults:
 - scope:
     path: ''
