@@ -21,7 +21,7 @@ layout: default
   <div class="container">
   <div class="row">
 
-    <div class="col-sm-8 offset-sm-2">
+    <div class="col-sm-8">
 
       <div class="post-list">
         {% for post in site.posts %}
@@ -31,7 +31,7 @@ layout: default
             <div class="card">
               <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
               <div class="card-block">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
                 <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
                 <div class="post-content" itemprop="articleBody">
                   {{ content | truncate: 160 | escape }}
@@ -81,6 +81,17 @@ layout: default
       </div>
 
     </div>
+
+    <div class="col-sm-4">
+      {% for Media in site.Media %}
+          <div class="col-xs-4">
+            {{ Media.title }}
+            <img src="{{ media.main-image }}" class="img-fluid img-rounded">
+          </div>
+      {% endfor %}
+
+    </div>
+
   </div>
 
   <div class="spacer clearfix"></div>
