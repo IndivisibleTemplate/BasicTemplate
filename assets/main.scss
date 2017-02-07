@@ -28,7 +28,7 @@ body {
 }
 
 .bg-inverse {
-    background-color: #001d59!important;
+    background-color: #002868!important;
 }
 
 .bg-dark {
@@ -72,6 +72,12 @@ h4 {
   .card-title {
     margin-bottom: 0;
   }
+}
+
+// NAV
+
+.navbar-nav .nav-link svg, .navbar-nav .nav-link img {
+  vertical-align: middle;
 }
 
 // FORM
@@ -146,6 +152,17 @@ h4 {
   }
 }
 
+// MEDIA
+
+.media-thumbnail {
+  height: 150px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: $spacing-unit;
+}
+
+// FOOTER
 
 footer {
   padding-top: $spacing-unit;

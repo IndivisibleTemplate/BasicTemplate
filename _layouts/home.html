@@ -71,7 +71,7 @@ layout: default
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h2>
               </div>
-              <img class="d-flex mr-3 col-xs-2 col-sm-3" class="img-flex" src="{{ post.main-image}}">
+              <img class="d-flex mr-0 pr-0 col-xs-2 col-sm-3" class="img-flex" src="{{ post.main-image}}">
             </div>
             {% endif %}
 
@@ -85,13 +85,10 @@ layout: default
 
     <!-- TEAM MEDIA -->
     <div class="col-sm-4 offset-sm-1">
-      <h4>About Us</h4>
-      <div class="clearfix spacer-sm"></div>
-
       <div class="row site-photos">
         {% for media-items in site.media-items %}
             <div class="col-xs-6 col-sm-6">
-              <img src="{{ media-items.main-image }}" class="img-fluid rounded">
+              <a href="#" class="media-thumbnail rounded" style="background-image: url('{{ media-items.main-image }}')"></a>
             </div>
         {% endfor %}
       </div>
