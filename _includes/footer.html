@@ -1,78 +1,101 @@
-<footer class="site-footer dark-bg">
 
-  <div class="container">
+<nav class="navbar navbar-light navbar-toggleable-md mb-0" style="padding-top: 180px;">
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+          {% if site.twitter_username %}
+          <li class="nav-item">
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+          {% if site.facebook_username %}
+          <li class="nav-item">
+            {% include icon-facebook.html username=site.facebook_username %}
+          </li>
+          {% endif %}
+      </ul>
+    </div>
+
+</nav>
+
+<footer class="site-footer">
+
+  <div class="container-fluid">
 
     <div class="row">
 
       <!-- JOIN FORM: Uses site-wide Mailchimp List ID -->
-      <div class="col-xs-8 col-lg-5">
-        <h4 class="card-title">Join {{ site.title | escape }}</h4>
-        <p class="card-text">Get email updates on meeting times, annoucements, action items, and more.</p>
-        <form class="">
-           <input class="form-control input-xs-lg" type="text" placeholder="Email">
-           <div class="spacer-sm clearfix"></div>
-           <button class="btn btn-block btn-success" type="submit">Get Updates</button>
-         </form>
-         <div class="clearfix spacer visible-xs-down"></div>
-         <hr class="hidden-sm-up">
-         <div class="clearfix spacer visible-xs-down"></div>
+      <div class="col-xs-8 col-lg-6 pt-5 pb-5" style="background: #E3F2FD;">
+        <div class="row">
+          <div class="col-lg-9 offset-lg-1">
+            <h4 class="card-title">Join {{ site.title | escape }}</h4>
+            <p class="card-text">Get email updates on meeting times, annoucements, action items, and more.</p>
+            <form class="">
+               <input class="form-control input-xs-lg" type="text" placeholder="Email">
+               <div class="spacer-sm clearfix"></div>
+               <button class="btn btn-block btn-success" type="submit">Get Updates</button>
+             </form>
+             <hr class="hidden-sm-up">
+             <div class="clearfix spacer visible-xs-down"></div>
+           </div>
+         </div>
       </div>
 
       <!-- HARDCODED Invisible Guide Link -->
-      <div class="col-xs-8 col-lg-6 offset-lg-1">
-          <h4 class="card-title">Read the Indivisible Guide</h4>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-primary"><i class="material-icons" style="vertical-align: middle;">import_contacts</i> &nbsp;Read The Indivisible Guide</a>
+      <div class="col-xs-8 col-lg-6 pt-5 pb-5" style="position: relative; overflow:hidden;">
+        <div class="row">
+          <div class="col-lg-7 offset-lg-1">
+            <h4 class="card-title">The Indivisible Guide</h4>
+            <p>A practical guide to resisting the Trump agenda. Written by former congressional staffers reveal best practices for making Congress listen.</p>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Read The Guide</a>
+          </div>
+        </div>
+        <i class="material-icons" style="position: absolute; right: 2rem; top: 3.5rem; font-size: 170px; color: #1976D2;">import_contacts</i>
       </div>
 
     </div>
-    
+
   </div>
 
-  <hr>
+  <div class="container-fluid">
 
-  <div class="container">
-
-    <div class="clearfix spacer"></div>
     <div class="row">
-      <div class="col-sm-6">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-
-            <p>{{ site.description | escape }}</p>
-            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-        </ul>
+      <div class="col-lg-6 pt-5 pb-4" style="background: #90CAF9;">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1 clearfix">
+            <h4>Start A Local Chapter</h4>
+            <p>You can start a local Indivisible chapter and get a website just like this.</p>
+            <p><a class="btn btn-primary" href="#">Start a Chapter</a></p>
+          </div>
+        </div>
+        <i class="material-icons" style="position: absolute; right: 2rem; top: 3.5rem; font-size: 170px; color: #fff;">location_on</i>
       </div>
+      <div class="col-sm-6 pt-5 pb-4" style="background: #BBDEFB;">
+        <div class="row">
+          <div class="col-lg-9 offset-lg-1">
+            <h4>Contact {{ site.title | escape }}</h4>
+            <div class="clearfix spacer-sm"></div>
+            <ul class="contact-list">
+              <li>
+                {% if site.author %}
+                  {{ site.author | escape }}
 
-      <div class="col-sm-6">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+                {% endif %}
+                </li>
+                {% if site.email %}
+                <li><a class="btn btn-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                {% endif %}
+                <div class="clearfix spacer-sm"></div>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+                <p class="rss-subscribe mt-2">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+            </ul>
+          </div>
+        </div>
       </div>
-
 
     </div>
-
   </div>
 
 </footer>

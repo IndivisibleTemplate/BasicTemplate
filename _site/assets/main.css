@@ -36,6 +36,9 @@ h4 {
 
   .card-title {
     margin-bottom: 0; } }
+.navbar-light {
+  background: #BBDEFB !important; }
+
 .navbar-nav .nav-link svg, .navbar-nav .nav-link img {
   vertical-align: middle; }
 
@@ -94,12 +97,6 @@ h4 {
   background-size: cover;
   background-position: center;
   margin-bottom: 30px; }
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-  background-color: #333; }
 
 footer ul {
   list-style: none;
