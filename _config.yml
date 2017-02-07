@@ -48,6 +48,7 @@ baseurl:
 url:
 twitter_username: jekyllrb
 github_username: jekyll
+facebook_username: jekyll
 background-image: "/uploads/oakland.jpg"
 mailchimp-form-id:
 markdown: kramdown

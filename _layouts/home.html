@@ -86,8 +86,8 @@ layout: default
     <!-- TEAM MEDIA -->
     <div class="col-sm-4 offset-sm-1">
       <h4>About Us</h4>
-      {{ site.description }}
-      <p><a href="/about/">Read more...</a></p>
+      <div class="clearfix spacer-sm"></div>
+
       <div class="row site-photos">
         {% for media-items in site.media-items %}
             <div class="col-xs-6 col-sm-6">
@@ -95,6 +95,9 @@ layout: default
             </div>
         {% endfor %}
       </div>
+      {{ site.description }}
+      <p><a href="/about/">Read more...</a></p>
+
     </div>
     <!-- TEAM MEDIA -->
 
