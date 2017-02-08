@@ -12,7 +12,7 @@ RSVP-link: http://facebook.com/event
 layout: post
 ---
 
-Join us and start resisting the Trump agenda. 
+Join us and start resisting the Trump agenda.
 
 **For first time attendees:**
 Something for you
@@ -20,4 +20,4 @@ Something for you
 **For returning members:**
 Something for you
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
