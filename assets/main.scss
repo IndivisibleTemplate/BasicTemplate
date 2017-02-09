@@ -35,6 +35,46 @@ body {
   background: #f7f7f9;
 }
 
+a:hover, a:active {
+  color: $dark;
+  text-decoration: none;
+}
+
+.btn-icon {
+  position: relative;
+}
+
+  .btn-icon i {
+    font-size: 90px;
+    position: absolute;
+    right: .5rem;
+    bottom: 0;
+    color: #0275d8;
+  }
+
+.badge-lg {
+  padding: 9px 12px;
+  font-size: $base-font-size;
+}
+
+.btn-action {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  line-height: 6.5rem;
+  padding-top: 0%;
+  font-size: $base-font-size;
+  font-weight: bold;
+  margin-top: -2.5rem;
+  display: block;
+  z-index: 2;
+  position: relative;
+}
+
+  .media .btn-action {
+    margin-top: 0;
+  }
+
 // TYPE
 
 h1 {
@@ -159,11 +199,10 @@ h4 {
 // MEDIA
 
 .media-thumbnail {
-  height: 150px;
+  height: 210px;
   display: block;
   background-size: cover;
   background-position: center;
-  margin-bottom: $spacing-unit;
 }
 
 // FOOTER

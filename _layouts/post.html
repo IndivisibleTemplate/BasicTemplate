@@ -10,16 +10,13 @@ layout: default
 
   <div class="container">
 
-    <div class="clearfix spacer hidden-xs-down"></div>
-
     <div class="row">
       <div class="col">
-        <div class="clearfix spacer"></div>
-        <header class="post-header">
+        <header class="post-header mt-4">
           {% if page.categories contains 'action' %}
-          <span class="badge badge-pill badge-danger">ACTION NEEDED</span>
+          <span class="badge badge-lg badge-danger mb-2">ACTION NEEDED</span>
           {% endif %}
-          <h1 class="post-title">{{ page.title | escape }}</h1>
+          <h1 class="post-title mb-2">{{ page.title | escape }}</h1>
         </header>
         <div class="clearfix spacer hidden-xs-down"></div>
       </div>

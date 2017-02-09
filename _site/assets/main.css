@@ -7,6 +7,40 @@ body {
 .bg-dark {
   background: #f7f7f9; }
 
+a:hover, a:active {
+  color: #333;
+  text-decoration: none; }
+
+.btn-icon {
+  position: relative; }
+
+.btn-icon i {
+  font-size: 90px;
+  position: absolute;
+  right: .5rem;
+  bottom: 0;
+  color: #0275d8; }
+
+.badge-lg {
+  padding: 9px 12px;
+  font-size: 18px; }
+
+.btn-action {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  line-height: 6.5rem;
+  padding-top: 0%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -2.5rem;
+  display: block;
+  z-index: 2;
+  position: relative; }
+
+.media .btn-action {
+  margin-top: 0; }
+
 h1 {
   font-size: 90px;
   font-weight: 200; }
@@ -92,11 +126,10 @@ h4 {
   .home-header {
     padding-top: 30px; } }
 .media-thumbnail {
-  height: 150px;
+  height: 210px;
   display: block;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 30px; }
+  background-position: center; }
 
 footer ul {
   list-style: none;

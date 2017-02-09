@@ -27,55 +27,44 @@ layout: default
 
         {% for post in site.posts %}
 
+            <!-- POST TEMPLATE -->
             {% if post.categories contains 'action' %}
-            <!-- TEMPLATE FOR ACTIONS -->
-            <div class="card">
-              <h4 class="card-header bg-danger text-white">Urgent Action Needed</h4>
-              <div class="card-block">
-                <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-                <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-                <div class="post-content" itemprop="articleBody">
-                  {{ content | truncate: 160 | escape }}
-                </div>
+              <span class="badge badge-lg badge-danger mb-3">ACTION NEEDED</span>
+            {% elsif post.categories contains 'event' %}
+              <span class="badge badge-lg badge-success mb-3">Upcoming Event</span>
+            {% endif %}
+            <div class="media">
+              <div class="media-body">
+                <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
+                <h2 class="mt-0">
+                  <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h2>
               </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-success btn-xs-block"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a>
-              </div>
+              <!-- POST MAIN IMAGE FIELD -->
+              {% if post.main-image %}
+                <img class="d-flex mr-0 pr-0 col-xs-2 col-sm-3" src="{{ post.main-image}}">
+              {% elsif post.categories contains 'action' %}
+                <!-- CALL TO ACTION -->
+                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4">Act Now</a>
+              {% endif %}
+              <!-- END POST MAIN IMAGE -->
             </div>
 
-            {% elsif post.categories contains 'event' %}
-            <!-- TEMPLATE FOR EVENTS -->
-            <div class="card">
-              <div class="card-block">
-                <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-                <h2 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-              </div>
+            <!-- EVENT SPECIFIC FILEDS -->
+            {% if post.categories contains 'event' %}
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">{{ post.date | date: "%B %-d, %Y" }}</li>
                 <li class="list-group-item">{{ post.date | date: "%r" }}</li>
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
               {% if post.RSVP-link %}
-              <div class="card-block">
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary">RSVP to Event</a>
-              </div>
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-4">RSVP</a>
               {% endif %}
-            </div>
-
-            {% else %}
-            <!-- GENERIC POST TEMPLATE -->
-            <div class="media">
-              <div class="media-body">
-                <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p>
-                <h2 class="mt-0">
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-              </div>
-              <img class="d-flex mr-0 pr-0 col-xs-2 col-sm-3" class="img-flex" src="{{ post.main-image}}">
-            </div>
             {% endif %}
+            <!-- END EVENT SPECIFIC FIELDS -->
 
             <div class="spacer clearfix"></div>
+            <hr>
             <div class="spacer clearfix"></div>
 
         {% endfor %}
@@ -85,19 +74,25 @@ layout: default
 
     <!-- TEAM MEDIA -->
     <div class="col-sm-4 offset-sm-1">
-      <div class="row site-photos">
-        {% for media-items in site.media-items %}
-            <div class="col-xs-6 col-sm-6">
-              <a href="#" class="media-thumbnail rounded" style="background-image: url('{{ media-items.main-image }}')"></a>
-            </div>
+
+      {% if site.media-items %}
+        <h2 class="mb-4"><a href="#">Media</a></h2>
+        {% for media-items in site.media-items limit:1 %}
+          <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+          <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
         {% endfor %}
-      </div>
-      <h4>About Us</h4>
+        <a href="/about/" class="btn btn-link">Read more...</a>
+
+        <div class="spacer clearfix mt-4"></div>
+      {% endif %}
+
+
+      <h2><a href="/about/">About Us</a></h2>
       <div markdown="1">
         {{ site.description }}
       </div>
       <div class="spacer-sm clearfix"></div>
-      <p><a href="/about/">Read more...</a></p>
+      <a href="/about/" class="btn btn-link">Read more...</a>
 
     </div>
     <!-- TEAM MEDIA -->
