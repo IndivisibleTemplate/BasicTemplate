@@ -1,6 +1,6 @@
 ---
 title: Actions
-permalink: "/about/"
+permalink: "/actions/"
 main-image: 
 layout: actions
 ---
