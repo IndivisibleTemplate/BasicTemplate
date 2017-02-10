@@ -2,35 +2,59 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container">
 
-  <!-- SCRIPT -->
-  <div class="card">
-    <div class="card-block">
-      <div class="post-content" itemprop="articleBody">
-        {{ call-script }}
-      </div>
-    </div>
-  </div>
+    <h1>{{ page.title | escape }}</h1>
 
-  <!-- CONTENT -->
-  <div class="card">
-    <h4 class="card-header bg-danger text-white">Action Required</h4>
-    <div class="card-block">
-      <p class="text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-      <h4 class="card-title" itemprop="name headline">{{ page.title | escape }}</h4>
-      <div class="post-content" itemprop="articleBody">
+    <div class="clearfix spacer"></div>
+
+    <!-- BODY CONTENT -->
+    <div class="row">
+      <div class="col-sm-9 col-md-8 col-lg-7">
         {{ content }}
+
+        {% unless site.categories.[page.category] | size > 0 %}
+          <p>No posts in this category at this time.</p>
+        {% endunless %}
       </div>
-      <p class="post-meta">{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-
-      <a href="#" class="btn btn-success btn-lg"><i class="material-icons" style="vertical-align: middle;">phone</i> Call Your Rep</a> &nbsp; <a href="action.html" class="btn btn-lg">Read more</a>
     </div>
-    <div class="card-block" style="border-top: 1px solid #ddd;">
-     <a href="#" class="card-link">Call Script</a>
-     <a href="#" class="card-link">Background Info</a>
-     <a href="#" class="card-link">How to Call</a>
-   </div>
-  </div>
 
-</article>
+    <!-- ACTIONS -->
+    <div class="row">
+
+        <!-- ACTIONS -->
+
+        {% for post in site.categories.action %}
+          <div class="col-sm-3">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                  <h2 class="post-title">
+                      {{ post.title }}
+                  </h2>
+                  {% if post.subtitle %}
+                  <h3 class="post-subtitle">
+                      {{ post.subtitle }}
+                  </h3>
+                  {% endif %}
+              </a>
+              <p class="post-meta">
+                Posted by
+                {% if post.author %}
+                  {{ post.author }}
+                {% else %}
+                  {{ site.title }}
+                {% endif %}
+                on {{ post.date | date: "%B %-d, %Y" }}
+              </p>
+          </div>
+          <hr>
+          {% endfor %}
+
+          <!-- END ACTIONS -->
+
+      </div>
+    </div>
+
+  </div><!-- END CONTAINER -->
+
+  <div class="clearfix spacer"></div>
+  <div class="clearfix spacer"></div>
