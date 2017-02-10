@@ -12,6 +12,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$primary:          #0275d8;
 $light:            #fff;
 $dark:             #333;
 
@@ -36,7 +37,7 @@ body {
 }
 
 a:hover, a:active {
-  color: $dark;
+  color: darken($primary, 40%);
   text-decoration: none;
 }
 

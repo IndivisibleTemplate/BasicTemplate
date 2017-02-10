@@ -13,17 +13,19 @@
        {% endif %}
       {% endfor %}
       <li class="nav-item"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
-        {% if site.twitter_username %}
-        <li class="nav-item">
-          {% include icon-twitter.html username=site.twitter_username %}
-        </li>
-        {% endif %}
 
-        {% if site.facebook_username %}
-        <li class="nav-item">
-          {% include icon-facebook.html username=site.facebook_username %}
-        </li>
-        {% endif %}
+      {% if site.twitter_username %}
+      <li class="nav-item">
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      {% endif %}
+
+      {% if site.facebook_username %}
+      <li class="nav-item">
+        {% include icon-facebook.html username=site.facebook_username %}
+      </li>
+      {% endif %}
+      
     </ul>
 
     <form class="form-inline mt-2 mt-md-0">

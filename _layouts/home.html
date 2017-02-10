@@ -76,7 +76,7 @@ layout: default
     <div class="col-sm-4 offset-sm-1">
 
       {% if site.media-items %}
-        <h2 class="mb-4"><a href="#">Media</a></h2>
+        <h2 class="mb-4"><a href="#">Photos</a></h2>
         {% for media-items in site.media-items limit:1 %}
           <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
           <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
