@@ -1,5 +1,5 @@
 ---
-title: About
+title: Actions
 permalink: "/about/"
 layout: page
 ---
