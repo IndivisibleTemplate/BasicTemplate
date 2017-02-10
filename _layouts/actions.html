@@ -4,8 +4,12 @@ layout: default
 
   <div class="container">
 
-    <h1>{{ page.title | escape }}</h1>
+    <div class="clearfix spacer"></div>
+    <div class="clearfix spacer"></div>
 
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+
+    <div class="clearfix spacer"></div>
     <div class="clearfix spacer"></div>
 
     <!-- BODY CONTENT -->
@@ -16,6 +20,9 @@ layout: default
         {% unless site.categories.action | size > 0 %}
           <p>No posts in this category at this time.</p>
         {% endunless %}
+
+        <div class="clearfix spacer"></div>
+
       </div>
     </div>
 
@@ -25,26 +32,14 @@ layout: default
         <!-- ACTIONS -->
 
         {% for post in site.categories.action %}
-          <div class="col-sm-3">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                  <h2 class="post-title">
-                      {{ post.title }}
-                  </h2>
-                  {% if post.subtitle %}
-                  <h3 class="post-subtitle">
-                      {{ post.subtitle }}
-                  </h3>
-                  {% endif %}
-              </a>
-              <p class="post-meta">
-                Posted by
-                {% if post.author %}
-                  {{ post.author }}
-                {% else %}
-                  {{ site.title }}
-                {% endif %}
-                on {{ post.date | date: "%B %-d, %Y" }}
-              </p>
+          <div class="col-sm-4">
+            <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
+            <h2 class="mt-0 mb-3">
+              <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            <!-- CALL TO ACTION -->
+            <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto">Act Now</a>
+            <div class="clearfix spacer"></div>
           </div>
           <hr>
           {% endfor %}
