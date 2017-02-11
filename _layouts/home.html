@@ -19,33 +19,36 @@ layout: default
   <div class="clearfix spacer"></div>
 
   <div class="container">
-  <div class="row">
 
-    <div class="col-sm-7">
+    <div class="row">
 
-      <div class="post-list">
+      <div class="col-sm-7">
 
-        {% for post in site.posts %}
+        <div class="post-list">
+
+          {% for post in site.posts %}
+
+            <hr class="mt-0">
 
             <!-- POST TEMPLATE -->
             {% if post.categories contains 'action' %}
-              <span class="badge badge-lg badge-danger mb-3">ACTION NEEDED</span>
+              <span class="badge badge-lg badge-danger mt-2">ACTION NEEDED</span>
             {% elsif post.categories contains 'event' %}
-              <span class="badge badge-lg badge-primary mb-3">Upcoming Event</span>
+              <span class="badge badge-lg badge-primary mt-2">Upcoming Event</span>
             {% endif %}
             <div class="media">
               <div class="media-body">
                 <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
-                <h2 class="mt-0 mb-3">
+                <h2 class="mt-2 mb-4">
                   <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h2>
               </div>
               <!-- POST MAIN IMAGE FIELD -->
               {% if post.main-image %}
-                <img class="d-flex mr-0 pr-0 col-xs-2 col-sm-3" src="{{ post.main-image}}">
+                <img class="d-flex mt-2 mr-0 pr-0 col-xs-2 col-sm-3" src="{{ post.main-image}}">
               {% elsif post.categories contains 'action' %}
                 <!-- CALL TO ACTION -->
-                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4">Act Now</a>
+                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-4">Act Now</a>
               {% endif %}
               <!-- END POST MAIN IMAGE -->
             </div>
@@ -58,45 +61,43 @@ layout: default
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
               {% if post.RSVP-link %}
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-4">RSVP</a>
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-  mb-4">RSVP</a>
               {% endif %}
             {% endif %}
             <!-- END EVENT SPECIFIC FIELDS -->
 
-            <hr>
-            <div class="spacer-sm clearfix"></div>
+          {% endfor %}
+        </div>
 
-        {% endfor %}
       </div>
 
-    </div>
+      <!-- TEAM MEDIA -->
+      <div class="col-sm-4 offset-sm-1">
 
-    <!-- TEAM MEDIA -->
-    <div class="col-sm-4 offset-sm-1">
+        {% if site.media-items %}
+          <hr class="mt-0">
+          <h2 class="mb-3"><a href="#">Photos</a></h2>
+          {% for media-items in site.media-items limit:1 %}
+            <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+            <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
+          {% endfor %}
+          <a href="/about/" class="mt-0 btn btn-link btn-flush">More media...</a>
 
-      {% if site.media-items %}
-        <h2 class="mb-2"><a href="#">Photos</a></h2>
-        {% for media-items in site.media-items limit:1 %}
-          <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
-          <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
-        {% endfor %}
-        <a href="/about/" class="btn btn-link">Read more...</a>
-
-        <div class="spacer clearfix mt-4"></div>
-      {% endif %}
+          <div class="spacer clearfix mt-4"></div>
+        {% endif %}
 
 
-      <h2><a href="/about/">About Us</a></h2>
-      <div markdown="1">
-        {{ site.description }}
+        <hr class="mt-0">
+        <h2 class="mb-3"><a href="/about/">About Us</a></h2>
+        <div markdown="1">
+          {{ site.description }}
+        </div>
+        <a href="/about/" class="btn btn-link btn-flush">Read more...</a>
+
       </div>
-      <div class="spacer-sm clearfix"></div>
-      <a href="/about/" class="btn btn-link">Read more...</a>
+      <!-- TEAM MEDIA -->
 
     </div>
-    <!-- TEAM MEDIA -->
-
-  </div>
 
   <div class="spacer clearfix"></div>
   <div class="spacer clearfix"></div>

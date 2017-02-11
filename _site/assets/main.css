@@ -41,6 +41,14 @@ a:hover, a:active {
 .media .btn-action {
   margin-top: 0; }
 
+.btn-flush {
+  padding-left: 0;
+  padding-right: 0; }
+
+.btn-emph {
+  text-transform: uppercase;
+  font-weight: bold; }
+
 h1 {
   font-size: 90px;
   font-weight: 200; }
@@ -78,7 +86,7 @@ h4 {
   .card-title {
     margin-bottom: 0; } }
 .navbar-light {
-  background: #BBDEFB !important; }
+  background: #FFCDD2 !important; }
 
 .navbar-nav .nav-link svg, .navbar-nav .nav-link img {
   vertical-align: middle; }
@@ -142,7 +150,11 @@ h4 {
   background-size: cover;
   background-position: center; }
 
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
+.site-footer .media i.material-icons {
+  width: 65px;
+  height: 65px;
+  line-height: 62px;
+  font-size: 40px;
+  background: #ddd;
+  border-radius: 50%;
+  text-align: center; }
