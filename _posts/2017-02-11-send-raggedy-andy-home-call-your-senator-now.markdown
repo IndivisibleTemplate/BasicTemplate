@@ -1,6 +1,8 @@
 ---
 title: SEND RAGGEDY ANDY HOME! Call Your Senator Now!
 date: 2017-02-11 00:11:00 Z
+categories:
+- action
 call-script-text: "Hi, my name is ____, I'm a local constituent. My zip code is ___.
   I want Representative _____ to say NO to Andy Puzder. He is terrible choice for
   Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food
