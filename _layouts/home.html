@@ -61,13 +61,16 @@ layout: default
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
               {% if post.RSVP-link %}
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-  mb-4">RSVP</a>
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-4 mb-4">RSVP</a>
               {% endif %}
             {% endif %}
             <!-- END EVENT SPECIFIC FIELDS -->
 
           {% endfor %}
         </div>
+
+        <div class="spacer clearfix"></div>
+        <div class="spacer clearfix"></div>
 
       </div>
 
