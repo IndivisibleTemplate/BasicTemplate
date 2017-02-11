@@ -5,7 +5,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   {% if page.main-image %}
-    <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
+    <div class="header-image mb-3" style="background-image: url('{{ page.main-image }}')"></div>
   {% endif %}
 
   <div class="container">
@@ -16,7 +16,10 @@ layout: default
           {% if page.categories contains 'action' %}
           <span class="badge badge-lg badge-danger mb-2">ACTION NEEDED</span>
           {% endif %}
-          <h1 class="post-title mb-2">{{ page.title | escape }}</h1>
+          {% if page.categories contains 'event' %}
+          <span class="badge badge-lg badge-primary mb-2">Upcoming Event</span>
+          {% endif %}
+          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% endif %}">{{ page.title | escape }}</h1>
         </header>
         <div class="clearfix spacer hidden-xs-down"></div>
       </div>
@@ -56,20 +59,20 @@ layout: default
         <div class="clearfix spacer visibile-xs-down"></div>
       </div>
 
-      {% elsif page.categories contains 'event' %}
+      {% elsif page.event-start-date %}
       <div class="col-sm-3">
         <div class="card">
           <div class="card-header">
-            <strong>Event Details</strong>
+            <strong>Date and time</strong>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{ page.date | date: "%B %-d, %Y" }}</li>
-            <li class="list-group-item">{{ page.date | date: "%r" }}</li>
-            <li class="list-group-item">{{ page.Location | escape }}</li>
+            {% if page.event-start-date %}<li class="list-group-item">{{ page.event-start-date | date: "%B %-d, %Y" }}</li>{% endif %}
+            {% if page.event-start-date %}<li class="list-group-item">{{ page.event-start-date | date: "%r" }}</li>{% endif %}
+            {% if page.Location %}<li class="list-group-item">{{ page.Location | escape }}</li>{% endif %}
           </ul>
           {% if page.RSVP-link %}
           <div class="card-block">
-            <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-block">RSVP to Event</a>
+            <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-block">RSVP</a>
           </div>
           {% endif %}
         </div>

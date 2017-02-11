@@ -31,7 +31,7 @@ layout: default
             {% if post.categories contains 'action' %}
               <span class="badge badge-lg badge-danger mb-3">ACTION NEEDED</span>
             {% elsif post.categories contains 'event' %}
-              <span class="badge badge-lg badge-success mb-3">Upcoming Event</span>
+              <span class="badge badge-lg badge-primary mb-3">Upcoming Event</span>
             {% endif %}
             <div class="media">
               <div class="media-body">
@@ -63,9 +63,8 @@ layout: default
             {% endif %}
             <!-- END EVENT SPECIFIC FIELDS -->
 
-            <div class="spacer clearfix"></div>
             <hr>
-            <div class="spacer clearfix"></div>
+            <div class="spacer-sm clearfix"></div>
 
         {% endfor %}
       </div>
@@ -76,7 +75,7 @@ layout: default
     <div class="col-sm-4 offset-sm-1">
 
       {% if site.media-items %}
-        <h2 class="mb-4"><a href="#">Photos</a></h2>
+        <h2 class="mb-2"><a href="#">Photos</a></h2>
         {% for media-items in site.media-items limit:1 %}
           <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
           <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>

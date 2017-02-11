@@ -16,6 +16,8 @@ $primary:          #0275d8;
 $light:            #fff;
 $dark:             #333;
 
+$danger:           #d9534f;
+
 $text-color:       #111;
 
 $grey-color:       #828282;
@@ -83,10 +85,19 @@ h1 {
   font-weight: 200;
 }
 
+  h1.page-title {
+    font-size: $base-font-size * 4;
+  }
+
 h2 {
-  font-size: $base-font-size * 2.5;
+  font-size: $base-font-size * 2.25;
   font-weight: 200;
 }
+
+   h2 i.material-icons {
+     vertical-align: middle;
+     font-weight: 100;
+   }
 
 h3.card-header {
   font-weight: bold;
