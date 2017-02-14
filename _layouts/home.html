@@ -6,10 +6,16 @@ layout: default
 
   <!-- style="background-image: url('{{ site.background-image}}')" -->
 
-  <div class="clearfix home-header" >
+  <div class="clearfix home-header container">
 
     <h1 class="text-center">{{ site.title | escape }}</h1>
-    <h4 class="text-center">{{ site.subtitle | escape }}</h4>
+    <h4 class="text-center mb-3">{{ site.subtitle | escape }}</h4>
+
+    <div class="row" markdown="1">
+      <div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2">
+        {{ site.description }}
+      </div>
+    </div>
 
     {{ content }}
 
@@ -79,8 +85,8 @@ layout: default
 
         {% if site.media-items %}
           <hr class="mt-0">
-          <h2 class="mb-3"><a href="#">Photos</a></h2>
-          {% for media-items in site.media-items limit:1 %}
+          <h2 class="mb-3"><a href="#">Recent Actions</a></h2>
+          {% for media-items in site.media-items limit:5 %}
             <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
             <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
           {% endfor %}
@@ -92,9 +98,9 @@ layout: default
 
         <hr class="mt-0">
         <h2 class="mb-3"><a href="/about/">About Us</a></h2>
-        <div markdown="1">
+        <!-- <div markdown="1">
           {{ site.description }}
-        </div>
+        </div> -->
         <a href="/about/" class="btn btn-link btn-flush">Read more...</a>
 
       </div>

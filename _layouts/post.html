@@ -95,6 +95,10 @@ layout: default
             <div class="card-block">
               {{ page.call-script-text }}
             </div>
+            <div class="card-block">
+              <hr class="mt-0">
+              <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#callModal">Spoke with</a> <a href="#" class="btn btn-outline-primary">Left Voicemail</a> <a href="#" class="btn btn-outline-primary">Emailed</a>
+            </div>
           </div>
           <div class="clearfix spacer"></div>
         {% endif %}
@@ -117,4 +121,25 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+
+
+
 </article>
+
+<!-- Modal -->
+<div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <h4 class="text-center mt-4 mb-4">Awesome!</h4>
+        <p class="text-center mb-4">Make an even bigger impact by getting your friends and family to take this action right now</p>
+        <center>
+          <button class="btn btn-primary btn-lg btn-block mb-2">Tweet this Action</button>
+          <button class="btn btn-success btn-lg btn-block mb-4" style="background: #3b5998; border-color: #3b5998;">Share on Facebook</button>
+        </center>
+      </div>
+
+    </div>
+  </div>
+</div>

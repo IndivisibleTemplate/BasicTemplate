@@ -5,7 +5,6 @@
   <a class="navbar-brand" href="{{ "/" | relative_url}}">{% if site.logo %}<img src="{{ site.logo }}" width="30" height="30" class="d-inline-block align-top" alt=""> {% endif %}{{ site.title | escape }}</a>
   <div class="collapse navbar-collapse" id="navbarCollapse">
 
-
     <ul class="navbar-nav ml-auto mr-4">
       {% for my_page in site.pages %}
        {% if my_page.title %}
@@ -14,8 +13,8 @@
         </li>
        {% endif %}
       {% endfor %}
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       <li class="nav-item"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
-
       {% if site.twitter_username %}
       <li class="nav-item">
         {% include icon-twitter.html username=site.twitter_username %}
