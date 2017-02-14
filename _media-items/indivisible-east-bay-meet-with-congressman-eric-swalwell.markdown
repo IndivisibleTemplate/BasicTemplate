@@ -4,4 +4,4 @@ date: 2017-02-06 22:07:00 Z
 main-image: "/uploads/indivisible-eb1.jpg"
 ---
 
-Members of Indivisible East Bay were happy to meet with [Congressman Eric Swalwell](https://www.facebook.com/CongressmanEricSwalwell/) on Saturday!
+Members of Indivisible East Bay were happy to meet with Congressman Eric Swalwell on Saturday!
