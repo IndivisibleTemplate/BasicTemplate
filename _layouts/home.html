@@ -85,23 +85,15 @@ layout: default
 
         {% if site.media-items %}
           <hr class="mt-0">
-          <h2 class="mb-3"><a href="#">Recent Actions</a></h2>
+          <h2 class="mb-4"><a href="#">Member Updates</a></h2>
           {% for media-items in site.media-items limit:5 %}
             <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <small class="form-text text-muted">{{ media-items.content | truncate: 140 }}</small>
+            <small class="form-text text-muted mb-4">{{ media-items.content | truncate: 140 }}</small>
           {% endfor %}
           <a href="/about/" class="mt-0 btn btn-link btn-flush">More media...</a>
 
           <div class="spacer clearfix mt-4"></div>
         {% endif %}
-
-
-        <hr class="mt-0">
-        <h2 class="mb-3"><a href="/about/">About Us</a></h2>
-        <!-- <div markdown="1">
-          {{ site.description }}
-        </div> -->
-        <a href="/about/" class="btn btn-link btn-flush">Read more...</a>
 
       </div>
       <!-- TEAM MEDIA -->
