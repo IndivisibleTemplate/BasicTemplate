@@ -1,5 +1,5 @@
 ---
-title: Take Action
+title: Actions
 main-image: 
 layout: actions
 ---
