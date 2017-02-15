@@ -1,5 +1,5 @@
 ---
-title: Actions
+title: Act
 main-image: 
 layout: actions
 ---
