@@ -109,12 +109,20 @@ h2 {
      font-weight: 100;
    }
 
+   h2 strong {
+     font-weight: bold;
+   }
+
 h3.card-header {
   font-weight: bold;
 }
 
-h4 {
+h3, h4, h5 {
   font-weight: bold;
+}
+
+h5 {
+  font-size: $base-font-size;
 }
 
 .post-meta {
@@ -137,6 +145,10 @@ h4 {
 }
 
 // NAV
+
+.navbar-brand {
+  font-weight: bold;
+}
 
 .navbar-light {
   background: #FFCDD2!important;
@@ -177,7 +189,7 @@ h4 {
   color: $dark;
   background-size: cover;
   background-position: center;
-  padding-top: $spacing-unit*2;
+  padding-top: $spacing-unit*1.5;
 }
 
   .home-header h1, .home-header h4 {
@@ -194,6 +206,28 @@ h4 {
 }
 
 // BLOG POSTS
+
+a.alert-danger {
+  background: $danger;
+  border-color: $danger;
+  display: block;
+  color: rgba(0,0,0,.5);
+  font-weight: bold;
+  font-size: $base-font-size;
+  position: relative;
+  padding-right: $spacing-unit;
+}
+
+  a.alert-danger strong {
+    color: $light;
+  }
+
+  a.alert-danger i.material-icons {
+    position: absolute;
+    top: 25%;
+    right: $spacing-unit/2;
+    font-size: $base-font-size*2;
+  }
 
 .header-image {
   margin-top: -50px;

@@ -8,20 +8,20 @@ layout: default
 
   <div class="clearfix home-header container">
 
-    <h1 class="text-center">{{ site.title | escape }}</h1>
-    <h4 class="text-center mb-3">{{ site.subtitle | escape }}</h4>
+    <h1 class="mt-0 text-center">{{ site.title | escape }}</h1>
 
-    <div class="row" markdown="1">
-      <div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2">
-        {{ site.description }}
+    <!-- SUBTITLE -->
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <h4 class="mt-0 mb-3 text-center"><strong>{{ site.subtitle | escape }}</strong></h4>
       </div>
-    </div>
+    </dvi>
+    <!-- END SUBTITLE -->
 
     {{ content }}
 
   </div>
 
-  <div class="clearfix spacer"></div>
   <div class="clearfix spacer"></div>
 
   <div class="container">
@@ -30,11 +30,22 @@ layout: default
 
       <div class="col-sm-7">
 
-        <div class="post-list">
+        <div class="post-list mt-4">
+
+          <a href="#" class="alert alert-danger" role="alert">
+            <strong>PINNED: ACTION NEEDED</strong><br>Call Sen. Harris and tell her to say NO to Sessions!
+            <i class="material-icons pull-right text-white">arrow_forward</i>
+          </a>
+
+          <a href="#" class="alert alert-danger" role="alert">
+            <strong>PINNED: ACTION NEEDED</strong><br>Call Sen. Feinstein and tell her to say NO to DeVos!
+            <i class="material-icons pull-right text-white">arrow_forward</i>
+
+          </a>
 
           {% for post in site.posts %}
 
-            <hr class="mt-0">
+            <hr class="mt-4">
 
             <!-- POST TEMPLATE -->
             {% if post.categories contains 'action' %}
@@ -83,12 +94,20 @@ layout: default
       <!-- TEAM MEDIA -->
       <div class="col-sm-4 offset-sm-1">
 
+        <hr class="mt-4">
+        <h4>About Us</h4>
+        <hr>
+        <!-- <img src="{{ site.background-image }}" class="img-fluid mt-2 mb-4"> -->
+        {{ site.description }}
+
         {% if site.media-items %}
-          <hr class="mt-0">
-          <h2 class="mb-4"><a href="#">Member Updates</a></h2>
+          <div class="spacer"></div>
+          <hr class="mt-4">
+          <h4 class=""><a href="#">Member Updates</a></h4>
           {% for media-items in site.media-items limit:5 %}
-            <a href="#" class="media-thumbnail rounded mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <small class="form-text text-muted mb-4">{{ media-items.content | truncate: 140 }}</small>
+            <hr>
+            <a href="#" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+            <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
           {% endfor %}
           <a href="/about/" class="mt-0 btn btn-link btn-flush">More media...</a>
 

@@ -64,11 +64,17 @@ h2 i.material-icons {
   vertical-align: middle;
   font-weight: 100; }
 
+h2 strong {
+  font-weight: bold; }
+
 h3.card-header {
   font-weight: bold; }
 
-h4 {
+h3, h4, h5 {
   font-weight: bold; }
+
+h5 {
+  font-size: 18px; }
 
 .post-meta {
   color: #424242; }
@@ -85,6 +91,9 @@ h4 {
 
   .card-title {
     margin-bottom: 0; } }
+.navbar-brand {
+  font-weight: bold; }
+
 .navbar-light {
   background: #FFCDD2 !important; }
 
@@ -112,7 +121,7 @@ h4 {
   color: #333;
   background-size: cover;
   background-position: center;
-  padding-top: 60px; }
+  padding-top: 45px; }
 
 .home-header h1, .home-header h4 {
   position: relative;
@@ -123,6 +132,25 @@ h4 {
 
 .site-photos img {
   margin-bottom: 15px; }
+
+a.alert-danger {
+  background: #d9534f;
+  border-color: #d9534f;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  padding-right: 30px; }
+
+a.alert-danger strong {
+  color: #fff; }
+
+a.alert-danger i.material-icons {
+  position: absolute;
+  top: 25%;
+  right: 15px;
+  font-size: 36px; }
 
 .header-image {
   margin-top: -50px;

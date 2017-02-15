@@ -1,35 +1,37 @@
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-4">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="{{ "/" | relative_url}}">{% if site.logo %}<img src="{{ site.logo }}" width="30" height="30" class="d-inline-block align-top" alt=""> {% endif %}{{ site.title | escape }}</a>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="container">
 
-    <ul class="navbar-nav ml-auto mr-4">
-      {% for my_page in site.pages %}
-       {% if my_page.title %}
-        <li class="nav-item">
-          <a class="nav-link {% if my_page.url contains "actions" %}text-danger {% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        </li>
-       {% endif %}
-      {% endfor %}
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      <li class="nav-item mr-2"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
-      {% if site.twitter_username %}
-      <li class="nav-item">
-        {% include icon-twitter.html username=site.twitter_username %}
-      </li>
-      {% endif %}
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="{{ "/" | relative_url}}">{% if site.logo %}<img src="{{ site.logo }}" width="30" height="30" class="d-inline-block align-top" alt=""> {% endif %}{{ site.title | escape }}</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          {% for my_page in site.pages %}
+           {% if my_page.title %}
+            <li class="nav-item">
+              <a class="nav-link {% if my_page.url contains "actions" %}text-danger {% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </li>
+           {% endif %}
+          {% endfor %}
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item mr-2"><a class="nav-link" href="https://www.indivisibleguide.com">Read The Guide</a></li>
+          {% if site.twitter_username %}
+          <li class="nav-item">
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
 
-      {% if site.facebook_username %}
-      <li class="nav-item">
-        {% include icon-facebook.html username=site.facebook_username %}
-      </li>
-      {% endif %}
+          {% if site.facebook_username %}
+          <li class="nav-item">
+            {% include icon-facebook.html username=site.facebook_username %}
+          </li>
+          {% endif %}
 
-    </ul>
+        </ul>
 
 
-      <button class="btn btn-danger my-2 my-sm-0" type="submit">Join Now</button>
+          <button class="btn btn-danger my-2 my-sm-0 ml-auto" type="submit">Join Now</button>
+      </div>
   </div>
 </nav>
