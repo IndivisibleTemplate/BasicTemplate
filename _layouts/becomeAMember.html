@@ -9,8 +9,6 @@ layout: default
 
   <h1>Become A Member</h1>
 
-  {{ page.content }}
-
   <div class="clearfix spacer"></div>
 
   <!-- BODY CONTENT -->
@@ -85,7 +83,8 @@ layout: default
       <hr>
       <h4>Who We Are</h4>
       <hr>
-      {{ content }}
+      <img class="img-fluid" src="{{ page.main-image }}">
+      {{ page.content | markdownify }}
     </div>
 
 
