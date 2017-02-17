@@ -154,8 +154,8 @@ a.alert strong {
 
 a.alert i.material-icons {
   position: absolute;
-  top: 25%;
-  right: 15px;
+  top: 15%;
+  right: 0;
   font-size: 36px; }
 
 a.alert-danger {

@@ -28,7 +28,7 @@ layout: default
       {% for media-items in site.media-items limit:5 %}
         <div class="col-sm-3 col-md-4">
           <hr>
-          <a href="#" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+          <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
           <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
         </div>
       {% endfor %}
