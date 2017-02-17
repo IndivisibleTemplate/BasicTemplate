@@ -38,6 +38,11 @@ defaults:
     type: media-items
   values:
     main-image:
+- scope:
+    path: ''
+    type: calendar
+  values:
+    embed-code:
 brand-image:
 subtitle: San Franciscans resisting the Trump agenda through civic actions.
 email: sahadeva@sahadeva.com
