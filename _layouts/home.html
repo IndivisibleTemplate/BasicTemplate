@@ -6,17 +6,21 @@ layout: default
 
   <!-- style="background-image: url('{{ site.background-image}}')" -->
 
-  <div class="clearfix home-header container">
+  <div class="clearfix home-header mb-2 container">
 
-    <h1 class="mt-0 text-center">{{ site.title | escape }}</h1>
+    <h4 class="mt-0 text-center">{{ site.title | escape }}</h4>
 
     <!-- SUBTITLE -->
     <div class="row">
       <div class="col-sm-8 offset-sm-2">
-        <h4 class="mt-0 mb-3 text-center"><strong>{{ site.subtitle | escape }}</strong></h4>
+        <h2 class="mt-1 mb-4 text-center">{{ site.subtitle | escape }}</h2>
       </div>
-    </dvi>
+    </div>
     <!-- END SUBTITLE -->
+
+    <center>
+      <a href="#" class="btn btn-primary btn-lg"><strong>Become a Member</strong></a>
+    </center>
 
     {{ content }}
 
@@ -94,14 +98,14 @@ layout: default
       <!-- TEAM MEDIA -->
       <div class="col-sm-4 offset-sm-1">
 
-        <hr class="mt-4">
-        <h4>About Us</h4>
-        <hr>
+        <!-- <hr class="mt-4">
+        <h4>Our Cause</h4>
+        <hr> -->
         <!-- <img src="{{ site.background-image }}" class="img-fluid mt-2 mb-4"> -->
-        {{ site.description }}
+        <!-- {{ site.description }} -->
 
         {% if site.media-items %}
-          <div class="spacer"></div>
+          <!-- <div class="spacer"></div> -->
           <hr class="mt-4">
           <h4 class=""><a href="#">Member Updates</a></h4>
           {% for media-items in site.media-items limit:5 %}

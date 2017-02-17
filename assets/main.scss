@@ -158,6 +158,15 @@ h5 {
   vertical-align: middle;
 }
 
+@media (max-width: 767px) {
+  .navbar>.container {
+    width: 100%;
+  }
+  .container .navbar-toggler-right {
+    right: 0;
+  }
+}
+
 // FORM
 
 .spacer {
