@@ -219,9 +219,7 @@ h5 {
 
 // BLOG POSTS
 
-a.alert-danger {
-  background: $danger;
-  border-color: $danger;
+a.alert {
   display: block;
   color: rgba(0,0,0,.5);
   font-weight: bold;
@@ -230,16 +228,27 @@ a.alert-danger {
   padding-right: $spacing-unit;
 }
 
-  a.alert-danger strong {
+  a.alert strong {
     color: $light;
+    text-transform: uppercase;
   }
 
-  a.alert-danger i.material-icons {
+  a.alert i.material-icons {
     position: absolute;
     top: 25%;
     right: $spacing-unit/2;
     font-size: $base-font-size*2;
   }
+
+a.alert-danger {
+  background: $danger;
+  border-color: $danger;
+}
+
+a.alert-primary {
+  background: $primary;
+  border-color: $primary;
+}
 
 .header-image {
   margin-top: -50px;

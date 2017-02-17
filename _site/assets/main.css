@@ -140,9 +140,7 @@ h5 {
 .site-photos img {
   margin-bottom: 15px; }
 
-a.alert-danger {
-  background: #d9534f;
-  border-color: #d9534f;
+a.alert {
   display: block;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -150,14 +148,23 @@ a.alert-danger {
   position: relative;
   padding-right: 30px; }
 
-a.alert-danger strong {
-  color: #fff; }
+a.alert strong {
+  color: #fff;
+  text-transform: uppercase; }
 
-a.alert-danger i.material-icons {
+a.alert i.material-icons {
   position: absolute;
   top: 25%;
   right: 15px;
   font-size: 36px; }
+
+a.alert-danger {
+  background: #d9534f;
+  border-color: #d9534f; }
+
+a.alert-primary {
+  background: #0275d8;
+  border-color: #0275d8; }
 
 .header-image {
   margin-top: -50px;
