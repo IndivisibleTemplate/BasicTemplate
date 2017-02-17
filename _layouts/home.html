@@ -53,9 +53,12 @@ layout: default
             <!-- POST TEMPLATE -->
 
             {% if post.categories contains 'action' %}
-              <span class="badge badge-lg badge-danger mt-2">{% if post.[is featured] %}PINNED {% endif %}ACTION NEEDED</span>
+              {% if post['is featured'] == true %}<span class="badge badge-lg badge-danger mt-2">PINNED</span> {% endif %}
+              <span class="badge badge-lg badge-danger mt-2">ACTION NEEDED</span>
             {% elsif post.categories contains 'event' %}
+              {% if post['is featured'] == true %}<span class="badge badge-lg badge-primary mt-2">PINNED</span> {% endif %}
               <span class="badge badge-lg badge-primary mt-2">Upcoming Event</span>
+  
             {% endif %}
             <div class="media">
               <div class="media-body">
