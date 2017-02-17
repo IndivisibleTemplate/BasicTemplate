@@ -278,12 +278,11 @@ a.alert-danger {
 
 // FOOTER
 
-.site-footer .media i.material-icons {
+.site-footer .media i.material-icons, .media span.disc {
   width: 65px;
   height: 65px;
   line-height: 62px;
   font-size: 40px;
-  color: #fff;
   border-radius: 50%;
   text-align: center;
 }
