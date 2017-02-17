@@ -146,6 +146,10 @@ h5 {
 
 // NAV
 
+.navbar-nav {
+  width: 100%;
+}
+
 .navbar-brand {
   font-weight: bold;
 }
@@ -157,6 +161,8 @@ h5 {
 .navbar-nav .nav-link svg, .navbar-nav .nav-link img {
   vertical-align: middle;
 }
+
+
 
 @media (max-width: 767px) {
   .navbar>.container {

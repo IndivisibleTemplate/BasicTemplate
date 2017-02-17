@@ -91,6 +91,9 @@ h5 {
 
   .card-title {
     margin-bottom: 0; } }
+.navbar-nav {
+  width: 100%; }
+
 .navbar-brand {
   font-weight: bold; }
 
