@@ -14,14 +14,14 @@ layout: default
     <!-- SUBTITLE -->
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <h2 class="mt-1 mb-4 text-center">{{ site.subtitle | escape }}</h2>
+        <h2 class="mt-1 text-center">{{ site.subtitle | escape }}</h2>
       </div>
     </div>
     <!-- END SUBTITLE -->
-
+<!--
     <center>
       <a href="/become-a-member.html" class="btn btn-danger btn-lg"><strong>Become a Member</strong></a>
-    </center>
+    </center> -->
 
     {{ content }}
 
@@ -35,7 +35,7 @@ layout: default
       <div class="col-sm-7">
 
         <div class="post-list mt-4">
-
+<!--
           <a href="#" class="alert alert-primary" role="alert">
             <strong>PINNED:</strong> Town Hall with Sen. Harris!
             <i class="material-icons pull-right text-white mr-4">arrow_forward</i>
@@ -44,15 +44,16 @@ layout: default
           <a href="#" class="alert alert-danger" role="alert">
             <strong>PINNED:</strong> Tell Sen. Harris to Vote NO on Sessions
             <i class="material-icons pull-right text-white mr-4">arrow_forward</i>
-          </a>          
+          </a> -->
 
           {% for post in site.posts %}
 
             <hr class="mt-4">
 
             <!-- POST TEMPLATE -->
+
             {% if post.categories contains 'action' %}
-              <span class="badge badge-lg badge-danger mt-2">ACTION NEEDED</span>
+              <span class="badge badge-lg badge-danger mt-2">{% if post.[is featured] %}PINNED {% endif %}ACTION NEEDED</span>
             {% elsif post.categories contains 'event' %}
               <span class="badge badge-lg badge-primary mt-2">Upcoming Event</span>
             {% endif %}
