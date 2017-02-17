@@ -226,10 +226,11 @@ a.alert {
   font-size: $base-font-size;
   position: relative;
   padding-right: $spacing-unit;
+  color: $light;
 }
 
   a.alert strong {
-    color: $light;
+
     text-transform: uppercase;
   }
 

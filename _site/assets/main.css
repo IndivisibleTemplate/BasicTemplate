@@ -146,10 +146,10 @@ a.alert {
   font-weight: bold;
   font-size: 18px;
   position: relative;
-  padding-right: 30px; }
+  padding-right: 30px;
+  color: #fff; }
 
 a.alert strong {
-  color: #fff;
   text-transform: uppercase; }
 
 a.alert i.material-icons {
