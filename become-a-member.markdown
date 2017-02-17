@@ -1,6 +1,7 @@
 ---
 title: Become A Member
 date: 2017-02-17 03:58:00 Z
+position: 5
 main-image: "/uploads/16473226_255006311620718_3429484230138453138_n.jpg"
 layout: becomeAMember
 ---
