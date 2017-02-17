@@ -109,7 +109,7 @@ layout: default
           <h4 class=""><a href="/member-updates.html">Member Updates</a></h4>
           {% for media-items in site.media-items limit:5 %}
             <hr>
-            <a href="#" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+            <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
             <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
           {% endfor %}
           <a href="/about/" class="mt-0 btn btn-link btn-flush">More media...</a>
