@@ -50,11 +50,8 @@ a:hover, a:active {
   font-weight: bold; }
 
 h1 {
-  font-size: 90px;
+  font-size: 72px;
   font-weight: 200; }
-
-h1.page-title {
-  font-size: 72px; }
 
 h2 {
   font-size: 40.5px;

@@ -5,18 +5,17 @@ layout: default
   <div class="container">
 
     <div class="clearfix spacer"></div>
+    <div class="clearfix spacer"></div>
 
     <h1>{{ page.title | escape }}</h1>
-
-    {{ page.embed-code }}
 
     <!-- BODY CONTENT -->
     <div class="row">
       <div class="col-sm-7 col-md-6 col-lg-5">
         {{ content }}
 
-        {% unless site.categories.action | size > 0 %}
-          <p>No posts in this category at this time.</p>
+        {% unless site.media-items | size > 0 %}
+          <p>No posts at this time.</p>
         {% endunless %}
 
         <div class="clearfix spacer"></div>
@@ -25,6 +24,12 @@ layout: default
       </div>
     </div>
 
+    {% for media-items in site.media-items limit:5 %}
+      <hr>
+      <a href="#" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
+      <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
+    {% endfor %}
+
 
 
     <!-- ACTIONS -->
@@ -32,16 +37,16 @@ layout: default
 
         <!-- ACTIONS -->
 
-        {% for post in site.categories.event %}
+        {% for post in site.categories.action %}
           <div class="col-sm-4 mt-0">
             <hr class="mt-0">
             <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
             <h2 class="mt-4 mb-3">
-              <a class="post-link text-primary"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
             <!-- CALL TO ACTION -->
             <p class="mb-0 d-flex flex-row-reverse">
-              <a href="{{ post.url | relative_url }}" class="p-2 mr-4 btn btn-link btn-flush btn-emph text-primary">RSVP</a>
+              <a href="{{ post.url | relative_url }}" class="p-2 mr-4 btn btn-link btn-flush btn-emph text-danger">Act Now</a>
             </p>
             <div class="clearfix spacer"></div>
           </div>
