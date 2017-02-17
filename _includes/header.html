@@ -10,7 +10,7 @@
         <ul class="navbar-nav">
           {% for my_page in site.pages %}
            {% if my_page.title %}
-            <li class="nav-item {% if my_page.url contains "becomeamember" %}pull-right{% endif %}">
+            <li class="nav-item">
               <a class="nav-link {% if my_page.url contains "actions" %}text-danger {% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             </li>
            {% endif %}
