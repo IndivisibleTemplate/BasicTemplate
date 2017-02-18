@@ -32,7 +32,7 @@ layout: default
 
     <div class="row">
 
-      <div class="col-sm-7">
+      <div class="col-sm-8">
 
         <div class="post-list mt-4">
 <!--
@@ -48,7 +48,7 @@ layout: default
 
           {% for post in site.posts %}
 
-            <hr class="mt-2 mb-1">
+            <hr class="mt-4 mb-3">
 
             <!-- POST TEMPLATE -->
 
@@ -66,14 +66,14 @@ layout: default
                 <h3 class="mt-2">
                   <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h3>
-                <span class="grey post-body">{{ post.content | truncate: 140 }}</span>
+                <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
               </div>
               <!-- POST MAIN IMAGE FIELD -->
               {% if post.main-image %}
                 <img class="d-flex mt-2 mr-0 pr-0 col-xs-2 col-sm-3" src="{{ post.main-image}}">
               {% elsif post.categories contains 'action' %}
                 <!-- CALL TO ACTION -->
-                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-1">Act</a>
+                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-1">Act Now</a>
               {% endif %}
               <!-- END POST MAIN IMAGE -->
             </div>
@@ -100,7 +100,7 @@ layout: default
       </div>
 
       <!-- TEAM MEDIA -->
-      <div class="col-sm-4 offset-sm-1">
+      <div class="col-sm-4">
 
         <!-- <hr class="mt-4">
         <h4>Our Cause</h4>
@@ -110,15 +110,13 @@ layout: default
 
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
-          <hr class="mt-4">
-          <h4 class=""><a href="/member-updates.html">Member Updates</a></h4>
+          <hr class="mt-4 mb-4">
+          <h5 class="mt-2 mb-4"><a href="/member-updates.html">Member News</a></h5>
           {% for media-items in site.media-items limit:5 %}
-            <hr>
-            <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
+            <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-3" style="background-image: url('{{ media-items.main-image }}')"></a>
+            <h4><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h4>
+            <hr class="mt-4 mb-4">
           {% endfor %}
-          <a href="/about/" class="mt-0 btn btn-link btn-flush">More media...</a>
-
           <div class="spacer clearfix mt-4"></div>
         {% endif %}
 

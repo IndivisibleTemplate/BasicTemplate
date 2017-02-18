@@ -26,11 +26,11 @@ a:hover, a:active {
   font-size: 18px; }
 
 .btn-action {
-  width: 5rem;
-  height: 5rem;
+  width: 5.75rem;
+  height: 5.75rem;
   border-radius: 50%;
-  line-height: 4.8rem;
-  padding-top: 0%;
+  line-height: 5.6rem;
+  padding: 0 !important;
   font-size: 18px;
   font-weight: bold;
   margin-top: -2.5rem;
@@ -49,6 +49,13 @@ a:hover, a:active {
   text-transform: uppercase;
   font-weight: bold; }
 
+hr, .list-group-item {
+  border-color: #e0e0e0;
+  opacity: 1; }
+
+hr.inverse, .bg-inverse hr {
+  border-color: #01579B; }
+
 h1, h2 {
   font-weight: 200; }
 
@@ -56,14 +63,15 @@ h1 {
   font-size: 72px; }
 
 h2 {
-  font-size: 40.5px; }
+  font-size: 40.5px;
+  line-height: 1.275; }
 
 h2 i.material-icons {
   vertical-align: middle;
   font-weight: 100; }
 
-h2 strong {
-  font-weight: bold; }
+h2 strong, h3 strong {
+  font-weight: 900; }
 
 h3.card-header {
   font-weight: bold; }
@@ -120,7 +128,8 @@ h5 {
   margin: 0 0 90px; }
 
 .post-list .post-body iframe, .post-list .post-body img {
-  display: none; }
+  max-width: 200px;
+  max-height: 140px; }
 
 @media (max-width: 768px) {
   .spacer {
@@ -198,9 +207,6 @@ a.alert-primary {
   display: block;
   background-size: cover;
   background-position: center; }
-
-.site-footer {
-  background: #0275d8; }
 
 .site-footer .media i.material-icons, .media span.disc {
   width: 65px;

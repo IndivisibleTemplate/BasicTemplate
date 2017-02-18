@@ -35,9 +35,10 @@ layout: default
           <div class="col-sm-4 mt-0">
             <hr class="mt-0">
             <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
-            <h2 class="mt-4 mb-3">
+            <h3 class="mt-4 mb-3">
               <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
+            </h3>
+            <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
             <!-- CALL TO ACTION -->
             <p class="mb-0 d-flex flex-row-reverse">
               <a href="{{ post.url | relative_url }}" class="p-2 mr-4 btn btn-link btn-flush btn-emph text-danger">Act Now</a>
