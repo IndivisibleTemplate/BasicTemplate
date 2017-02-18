@@ -19,7 +19,7 @@
   </div>
 </nav>
 
-<footer class="site-footer">
+<footer class="site-footer text-white">
 
   <div class="container">
 
@@ -31,7 +31,7 @@
       <div class="col-sm-6">
 
         <!-- JOIN FORM: Uses site-wide Mailchimp List ID -->
-        <div class="media">
+        <div class="media pr-4">
           <span class="icon-disc d-flex mr-4 "><i class="material-icons bg-inverse text-white">exposure_plus_1</i></span>
           <div class="media-body">
             <h5 class="mt-2">Join {{ site.title | escape }}</h5>
@@ -45,11 +45,11 @@
 
         {% if site.email %}
 
-        <div class="media">
+        <div class="media pr-4">
           <span class="icon-disc d-flex mr-4"><i class="material-icons bg-inverse text-white">email</i></span>
           <div class="media-body">
             <h5 class="mt-2 mb-3">Contact {{ site.title | escape }}</h5>
-            <a class="btn btn-outline-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></a>
+            <a class="btn btn-danger" href="mailto:{{ site.email }}">{{ site.email }}</a></a>
           </div>
         </div>
 
@@ -70,10 +70,10 @@
 
       <div class="col-sm-6">
 
-        <div class="media">
+        <div class="media pr-4">
           <span class="icon-disc d-flex mr-4"><i class="material-icons bg-inverse text-white">import_contacts</i></span>
           <div class="media-body">
-            <h5 class="mt-2"><a href="#">Read The Indivisible Guide</a></h5>
+            <h5 class="mt-2"><a href="#"><u>Read The Indivisible Guide</u></a></h5>
             <p>A practical guide to resisting the Trump agenda. Written by former congressional staffers reveal best practices for making Congress listen.</p>
           </div>
         </div>
@@ -81,7 +81,7 @@
       </div>
       <div class="col-sm-6">
 
-        <div class="media">
+        <div class="media pr-4">
           <span class="icon-disc d-flex mr-4"><i class="material-icons bg-inverse text-white">place</i></span>
           <div class="media-body">
             <h5 class="mt-2">Start A Local Chapter</h5>
@@ -100,14 +100,15 @@
   </div>
 
 </footer>
-<hr>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    </div>
-    <div class="col">
-      <p class="text-right">&copy;2017 <a href="#">Sahadeva Hammari</a></p>
+<div class="clearfix bg-inverse text-white">
+  <div class="container-fluid pt-4">
+    <div class="row">
+      <div class="col">
+        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      </div>
+      <div class="col">
+        <p class="text-right">&copy;2017 <a href="#">Sahadeva Hammari</a></p>
+      </div>
     </div>
   </div>
 </div>

@@ -61,10 +61,10 @@ a:hover, a:active {
 }
 
 .btn-action {
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  line-height: 6.5rem;
+  line-height: 4.8rem;
   padding-top: 0%;
   font-size: $base-font-size;
   font-weight: bold;
@@ -90,14 +90,16 @@ a:hover, a:active {
 
 // TYPE
 
+h1, h2 {
+  font-weight: 200;
+}
+
 h1 {
   font-size: $base-font-size * 4;
-  font-weight: 200;
 }
 
 h2 {
   font-size: $base-font-size * 2.25;
-  font-weight: 200;
 }
 
    h2 i.material-icons {
@@ -119,6 +121,10 @@ h3, h4, h5 {
 
 h5 {
   font-size: $base-font-size;
+}
+
+.grey {
+  color: $grey-color;
 }
 
 .post-meta {
@@ -181,6 +187,10 @@ h5 {
 
 .post-list>li {
   margin: 0 0 $spacing-unit*3;
+}
+
+.post-list .post-body iframe, .post-list .post-body img {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -289,6 +299,10 @@ a.alert-primary {
 }
 
 // FOOTER
+
+.site-footer {
+  background: #0275d8;
+}
 
 .site-footer .media i.material-icons, .media span.disc {
   width: 65px;
