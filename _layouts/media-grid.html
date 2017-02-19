@@ -20,16 +20,15 @@ layout: default
 
         <div class="clearfix spacer"></div>
 
-
       </div>
     </div>
 
     <div class="row">
       {% for media-items in site.media-items limit:5 %}
         <div class="col-sm-3 col-md-4">
-          <hr>
-          <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ media-items.main-image }}')"></a>
-          <span class="text-muted mb-4 mt-0">{{ media-items.content | truncate: 140 }}</span>
+          <hr class="mt-4 mb-4">
+          <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-3" style="background-image: url('{{ media-items.main-image }}')"></a>
+          <h4><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h4>
         </div>
       {% endfor %}
     </div>

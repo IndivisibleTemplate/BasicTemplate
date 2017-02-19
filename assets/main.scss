@@ -20,6 +20,8 @@ $danger:           #d9534f;
 
 $text-color:       #111;
 
+$border-color:     #e0e0e0;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -90,7 +92,7 @@ a:hover, a:active {
 }
 
 hr, .list-group-item {
-  border-color: #e0e0e0;
+  border-color: $border-color;
   opacity: 1;
 }
 
@@ -309,6 +311,7 @@ a.alert-primary {
   background-size: cover;
   background-position: center;
 }
+
 
 // FOOTER
 
