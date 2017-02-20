@@ -15,9 +15,11 @@
             </li>
            {% endif %}
           {% endfor %}
+
           <li class="nav-item"><a class="nav-link" href="mailto:{{ site.email }}">Contact</a></li>
+
           {% if site.twitter_username %}
-          <li class="nav-item">
+          <li class="nav-item ml-2">
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}

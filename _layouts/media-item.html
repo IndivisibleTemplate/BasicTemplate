@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="container">
+
+      <div class="clearfix spacer hidden-xs-down"></div>
+
+          <header class="post-header">
+            <h1 class="page-title" itemprop="articleTitle">{{ page.title | escape }}</h1>
+          </header>
+
+      <div class="clearfix spacer"></div>
+
+  </div>
+
+  <div class="container mt-3 mb-4">
+    <div class="bg-medium clearfix">
+
+          {% if page.main-image %}
+            <img class="img-responsive media-item" itemprop="articleImage" src="{{ page.main-image }}">
+          {% endif %}
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="clearfix spacer"></div>
+
+    <div class="row post-content" itemprop="articleBody">
+
+      <div class="col-sm-10 col-lg-8">
+
+        {{ content }}
+
+        <p class="post-meta small">Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+        <!-- SHARE BUTTONS -->
+        {% include share-btns.html %}
+
+
+        <div class="clearfix spacer"></div>
+        <div class="clearfix spacer"></div>
+
+      </div>
+    </div>
+
+
+    {% if site.disqus.shortname %}
+      <hr>
+      {% include disqus_comments.html %}
+    {% endif %}
+
+    <div class="clearfix spacer"></div>
+    <div class="clearfix spacer"></div>
+
+</article>
+
+<!-- Modal -->
+<div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <h4 class="text-center mt-4 mb-4">Awesome!</h4>
+        <p class="text-center mb-4">Make an even bigger impact by getting your friends and family to take this action right now</p>
+        <center>
+          <button class="btn btn-primary btn-lg btn-block mb-2">Tweet this Action</button>
+          <button class="btn btn-success btn-lg btn-block mb-4" style="background: #3b5998; border-color: #3b5998;">Share on Facebook</button>
+        </center>
+      </div>
+
+    </div>
+  </div>
+</div>

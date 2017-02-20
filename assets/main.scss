@@ -40,6 +40,10 @@ body {
   background: #f7f7f9;
 }
 
+.bg-medium {
+  background: $grey-color-light;
+}
+
 a:hover, a:active {
   color: darken($primary, 40%);
   text-decoration: none;
@@ -63,10 +67,10 @@ a:hover, a:active {
 }
 
 .btn-action {
-  width: 5.75rem;
-  height: 5.75rem;
+  width: 6.25rem;
+  height: 6.25rem;
   border-radius: 50%;
-  line-height: 5.6rem;
+  line-height: 6.1rem;
   padding: 0!important;
   font-size: $base-font-size;
   font-weight: bold;
@@ -100,10 +104,14 @@ hr, .list-group-item {
     border-color: #01579B;
   }
 
+.badge {
+  padding: 4px 5px;
+}
+
 // TYPE
 
-h1, h2 {
-  font-weight: 200;
+h1, h2, h3, h4 {
+  font-weight: 300;
 }
 
 h1 {
@@ -111,8 +119,8 @@ h1 {
 }
 
 h2 {
-  font-size: $base-font-size * 2.25;
-  line-height: $base-line-height * .85;
+  font-size: 48px;
+  line-height: 70px;
 }
 
    h2 i.material-icons {
@@ -124,17 +132,29 @@ h2 {
      font-weight: 900;
    }
 
-h3.card-header {
+   h2 strong {
+     font-size: 40px;
+   }
+
+   h2 strong.logo {
+     display: inline-block;
+     background: $danger;
+     padding: 0 19px;
+   }
+
+h3 {
+  line-height: $base-line-height * .8;
+}
+
+h5, nav .btn {
   font-weight: bold;
 }
 
-h3, h4, h5 {
-  font-weight: bold;
-}
-
-h5 {
+p, h5 {
   font-size: $base-font-size;
 }
+
+
 
 .grey {
   color: $grey-color;
@@ -303,7 +323,15 @@ a.alert-primary {
   }
 }
 
+.share-btns>div, .fb_iframe_widget span {
+  vertical-align: top!important;
+}
+
 // MEDIA
+
+.media-item {
+  max-height: 500px;
+}
 
 .media-thumbnail {
   height: 210px;
@@ -311,6 +339,8 @@ a.alert-primary {
   background-size: cover;
   background-position: center;
 }
+
+
 
 
 // FOOTER
