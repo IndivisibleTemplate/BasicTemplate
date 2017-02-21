@@ -116,7 +116,7 @@ layout: default
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-4">
-          <h5 class="mt-2 mb-4"><a href="/member-updates.html">Action Updates</a></h5>
+          <h5 class="mt-2 mb-4"><a href="/action-updates.html">Action Updates</a></h5>
           {% for media-items in site.media-items limit:5 %}
             <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-3" style="background-image: url('{{ media-items.main-image }}')"></a>
             <h4><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h4>
