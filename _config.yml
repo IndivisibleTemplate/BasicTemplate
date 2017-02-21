@@ -57,6 +57,7 @@ github_username: indivisiblesf
 facebook_username: indivisiblesf
 background-image: "/uploads/oakland.jpg"
 mailchimp-form-id: 
+member-count: 4000
 markdown: kramdown
 theme: minima
 gems:
