@@ -1,5 +1,5 @@
 ---
-title: Sen. Dianne Feinstein
+title: Senator Dianne Feinstein
 date: 2017-02-04 01:58:00 Z
 phone-numbers:
   SF Office: "(213) 894-5000"
