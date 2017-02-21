@@ -372,6 +372,19 @@ a.alert-primary {
 // FOOTER
 
 
+.representative ul {
+  list-style: none;
+  padding: 0;
+}
+
+  .representative ul li {
+    margin: 9px 0;
+  }
+
+  .representative small {
+    width: 100%;
+  }
+
 .icon-disc i.material-icons, .media span.disc {
   font-size: 40px;
   border-radius: 50%;

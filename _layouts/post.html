@@ -42,12 +42,12 @@ layout: default
           </div>
 
           <!-- A list of all representatives contact numbers -->
-          <ul class="list-group list-group-flush">
+          <ul class="list-group list-group-flush representative">
           {% for representatives in site.representatives %}
                 <li class="list-group-item bg-dark"><strong>{{ representatives.title }}</strong></li>
                 {% for phone-numbers in representatives.phone-numbers %}
                   <li class="list-group-item">
-                    <strong>{{ phone-numbers[0] }}</strong>&nbsp;{{ phone-numbers.[1] }}
+                    <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
                   </li>
                 {% endfor %}
           {% endfor %}

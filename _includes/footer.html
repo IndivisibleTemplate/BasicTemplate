@@ -26,20 +26,21 @@
   <div class="container">
 
     <div class="spacer clearfix"></div>
-    <div class="spacer clearfix"></div>
 
-    <h5 class="mb-4">Our Local Representatives</h5>
+    <h5 class="mb-4 mt-2">Our Local Representatives</h5>
 
     {% if site.representatives | size > 0 %}
     <div class="row">
       {% for representatives in site.representatives %}
-        <div class="col-sm-6 col-lg-3 mb-4">
+        <div class="col-sm-6 col-lg-3 mb-4 representative">
+            <hr>
             <h5><strong>{{ representatives.title }}</strong></h5>
+            <hr>
             <ul>
-              {% if representatives.website %}<li><a class="text-white" href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
+            {% if representatives.website %}<li><a class="text-white" href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
             {% for phone-numbers in representatives.phone-numbers %}
               <li>
-                <strong>{{ phone-numbers[0] }}</strong>&nbsp;{{ phone-numbers.[1] }}
+                <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
               </li>
             {% endfor %}
           </ul>
