@@ -1,6 +1,6 @@
 ---
 title: Take Action
-position: 2
+position: 0
 main-image: 
 layout: actions
 ---
