@@ -78,7 +78,6 @@ a:hover, a:active {
   display: block;
   z-index: 2;
   position: relative;
-
 }
 
   .media .btn-action {
@@ -108,6 +107,16 @@ hr, .list-group-item {
   padding: 4px 5px;
 }
 
+@media (max-width: 768px) {
+  .media .btn-action {
+    margin-right: 0!important;
+  }
+
+  .media img {
+    max-width: 100px;
+  }
+}
+
 // TYPE
 
 h1, h2, h3, h4 {
@@ -116,11 +125,12 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: $base-font-size * 4;
+  line-height: 92px;
 }
 
 h2 {
-  font-size: 48px;
-  line-height: 70px;
+  font-size: $base-font-size * 2.66;
+  line-height: $base-line-height * 1.075;
 }
 
    h2 i.material-icons {
@@ -133,7 +143,7 @@ h2 {
    }
 
    h2 strong {
-     font-size: 36px;
+     font-size: $base-font-size * 2;
    }
 
    h2 strong.logo {
@@ -167,10 +177,16 @@ p, h5 {
 @media (max-width: 758px) {
   h1 {
     font-size: $base-font-size * 2;
+    line-height: 44px;
   }
   h2 {
     font-size: $base-font-size * 1.5;
   }
+
+    h2 strong {
+      font-size: $base-font-size * 1.25;
+    }
+
   h4 {
     font-size: $base-font-size;
   }
@@ -222,7 +238,10 @@ p, h5 {
   margin: 0 0 $spacing-unit*3;
 }
 
-.post-list .post-body iframe, .post-list .post-body img {
+.post-list .post-body iframe,
+.post-list .post-body img,
+.grid-object img,
+.grid-object iframe {
   max-width: 200px;
   max-height: 140px;
 }
@@ -245,7 +264,7 @@ p, h5 {
   background-size: cover;
   background-position: center;
   padding-top: $spacing-unit*1.75;
-  padding-bottom: $spacing-unit;
+
 }
 
   .home-header h1, .home-header h4 {
@@ -259,6 +278,10 @@ p, h5 {
 
 .site-photos img {
   margin-bottom: $spacing-unit/2;
+}
+
+@media (min-width: 768px) {
+  padding-bottom: $spacing-unit;
 }
 
 // BLOG POSTS
@@ -341,16 +364,15 @@ a.alert-primary {
 }
 
 
+// CARDS
+
+
 
 
 // FOOTER
 
 
-.site-footer .media i.material-icons, .media span.disc {
-  width: 65px;
-  height: 65px;
-  line-height: 62px;
+.icon-disc i.material-icons, .media span.disc {
   font-size: 40px;
   border-radius: 50%;
-  text-align: center;
 }
