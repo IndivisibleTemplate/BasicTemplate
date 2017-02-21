@@ -36,7 +36,7 @@
         <div class="col-sm-6 col-lg-3 mb-4">
             <h5><strong>{{ representatives.title }}</strong></h5>
             <ul>
-              {% if representatives.website %}<li><a class="text-white" href="{{ representatives.website }}"><strong><u>{{ representatives.website }}</u></strong></a></li>{% endif %}
+              {% if representatives.website %}<li><a class="text-white" href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
             {% for phone-numbers in representatives.phone-numbers %}
               <li>
                 <strong>{{ phone-numbers[0] }}</strong>&nbsp;{{ phone-numbers.[1] }}
