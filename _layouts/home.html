@@ -73,15 +73,17 @@ layout: default
                 </h3>
                 <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
               </div>
-              <!-- POST MAIN IMAGE FIELD -->
-              {% if post.main-image %}
-                <div class="thumb-wrap d-flex mt-2 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-4" style="background-image: url('{{ post.main-image}}');"></div>
-              {% endif %}
 
+              <!-- CALL TO ACTION -->
               {% if post.categories contains 'action' %}
-                <!-- CALL TO ACTION -->
                 <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-1">Act Now</a>
               {% endif %}
+
+              <!-- POST MAIN IMAGE FIELD -->
+              {% if post.main-image %}
+                <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-2 mb-4 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+              {% endif %}
+
               <!-- END POST MAIN IMAGE -->
             </div>
 
