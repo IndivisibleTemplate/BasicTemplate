@@ -211,13 +211,16 @@ a.alert-primary {
   background: #0275d8;
   border-color: #0275d8; }
 
-.header-image {
-  margin-top: -50px;
-  margin-bottom: -15px;
+.header-image, .thumb-wrap {
   display: block;
   background-size: cover;
-  background-position: center;
+  background-position: center; }
+
+.header-image {
   height: 320px; }
+
+.thumb-wrap {
+  height: 120px; }
 
 .list-group-x-flush .list-group-item {
   background: transparent;

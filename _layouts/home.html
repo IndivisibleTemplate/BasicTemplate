@@ -75,8 +75,10 @@ layout: default
               </div>
               <!-- POST MAIN IMAGE FIELD -->
               {% if post.main-image %}
-                <img class="d-flex mt-2 mr-0 pr-0 col-xs-2 col-sm-3" src="{{ post.main-image}}">
-              {% elsif post.categories contains 'action' %}
+                <div class="thumb-wrap d-flex mt-2 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-4" style="background-image: url('{{ post.main-image}}');"></div>
+              {% endif %}
+
+              {% if post.categories contains 'action' %}
                 <!-- CALL TO ACTION -->
                 <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-1">Act Now</a>
               {% endif %}
@@ -85,7 +87,7 @@ layout: default
 
             <!-- EVENT SPECIFIC FILEDS -->
             {% if post.categories contains 'event' %}
-              <ul class="list-group list-group-flush list-group-x-flush">
+              <ul class="list-group list-group-flush list-group-x-flush mr-4">
                 <li class="list-group-item">{{ post.date | date: "%B %-d, %Y" }}</li>
                 <li class="list-group-item">{{ post.date | date: "%r" }}</li>
                 <li class="list-group-item">{{ post.Location | escape }}</li>

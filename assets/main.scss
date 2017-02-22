@@ -318,14 +318,19 @@ a.alert-primary {
   border-color: $primary;
 }
 
-.header-image {
-  margin-top: -50px;
-  margin-bottom: -$spacing-unit/2;
+.header-image, .thumb-wrap {
   display: block;
   background-size: cover;
   background-position: center;
-  height: 320px;
 }
+
+  .header-image {
+    height: 320px;
+  }
+
+  .thumb-wrap {
+    height: 120px;
+  }
 
 .list-group-x-flush .list-group-item {
   background: transparent;

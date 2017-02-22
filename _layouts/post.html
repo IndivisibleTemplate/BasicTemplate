@@ -6,6 +6,12 @@ layout: default
 
   <div class="container">
 
+    {% if page.main-image %}
+      <div class="bg-medium main-img-wrap clearfix">
+        <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
+      </div>
+    {% endif %}
+    
     <div class="clearfix spacer"></div>
     <div class="clearfix spacer"></div>
 
@@ -87,13 +93,6 @@ layout: default
       {% else %}
       <div class="col-sm-9">
       {% endif %}
-
-      {% if page.main-image %}
-        <div class="bg-medium main-img-wrap clearfix">
-          <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
-        </div>
-      {% endif %}
-
 
         {% if page.call-script-text %}
 
