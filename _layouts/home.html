@@ -113,6 +113,10 @@ layout: default
         <!-- <img src="{{ site.background-image }}" class="img-fluid mt-2 mb-4"> -->
         <!-- {{ site.description }} -->
 
+        <hr class="mt-4 mb-4">
+
+        {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:" class="btn btn-sm ml-auto btn-primary"><strong>Add Members</strong></a></h5>{% endif %}
+
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-4">
@@ -122,8 +126,12 @@ layout: default
             <h4><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h4>
             <hr class="mt-4 mb-4">
           {% endfor %}
-          <div class="spacer clearfix mt-4"></div>
+
+          <a href="#" class="btn btn-link btn-flush">More Updates</a>
+
         {% endif %}
+
+
 
       </div>
       <!-- TEAM MEDIA -->
