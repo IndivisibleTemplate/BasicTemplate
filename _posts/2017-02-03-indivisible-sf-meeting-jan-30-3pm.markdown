@@ -12,6 +12,4 @@ RSVP-link: http://facebook.com/event
 layout: post
 ---
 
-Text...
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+This week's agenda will focus on congressional recess and town halls. Join in!
