@@ -5,7 +5,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="{{ "/" | relative_url}}">{% if site.logo %}<img src="{{ site.logo }}" width="30" height="30" class="d-inline-block align-top" alt=""> {% endif %}{{ site.title | escape }}</a>
+    <a class="navbar-brand" href="{{ "/" | relative_url}}">{% if site.site-logo %}<img src="{{ site.site-logo }}" width="30" height="30" class="d-inline-block align-top" alt=""> {% endif %}{{ site.title | escape }}</a>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav d-flex flex-nowrap">
           {% for my_page in site.pages %}

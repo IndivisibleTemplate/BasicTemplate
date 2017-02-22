@@ -43,7 +43,7 @@ defaults:
     type: calendar
   values:
     embed-code:
-brand-image:
+site-logo: "/uploads/favicon.jpg"
 subtitle: Thousands of San Franciscans resisting the Trump agenda through civic action.
 email: sahadeva@sahadeva.com
 description: Indivisible SF is a group of local residents inspired by the Indivisible
