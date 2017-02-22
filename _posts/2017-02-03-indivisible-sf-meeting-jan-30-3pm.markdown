@@ -6,6 +6,7 @@ categories:
 tags:
 - meeting
 is featured: false
+main-image: "/uploads/Unknown.jpeg"
 event-start-date: 2017-02-05 00:00:00 Z
 Location: Women's Building - 512 Filmore St, San Francisco, CA
 RSVP-link: http://facebook.com/event
