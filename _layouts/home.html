@@ -90,8 +90,8 @@ layout: default
             <!-- EVENT SPECIFIC FILEDS -->
             {% if post.categories contains 'event' %}
               <ul class="list-group list-group-flush list-group-x-flush mr-4">
-                <li class="list-group-item">{{ post.date | date: "%B %-d, %Y" }}</li>
-                <li class="list-group-item">{{ post.date | date: "%r" }}</li>
+                <li class="list-group-item">{{ post.event-start-date | date: "%B %-d, %Y" }}</li>
+                <li class="list-group-item">{{ post.event-start-date | date: "%r" }}</li>
                 <li class="list-group-item">{{ post.Location | escape }}</li>
               </ul>
               {% if post.RSVP-link %}

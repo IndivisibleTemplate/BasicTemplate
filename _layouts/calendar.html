@@ -10,6 +10,61 @@ layout: default
 
     <div class="clearfix spacer"></div>
 
+    <h5>Upcoming Events</h5>
+
+    <!-- UPCOMING EVENTS -->
+
+    <div class="row">
+
+      <div class="col-sm-8">
+
+        <div class="post-list">
+
+        {% assign curDate = site.time | date: '%s' %}
+          {% for post in site.posts %}
+          {% assign postStartDate = post.event-start-date | date: '%s' %}
+          {% if postStartDate >= curDate %}
+
+
+            <div class="media">
+              <div class="media-body">
+                <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
+                <h3 class="mt-2">
+                  <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h3>
+                {% if post.event-start-date %}
+                  <div class="grey post-body mb-2">
+                    {{ post.event-start-date | date: "%B %-d" }} at {{ post.event-start-date | date: "%r" }}<br/>
+                    {{ post.Location | escape }}
+                  </div>
+                {% endif %}
+
+              </div>
+
+              <!-- POST MAIN IMAGE FIELD -->
+              {% if post.main-image %}
+                <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-2 mb-3 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+              {% endif %}
+
+              <!-- END POST MAIN IMAGE -->
+            </div>
+
+            <hr class="mt-2 mb-3">
+
+          {% endif %}
+        {% endfor %}
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="clearfix spacer"></div>
+
+
     {{ page.embed-code }}
 
     <!-- BODY CONTENT -->
@@ -25,49 +80,63 @@ layout: default
     </div>
     {% endif %}
 
-
     <!-- BLOG EVENTS -->
+
+    <div class="clearfix spacer"></div>
+
+
+    <h5>Past Events</h5>
 
     {% unless site.categories.event | size > 0 %}
       <p>No posts in {{ page.title | escape }} at this time.</p>
     {% endunless %}
 
-    <div class="clearfix spacer"></div>
-
-
-    <div class="row">
+    <div class="clearfix spacer-sm"></div>
 
         <!-- EVENTS -->
 
-        {% for post in site.categories.event %}
-          <div class="col-sm-4 mt-0 grid-object">
-            <hr class="mt-0">
-            <div class="media">
-              <div class="media-body">
-                <h3 class="mt-3 mb-3">
-                  <a class="post-link text-primary"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h3>
-                {% if post.content %}
-                  <div class="grey post-body mb-2">
-                    {{ post.content | truncate: 140 }}
-                  </div>
-                {% endif %}
-              </div>
-              {% if post.main-image %}
-                <div class="thumb-wrap d-flex mt-3 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-2" style="background-image: url('{{ post.main-image}}');"></div>
-              {% endif %}
-            </div>
-            <!-- CALL TO ACTION -->
-            <p class="mb-0 mt-0 d-flex flex-row-reverse">
-              <a href="{{ post.url | relative_url }}" class="p-2 btn btn-link btn-flush btn-emph text-primary">RSVP</a>
-            </p>
-            <div class="clearfix spacer"></div>
-          </div>
+    <div class="row">
 
+      <div class="col-sm-8">
+
+        <div class="post-list">
+
+          <hr class="mt-2 mb-3">
+
+          {% assign curDate = site.time | date: '%s' %}
+            {% for post in site.posts %}
+            {% assign postStartDate = post.event-start-date | date: '%s' %}
+            {% if postStartDate <= curDate %}
+
+              <div class="media">
+                <div class="media-body">
+                  <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
+                  <h3 class="mt-2">
+                    <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                  </h3>
+                  {% if post.event-start-date %}
+                    <div class="grey post-body mb-2">
+                      <strong>{{ post.event-start-date | date: "%B %-d, %Y" }}</strong> at {{ post.event-start-date | date: "%r" }}<br/>
+                      {{ post.Location | escape }}
+                    </div>
+                  {% endif %}
+
+                </div>
+
+                <!-- POST MAIN IMAGE FIELD -->
+                {% if post.main-image %}
+                  <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-2 mb-3 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+                {% endif %}
+
+                <!-- END POST MAIN IMAGE -->
+              </div>
+
+              <hr class="mt-2 mb-3">
+
+            {% endif %}
           {% endfor %}
 
-          <!-- END ACTIONS -->
-
+        </div>
       </div>
     </div>
 
