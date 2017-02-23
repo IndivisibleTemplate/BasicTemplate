@@ -336,6 +336,10 @@ a.alert-primary {
       height: 65px;
     }
 
+  .btn.action-v-img {
+    margin-right: -38px!important;
+  }
+
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0;
@@ -373,8 +377,12 @@ a.alert-primary {
 }
 
 
-// CARDS
+// CALENDAR
 
+
+iframe {
+  max-width: 100%!important;
+}
 
 
 

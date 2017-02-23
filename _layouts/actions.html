@@ -28,37 +28,53 @@ layout: default
     <!-- ACTIONS -->
     <div class="row">
 
-        <!-- ACTIONS -->
 
-        {% for post in site.categories.action %}
+      <div class="col-sm-8">
+
+        <h5 class="mb-4">Actions</h5>
 
 
-          <div class="col-sm-4 mt-0 grid-object">
-            <hr class="mt-0">
-            <div class="media">
-              <div class="media-body">
-                <h3 class="mt-3 mb-3">
-                  <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h3>
-                {% if post.content %}
-                  <div class="grey post-body mb-2">
-                    {{ post.content | truncate: 140 }}
-                  </div>
+        <div class="row">
+
+          <!-- ACTIONS -->
+
+          {% for post in site.categories.action %}
+
+            <div class="col-sm-6 mt-0 grid-object">
+              <hr class="mt-0">
+              <div class="media">
+                <div class="media-body">
+                  <h3 class="mt-3 mb-3">
+                    <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                  </h3>
+                  {% if post.content %}
+                    <div class="grey post-body mb-2">
+                      {{ post.content | truncate: 140 }}
+                    </div>
+                  {% endif %}
+                </div>
+                {% if post.main-image %}
+                  <div class="thumb-wrap d-flex mt-3 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-2" style="background-image: url('{{ post.main-image}}');"></div>
                 {% endif %}
               </div>
-              {% if post.main-image %}
-                <div class="thumb-wrap d-flex mt-3 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-2" style="background-image: url('{{ post.main-image}}');"></div>
-              {% endif %}
+              <!-- CALL TO ACTION -->
+              <p class="mb-0 mt-0 d-flex flex-row-reverse">
+                <a href="{{ post.url | relative_url }}" class="p-2 btn btn-link btn-flush btn-emph text-danger">Act Now</a>
+              </p>
+              <div class="clearfix spacer"></div>
             </div>
-            <!-- CALL TO ACTION -->
-            <p class="mb-0 mt-0 d-flex flex-row-reverse">
-              <a href="{{ post.url | relative_url }}" class="p-2 btn btn-link btn-flush btn-emph text-danger">Act Now</a>
-            </p>
-            <div class="clearfix spacer"></div>
-          </div>
-          
-          {% endfor %}
 
+            {% endfor %}
+
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="mb-4">Suggest an Action</h5>
+          <hr>
+          <p>Have an idea for an action? Want {{ site.title }} to promote it?</p>
+          <p><a class="btn btn-outline-primary" href="mailto:{{ site.email }}">Contact us</a></p>
+        </div>
 
 
 

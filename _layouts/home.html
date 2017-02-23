@@ -74,10 +74,10 @@ layout: default
                         <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                       </h3>
                       <div class="row">
-                        <div class="col-xs-5 col-sm-2">
-                         {{ post.event-start-date | date: "%R" }}
+                        <div class="col-xs-5 col-sm-3">
+                         {{ post.event-start-date | date: "%I:%M%p" }}
                         </div>
-                        <div class="col-xs-7 col-sm-10">
+                        <div class="col-xs-7 col-sm-9">
                           {{ post.Location | escape }}
                         </div>
                       </div>
@@ -94,7 +94,11 @@ layout: default
 
               <!-- CALL TO ACTION -->
               {% if post.categories contains 'action' %}
-                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mr-4 mb-1">Act Now</a>
+                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-1 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
+              {% endif %}
+
+              {% if post.RSVP-link %}
+                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mt-3 mr-4 mb-1 {% if post.main-image %}action-v-img{% endif %}">RSVP</a>
               {% endif %}
 
               <!-- POST MAIN IMAGE FIELD -->

@@ -225,6 +225,9 @@ a.alert-primary {
 .thumb-wrap-sm {
   height: 65px; }
 
+.btn.action-v-img {
+  margin-right: -38px !important; }
+
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0; }
@@ -248,6 +251,9 @@ a.alert-primary {
   display: block;
   background-size: cover;
   background-position: center; }
+
+iframe {
+  max-width: 100% !important; }
 
 .representative ul {
   list-style: none;
