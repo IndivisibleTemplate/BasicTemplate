@@ -1,6 +1,3 @@
-body {
-  background: #f4f7f9; }
-
 .bg-inverse {
   background-color: #002868 !important; }
 
@@ -9,6 +6,9 @@ body {
 
 .bg-medium {
   background: #e8e8e8; }
+
+.bg-light {
+  background: #f4f7f9; }
 
 a:hover, a:active {
   color: #00080e;

@@ -16,6 +16,8 @@ $primary:          #0275d8;
 $light:            #fff;
 $dark:             #333;
 
+$light-bg:         #f4f7f9;
+
 $danger:           #d9534f;
 
 $text-color:       #111;
@@ -28,10 +30,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // RESETS
 
-body {
-  background: #f4f7f9;
-}
-
 .bg-inverse {
     background-color: #002868!important;
 }
@@ -42,6 +40,10 @@ body {
 
 .bg-medium {
   background: $grey-color-light;
+}
+
+.bg-light {
+  background: $light-bg;
 }
 
 a:hover, a:active {

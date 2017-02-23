@@ -4,10 +4,10 @@ layout: default
 
 <div class="home">
 
-  <!-- style="background-image: url('{{ site.background-image}}')" -->
+  <!-- style="background-image: url('{{ site.background-image }}')"-->
 
   <!-- HOMEPAGE HEADER -->
-  <div class="clearfix home-header container-fluid" style="background-image: url('{{ site.background-image }}')">
+  <div class="clearfix home-header container-fluid" >
 
     <h2 class="mt-0 mb-0 text-center"><strong class="logo text-white">{{ site.title | escape }}</strong></h2>
 
@@ -16,11 +16,13 @@ layout: default
     <!-- SUBTITLE -->
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <h2 class="mt-1 mb-0 text-center text-white">{{ site.subtitle | escape }}</h2>
+        <h2 class="mt-1 mb-0 text-center">{{ site.subtitle | escape }}</h2>
       </div>
     </div>
 
     <div class="spacer clearfix visible-sm-up"></div>
+    <div class="spacer-sm clearfix visible-sm-up"></div>
+
 
     <!-- END SUBTITLE -->
 <!--
@@ -39,11 +41,11 @@ layout: default
 
       <div class="col-sm-8">
 
-        <div class="post-list mt-4">
+        <div class="post-list">
 
           {% for post in site.posts %}
 
-            <hr class="mt-4 mb-3">
+            <hr class="mt-0 mb-3">
 
             <!-- POST TEMPLATE -->
 
@@ -73,12 +75,12 @@ layout: default
                       <h3 class="mt-0 mb-1">
                         <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                       </h3>
-                      <div class="row">
-                        <div class="col-xs-5 col-sm-3">
-                         {{ post.event-start-date | date: "%I:%M%p" }}
+                      <div class="row mt-2">
+                        <div class="col-xs-5 col-sm-3 grey">
+                         <p>{{ post.event-start-date | date: "%I:%M%p" }}</p>
                         </div>
-                        <div class="col-xs-7 col-sm-9">
-                          {{ post.Location | escape }}
+                        <div class="col-xs-7 col-sm-9 grey">
+                          <p>{{ post.Location | escape }}</p>
                         </div>
                       </div>
                     </div>
@@ -94,7 +96,7 @@ layout: default
 
               <!-- CALL TO ACTION -->
               {% if post.categories contains 'action' %}
-                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-1 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
+                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-4 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
               {% endif %}
 
               {% if post.RSVP-link %}
@@ -125,7 +127,7 @@ layout: default
         <!-- <img src="{{ site.background-image }}" class="img-fluid mt-2 mb-4"> -->
         <!-- {{ site.description }} -->
 
-        <hr class="mt-4 mb-4">
+        <hr class="mt-0 mb-4">
 
         {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body={{ site.url }}" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>{% endif %}
 
