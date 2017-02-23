@@ -40,16 +40,6 @@ layout: default
       <div class="col-sm-8">
 
         <div class="post-list mt-4">
-<!--
-          <a href="#" class="alert alert-primary" role="alert">
-            <strong>PINNED:</strong> Town Hall with Sen. Harris!
-            <i class="material-icons pull-right text-white mr-4">arrow_forward</i>
-          </a>
-
-          <a href="#" class="alert alert-danger" role="alert">
-            <strong>PINNED:</strong> Tell Sen. Harris to Vote NO on Sessions
-            <i class="material-icons pull-right text-white mr-4">arrow_forward</i>
-          </a> -->
 
           {% for post in site.posts %}
 
@@ -60,18 +50,46 @@ layout: default
             {% if post.categories contains 'action' %}
               {% if post['is featured'] == true %}<span class="badge badge-danger">PINNED</span> {% endif %}
               <span class="badge badge badge-danger mt-2">ACTION NEEDED</span>
-            {% elsif post.categories contains 'event' %}
-              {% if post['is featured'] == true %}<span class="badge badge-primary">PINNED</span> {% endif %}
-              <span class="badge badge badge-primary mt-2">Upcoming Event</span>
-
             {% endif %}
+
+
+
             <div class="media">
               <div class="media-body">
-                <!-- <p class="post-meta mt-0">{{ post.date | date: "%b %-d, %Y" }}</p> -->
-                <h3 class="mt-2">
-                  <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h3>
-                <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
+                <!-- EVENT SPECIFIC FILEDS -->
+                {% if post.categories contains 'event' %}
+                  <div class="row">
+                    {% if post.event-start-date %}
+                    <div class="col-xs-3 col-sm-3 col-lg-2">
+                      {% if post['is featured'] == true %}<span class="badge badge-primary">PINNED</span> {% endif %}
+                      <center>
+                        <span class="badge badge badge-primary mt-2 mb-1">Event</span>
+                      </center>
+                      <p class="mb-0 mt-0 text-center">{{ post.event-start-date | date: "%b" }}</p>
+                      <h3 class=" text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
+                    </div>
+                    {% endif %}
+                    <div class="col-xs-9 col-sm-10">
+                      <h3 class="mt-0 mb-1">
+                        <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                      </h3>
+                      <div class="row">
+                        <div class="col-xs-5 col-sm-2">
+                         {{ post.event-start-date | date: "%R" }}
+                        </div>
+                        <div class="col-xs-7 col-sm-10">
+                          {{ post.Location | escape }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- EVENT SPECIFIC FILEDS -->
+                  {% else %}
+                    <h3 class="mt-2">
+                      <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+                    <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
+                  {% endif %}
               </div>
 
               <!-- CALL TO ACTION -->
@@ -86,20 +104,6 @@ layout: default
 
               <!-- END POST MAIN IMAGE -->
             </div>
-
-            <!-- EVENT SPECIFIC FILEDS -->
-            {% if post.categories contains 'event' %}
-              <ul class="list-group list-group-flush list-group-x-flush mr-4">
-                <li class="list-group-item">{{ post.event-start-date | date: "%B %-d, %Y" }}</li>
-                <li class="list-group-item">{{ post.event-start-date | date: "%r" }}</li>
-                <li class="list-group-item">{{ post.Location | escape }}</li>
-              </ul>
-              {% if post.RSVP-link %}
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mr-4 mb-4">RSVP</a>
-              {% endif %}
-            {% endif %}
-            <!-- END EVENT SPECIFIC FIELDS -->
-
           {% endfor %}
         </div>
 
@@ -119,7 +123,7 @@ layout: default
 
         <hr class="mt-4 mb-4">
 
-        {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>{% endif %}
+        {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body={{ site.url }}" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>{% endif %}
 
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
