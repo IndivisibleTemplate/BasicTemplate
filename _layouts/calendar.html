@@ -25,6 +25,7 @@ layout: default
           {% assign postStartDate = post.event-start-date | date: '%s' %}
           {% if postStartDate >= curDate %}
 
+            <hr class="mt-2 mb-3">
 
             <div class="media">
               <div class="media-body">
@@ -34,7 +35,7 @@ layout: default
                 </h3>
                 {% if post.event-start-date %}
                   <div class="grey post-body mb-2">
-                    {{ post.event-start-date | date: "%B %-d" }} at {{ post.event-start-date | date: "%r" }}<br/>
+                    <strong>{{ post.event-start-date | date: "%B %-d" }}</strong> at <strong>{{ post.event-start-date | date: "%r" }}</strong><br/>
                     {{ post.Location | escape }}
                   </div>
                 {% endif %}
