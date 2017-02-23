@@ -20,43 +20,43 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    event-start-date:
-    event-end-date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    event-start-date: 
+    event-end-date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
     type: representatives
   values:
-    main-image:
-    phone-numbers:
-    website:
+    main-image: 
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: media-items
   values:
-    main-image:
+    main-image: 
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 subtitle: Thousands of San Franciscans resisting the Trump agenda through civic action.
 email: sahadeva@sahadeva.com
 description: Indivisible SF is a group of local residents inspired by the Indivisible
   Guide, which provides a practical framework for resisting the Trump agenda. By standing
   together, we can keep the pressure on our representatives to defend progressive
   values and fight for us in Washington.
-baseurl:
+baseurl: 
 url: indivisiblesf.org
 twitter_username: indivisiblesf
 github_username: indivisiblesf
 facebook_username: indivisiblesf
-background-image: "/uploads/oakland.jpg"
-mailchimp-form-id:
+background-image: "/uploads/31847147954_01b5bf7802_k.jpg"
+mailchimp-form-id: 
 member-count: '4,300'
 markdown: kramdown
 theme: minima
