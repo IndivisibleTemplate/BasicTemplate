@@ -7,9 +7,17 @@ layout: default
   <!-- -->
 
   <!-- HOMEPAGE HEADER -->
-  <div class="clearfix home-header container-fluid" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %} >
+  <div class="clearfix home-header container-fluid relative" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %} >
 
-    <h2 class="mt-0 mb-0 text-center"><strong class="logo text-white">{{ site.title | escape }}</strong></h2>
+    {% if site.background-image %}<div class="onionskin absolute"></div>{% endif %}
+
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+
+        <h2 class="mt-0 mb-0 text-center" style="position: relative;"><strong class="logo text-white">{{ site.title | escape }}</strong></h2>
+
+      </div>
+    </div>
 
     <div class="spacer-sm mt-2 clearfix visible-sm-up"></div>
 
