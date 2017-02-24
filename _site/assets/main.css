@@ -72,8 +72,9 @@ h1, h2, h3, h4 {
   font-weight: 300; }
 
 h1 {
-  font-size: 72px;
-  line-height: 92px; }
+  font-size: 57.6px;
+  line-height: 85px;
+  font-weight: 600; }
 
 h2 {
   font-size: 47.88px;
@@ -171,7 +172,7 @@ p, h5 {
   color: #333;
   background-size: cover;
   background-position: center;
-  padding-top: 52.5px; }
+  padding-top: 37.5px; }
 
 .home-header h1, .home-header h4 {
   position: relative;

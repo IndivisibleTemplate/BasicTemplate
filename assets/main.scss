@@ -126,8 +126,9 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: $base-font-size * 4;
-  line-height: 92px;
+  font-size: $base-font-size * 3.2;
+  line-height: 85px;
+  font-weight: 600;
 }
 
 h2 {
@@ -265,7 +266,7 @@ p, h5 {
   color: $dark;
   background-size: cover;
   background-position: center;
-  padding-top: $spacing-unit*1.75;
+  padding-top: $spacing-unit*1.25;
 
 }
 

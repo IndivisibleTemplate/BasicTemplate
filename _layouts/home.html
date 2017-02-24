@@ -4,10 +4,10 @@ layout: default
 
 <div class="home">
 
-  <!-- style="background-image: url('{{ site.background-image }}')"-->
+  <!-- -->
 
   <!-- HOMEPAGE HEADER -->
-  <div class="clearfix home-header container-fluid" >
+  <div class="clearfix home-header container-fluid" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %} >
 
     <h2 class="mt-0 mb-0 text-center"><strong class="logo text-white">{{ site.title | escape }}</strong></h2>
 
@@ -16,12 +16,11 @@ layout: default
     <!-- SUBTITLE -->
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <h2 class="mt-1 mb-0 text-center">{{ site.subtitle | escape }}</h2>
+        <h1 class="mt-0 mb-4 text-center {% if site.background-image %}text-white{% endif %}">{{ site.subtitle | escape }}</h1>
       </div>
     </div>
 
     <div class="spacer clearfix visible-sm-up"></div>
-    <div class="spacer-sm clearfix visible-sm-up"></div>
 
 
     <!-- END SUBTITLE -->
