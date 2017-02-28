@@ -1,5 +1,5 @@
 ---
-title: Indivisible South Bay
+title: Indivisible SF
 timezone: UTC
 collections:
   posts:
@@ -44,9 +44,10 @@ defaults:
     type: calendar
   values:
     embed-code: 
-subtitle: We are South Bay residents resisting the Trump agenda through civic action.
+subtitle: We are thousands of San Franciscans resisting the Trump agenda through civic
+  action.
 email: sahadeva@sahadeva.com
-description: Indivisible South bay is a group of local residents inspired by the Indivisible
+description: Indivisible SF is a group of local residents inspired by the Indivisible
   Guide, which provides a practical framework for resisting the Trump agenda. By standing
   together, we can keep the pressure on our representatives to defend progressive
   values and fight for us in Washington.
@@ -57,7 +58,7 @@ github_username: indivisiblesf
 facebook_username: indivisiblesf
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
 mailchimp-form-id: 
-member-count: 150
+member-count: '2,400'
 markdown: kramdown
 theme: minima
 gems:
