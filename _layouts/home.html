@@ -38,7 +38,7 @@ layout: default
 
           {% for post in site.posts %}
 
-            <hr class="mt-0 mb-3">
+            <hr class="mt-0 mb-2">
 
             <!-- POST TEMPLATE -->
 
@@ -103,6 +103,8 @@ layout: default
 
               <!-- END POST MAIN IMAGE -->
             </div>
+            <div class="spacer-sm clearfix"></div>
+
           {% endfor %}
         </div>
 
@@ -114,11 +116,6 @@ layout: default
       <!-- TEAM MEDIA -->
       <div class="col-sm-4">
 
-        <!-- <hr class="mt-4">
-        <h4>Our Cause</h4>
-        <hr> -->
-        <!-- <img src="{{ site.background-image }}" class="img-fluid mt-2 mb-4"> -->
-        <!-- {{ site.description }} -->
 
         <hr class="mt-0 mb-4">
 
@@ -126,13 +123,13 @@ layout: default
 
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
-          <hr class="mt-4 mb-4">
-          <h5 class="mt-2 mb-4"><a href="/action-updates.html">Action Updates</a></h5>
-          <hr class="mb-4">
+          <hr class="mt-4 mb-3">
+          <h5 class="mb-4"><a href="/action-updates.html">Action Updates</a></h5>
+
           {% for media-items in site.media-items limit:5 %}
-            <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-3" style="background-image: url('{{ media-items.main-image }}')"></a>
+            <a class="media-thumbnail mb-2" href="{{ media-items.url | relative_url }}" style="background-image: url('{{ media-items.main-image }}')"></a>
             <h5><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
-            <hr class="mt-4 mb-4">
+            <hr class="mt-4 mb-3">
           {% endfor %}
 
           <a href="#" class="btn btn-link btn-flush">More Updates</a>
