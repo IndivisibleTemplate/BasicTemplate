@@ -14,6 +14,9 @@ a:hover, a:active {
   color: #00080e;
   text-decoration: none; }
 
+.btn {
+  font-family: sans-serif; }
+
 .btn-icon {
   position: relative; }
 
@@ -68,38 +71,33 @@ hr.inverse, .bg-inverse hr {
 
   .media img {
     max-width: 100px; } }
-h1, h2, h3, h4 {
-  font-weight: 300; }
+.navbar-brand {
+  font-weight: 800; }
+
+h1, h2, h3, h4, h5, .navbar-brand, .navbar .btn {
+  font-weight: bold; }
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Work Sans', sans-serif; }
 
 h1 {
-  font-size: 57.6px;
-  line-height: 85px;
-  font-weight: 600; }
+  font-size: 72px;
+  line-height: 85px; }
 
 h2 {
   font-size: 47.88px;
-  line-height: 1.6125; }
+  line-height: 1.6125;
+  font-weight: 600; }
 
 h2 i.material-icons {
   vertical-align: middle;
   font-weight: 100; }
 
-h2 strong, h3 strong {
-  font-weight: 900; }
-
-h2 strong {
-  font-size: 36px; }
-
-h2 strong.logo {
-  display: inline-block;
-  background: #d9534f;
-  padding: 0 19px; }
-
 h3 {
   line-height: 1.2; }
 
-h5, nav .btn {
-  font-weight: bold; }
+h5 {
+  line-height: 1.275; }
 
 p, h5 {
   font-size: 18px; }
@@ -128,9 +126,6 @@ p, h5 {
     margin-bottom: 0; } }
 .navbar-nav {
   width: 100%; }
-
-.navbar-brand {
-  font-weight: 900; }
 
 .navbar-light {
   background: #FFCDD2 !important; }
@@ -172,9 +167,10 @@ p, h5 {
   color: #333;
   background-size: cover;
   background-position: center;
-  padding-top: 37.5px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
-.home-header h1, .home-header h4 {
+.home-header h2, .home-header h1 {
   position: relative;
   z-index: 2; }
 

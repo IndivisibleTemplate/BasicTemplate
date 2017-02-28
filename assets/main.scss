@@ -51,6 +51,10 @@ a:hover, a:active {
   text-decoration: none;
 }
 
+.btn {
+  font-family: sans-serif;
+}
+
 .btn-icon {
   position: relative;
 }
@@ -121,19 +125,27 @@ hr, .list-group-item {
 
 // TYPE
 
-h1, h2, h3, h4 {
-  font-weight: 300;
+.navbar-brand {
+  font-weight: 800;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand, .navbar .btn {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Work Sans', sans-serif;
 }
 
 h1 {
-  font-size: $base-font-size * 3.2;
+  font-size: $base-font-size * 4;
   line-height: 85px;
-  font-weight: 600;
 }
 
 h2 {
   font-size: $base-font-size * 2.66;
   line-height: $base-line-height * 1.075;
+  font-weight: 600;
 }
 
    h2 i.material-icons {
@@ -141,32 +153,17 @@ h2 {
      font-weight: 100;
    }
 
-   h2 strong, h3 strong {
-     font-weight: 900;
-   }
-
-   h2 strong {
-     font-size: $base-font-size * 2;
-   }
-
-   h2 strong.logo {
-     display: inline-block;
-     background: $danger;
-     padding: 0 19px;
-   }
-
 h3 {
   line-height: $base-line-height * .8;
 }
 
-h5, nav .btn {
-  font-weight: bold;
+h5 {
+  line-height: $base-line-height * .85;
 }
 
 p, h5 {
   font-size: $base-font-size;
 }
-
 
 
 .grey {
@@ -202,10 +199,6 @@ p, h5 {
 
 .navbar-nav {
   width: 100%;
-}
-
-.navbar-brand {
-  font-weight: 900;
 }
 
 .navbar-light {
@@ -266,11 +259,12 @@ p, h5 {
   color: $dark;
   background-size: cover;
   background-position: center;
-  padding-top: $spacing-unit*1.25;
+  padding-top: $spacing-unit*1;
+  padding-bottom: $spacing-unit*1;
 
 }
 
-  .home-header h1, .home-header h4 {
+  .home-header h2, .home-header h1 {
     position: relative;
     z-index: 2;
   }

@@ -7,38 +7,24 @@ layout: default
   <!-- -->
 
   <!-- HOMEPAGE HEADER -->
-  <div class="clearfix home-header container-fluid relative" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %} >
-
+  <div class="clearfix" {% if site.background-image %}style="position: relative; background-size: cover; background-position: center; background-image: url('{{ site.background-image }}')"{% endif %}>
     {% if site.background-image %}<div class="onionskin absolute"></div>{% endif %}
 
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
+    <div class="clearfix home-header container relative">
 
-        <h2 class="mt-0 mb-0 text-center" style="position: relative;"><strong class="logo text-white">{{ site.title | escape }}</strong></h2>
-
+      <!-- SUBTITLE -->
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="mt-0 mb-0 {% if site.background-image %}text-white{% endif %}">{{ site.subtitle | escape }}</h1>
+        </div>
       </div>
+
+      {% if page.content %}
+        <div class="spacer clearfix visible-sm-up"></div>
+        {{ content }}
+      {% endif %}
+
     </div>
-
-    <div class="spacer-sm mt-2 clearfix visible-sm-up"></div>
-
-    <!-- SUBTITLE -->
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <h1 class="mt-0 mb-4 text-center {% if site.background-image %}text-white{% endif %}">{{ site.subtitle | escape }}</h1>
-      </div>
-    </div>
-
-    <div class="spacer clearfix visible-sm-up"></div>
-
-
-    <!-- END SUBTITLE -->
-<!--
-    <center>
-      <a href="/become-a-member.html" class="btn btn-danger btn-lg"><strong>Become a Member</strong></a>
-    </center> -->
-
-    {{ content }}
-
   </div>
 
   <!-- HOMEPAGE BODY -->
@@ -142,9 +128,10 @@ layout: default
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-4">
           <h5 class="mt-2 mb-4"><a href="/action-updates.html">Action Updates</a></h5>
+          <hr class="mb-4">
           {% for media-items in site.media-items limit:5 %}
             <a href="{{ media-items.url | relative_url }}" class="media-thumbnail mb-3" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <h4><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h4>
+            <h5><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
             <hr class="mt-4 mb-4">
           {% endfor %}
 
