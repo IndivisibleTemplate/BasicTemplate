@@ -24,7 +24,7 @@ layout: default
           {% if page.categories contains 'event' %}
           <span class="badge badge-lg badge-primary mb-2">Upcoming Event</span>
           {% endif %}
-          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% endif %}">{{ page.title | escape }}</h1>
+          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% elsif page.categories contains 'event' %}text-primary{% endif %}">{{ page.title | escape }}</h1>
         </header>
       </div>
     </div>
@@ -33,7 +33,7 @@ layout: default
 
     <div class="row post-content" itemprop="articleBody">
       {% if page.categories contains 'action' %}
-      <div class="col-sm-3 hidden-xs-down">
+      <div class="col-sm-5 col-md-4 col-lg-3 hidden-xs-down">
         <div class="card">
           <div class="card-header">
             <strong>Call Numbers</strong>
@@ -66,7 +66,7 @@ layout: default
       </div>
 
       {% elsif page.event-start-date %}
-      <div class="col-sm-3">
+      <div class="col-sm-5 col-md-4 col-lg-3">
         <div class="card">
           <div class="card-header">
             <strong>Date and time</strong>
@@ -87,12 +87,12 @@ layout: default
       </div>
       {% endif %}
 
-      <!-- FIXME - Also do this on events -->
       {% if page.categories contains 'action' %}
-      <!-- ENDF FIXME -->
-      <div class="col-sm-8 offset-sm-1">
+      <div class="col-sm-7 col-md-7 col-lg-8 offset-sm-0 offset-md-1">
+      {% elsif page.categories contains 'event' %}
+      <div class="col-sm-7 col-md-7 col-lg-8 offset-sm-0 offset-md-1">
       {% else %}
-      <div class="col-sm-9">
+      <div class="col-sm-8">
       {% endif %}
 
         {% if page.call-script-text %}
