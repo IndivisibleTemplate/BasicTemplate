@@ -111,8 +111,12 @@ layout: default
 
             <div class="spacer-sm clearfix"></div>
 
+
           {% endfor %}
         </div><!-- END BLOG POSTS -->
+
+        <hr class="mt-2 mb-2">
+        <h5><a href="#" class="btn btn-link btn-flush"><strong>More posts &rarr;</strong></a></h5>
 
         <div class="spacer clearfix"></div>
         <div class="spacer clearfix"></div>
@@ -132,15 +136,14 @@ layout: default
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-3">
-          <h5 class="mb-4"><a href="/action-updates.html">Action Updates</a></h5>
+          <h5 class="mb-4">Successes</h5>
 
           {% for media-items in site.media-items limit:5 %}
             <a class="media-thumbnail mb-2" href="{{ media-items.url | relative_url }}" style="background-image: url('{{ media-items.main-image }}')"></a>
             <h5><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
             <hr class="mt-4 mb-3">
           {% endfor %}
-
-          <a href="#" class="btn btn-link btn-flush">More Updates</a>
+          <h5><a href="/successes.html" class="btn btn-link btn-flush"><strong>More successes &rarr;</strong></a></h5>
 
         {% endif %}
 
