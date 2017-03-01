@@ -28,6 +28,9 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$facebook:         #3b5998;
+$twitter:          #00aced;
+
 // RESETS
 
 .bg-inverse {
@@ -98,6 +101,16 @@ a:hover, a:active {
 .btn-emph {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.btn-fb {
+  background: $facebook;
+  border-color: $facebook;
+}
+
+.btn-twitter {
+  background: $twitter;
+  border-color: $twitter;
 }
 
 hr, .list-group-item {
@@ -253,6 +266,12 @@ p, h5 {
 
 // CONTENT
 
+.home-header-wrap {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
 .home-header {
   position: relative;
   margin-top: -25px;
@@ -260,8 +279,7 @@ p, h5 {
   background-size: cover;
   background-position: center;
   padding-top: $spacing-unit*1.25;
-  padding-bottom: $spacing-unit*1.25;
-
+  padding-bottom: $spacing-unit*1.15;
 }
 
   .home-header h2, .home-header h1 {
@@ -293,38 +311,6 @@ p, h5 {
 
 // BLOG POSTS
 
-a.alert {
-  display: block;
-  color: rgba(0,0,0,.5);
-  font-weight: bold;
-  font-size: $base-font-size;
-  position: relative;
-  padding-right: $spacing-unit;
-  color: $light;
-}
-
-  a.alert strong {
-
-    text-transform: uppercase;
-  }
-
-  a.alert i.material-icons {
-    position: absolute;
-    top: 15%;
-    right: 0;
-    font-size: $base-font-size*2;
-  }
-
-a.alert-danger {
-  background: $danger;
-  border-color: $danger;
-}
-
-a.alert-primary {
-  background: $primary;
-  border-color: $primary;
-}
-
 .header-image, .thumb-wrap {
   display: block;
   background-size: cover;
@@ -350,6 +336,10 @@ a.alert-primary {
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0;
+}
+
+.event .badge {
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
