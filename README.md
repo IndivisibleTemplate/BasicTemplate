@@ -27,9 +27,12 @@ The Indivisible Template runs on [GitHub pages](https://pages.github.com/) via [
 
 [Siteleaf](https://www.siteleaf.com/) is a CMS that interacts with GitHub out of the box.
 
+Code contributions and pull requests are welcome!
+
 
 **What Indivisible chapters use it?**
 
+1. IndivisibleSF
 
 
 # How to I set up my site?
@@ -69,6 +72,11 @@ How to create action posts: To create an action item simply create a blog post a
 
 How to create event posts: To create an event post, simply add the category `event` to your post.
 
+# Getting Help
+
+If you need help send an email to help@indivisibleTemplate.com or post to our slack room.
+
+# Getting Help
 
 # Important considerations
 
