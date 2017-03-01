@@ -4,10 +4,9 @@ layout: default
 
 <div class="home">
 
-  <!-- -->
-
   <!-- HOMEPAGE HEADER -->
-  <div class="clearfix" {% if site.background-image %}style="position: relative; background-size: cover; background-position: center; background-image: url('{{ site.background-image }}')"{% endif %}>
+  <div class="clearfix home-header-wrap" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %}>
+
     {% if site.background-image %}<div class="onionskin absolute"></div>{% endif %}
 
     <div class="clearfix home-header container relative">
@@ -24,8 +23,8 @@ layout: default
         {{ content }}
       {% endif %}
 
-    </div>
-  </div>
+    </div><!-- END HOME HEADER -->
+  </div><!-- END HOME HEADER WRAP -->
 
   <!-- HOMEPAGE BODY -->
   <div class="container">
@@ -34,6 +33,7 @@ layout: default
 
       <div class="col-sm-8">
 
+        <!-- Blog Posts -->
         <div class="post-list">
 
           {% for post in site.posts %}
@@ -47,28 +47,26 @@ layout: default
               <span class="badge badge badge-danger mt-2">ACTION NEEDED</span>
             {% endif %}
 
-
-
             <div class="media">
               <div class="media-body">
                 <!-- EVENT SPECIFIC FILEDS -->
                 {% if post.categories contains 'event' %}
-                  <div class="row">
+                  <div class="row event">
                     {% if post.event-start-date %}
                     <div class="col-xs-3 col-sm-3 col-lg-2">
                       {% if post['is featured'] == true %}<span class="badge badge-primary">PINNED</span> {% endif %}
                       <center>
-                        <span class="badge badge badge-primary mt-2 mb-1">Event</span>
+                        <span class="badge badge-primary mt-2 mb-1">Event</span>
                       </center>
-                      <p class="mb-0 mt-0 text-center">{{ post.event-start-date | date: "%b" }}</p>
-                      <h3 class=" text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
+                      <p class="mb-1 mt-1 text-center">{{ post.event-start-date | date: "%b" }}</p>
+                      <h3 class="text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
                     </div>
                     {% endif %}
                     <div class="col-xs-9 col-sm-10">
                       <h3 class="mt-0 mb-1">
-                        <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                       </h3>
-                      <div class="row mt-2">
+                      <div class="row">
                         <div class="col-xs-5 col-sm-3 grey">
                          <p>{{ post.event-start-date | date: "%I:%M%p" }}</p>
                         </div>
@@ -100,13 +98,14 @@ layout: default
               {% if post.main-image %}
                 <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-2 mb-4 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
               {% endif %}
-
               <!-- END POST MAIN IMAGE -->
-            </div>
+
+            </div><!-- END MEDIA -->
+
             <div class="spacer-sm clearfix"></div>
 
           {% endfor %}
-        </div>
+        </div><!-- END BLOG POSTS -->
 
         <div class="spacer clearfix"></div>
         <div class="spacer clearfix"></div>
@@ -116,10 +115,9 @@ layout: default
       <!-- TEAM MEDIA -->
       <div class="col-sm-4">
 
-
         <hr class="mt-0 mb-4">
 
-        {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body={{ site.url }}" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>{% endif %}
+        {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>{% endif %}
 
         {% if site.media-items %}
           <!-- <div class="spacer"></div> -->
@@ -136,15 +134,11 @@ layout: default
 
         {% endif %}
 
-
-
-      </div>
-      <!-- TEAM MEDIA -->
+      </div><!-- END TEAM MEDIA -->
 
     </div>
 
   <div class="spacer clearfix"></div>
   <div class="spacer clearfix"></div>
-
 
 </div>

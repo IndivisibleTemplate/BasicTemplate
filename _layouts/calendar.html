@@ -29,7 +29,8 @@ layout: default
 
       <div class="col-sm-8">
 
-        <h5 class="mb-4">Upcoming Events</h5>
+        <h5 class="mb-0">Upcoming Events</h5>
+        <hr class="mt-2 mb-2">
 
         <div class="post-list">
 
@@ -90,7 +91,10 @@ layout: default
         <!-- CALENDAR EMBED -->
         {% if page.embed-code %}
 
-          <h5>Full Calendar</h5>
+          <div class="clearfix spacer"></div>
+
+          <h5 class="mb-0">Full Calendar</h5>
+          <hr class="mt-2 mb-2">
 
           <div class="clearfix spacer-sm"></div>
 
@@ -104,13 +108,11 @@ layout: default
 
         <div class="clearfix spacer"></div>
 
-        <h5>Past Events</h5>
+        <h5 class="mb-0">Past Events</h5>
 
         {% unless site.categories.event | size > 0 %}
           <p>No posts in {{ page.title | escape }} at this time.</p>
         {% endunless %}
-
-        <div class="clearfix spacer-sm"></div>
 
         <!-- PAST EVENTS -->
 
@@ -122,7 +124,7 @@ layout: default
           {% assign postStartDate = post.event-start-date | date: '%s' %}
           {% if postStartDate <= curDate %}
 
-            <hr class="mt-2 mb-3">
+            <hr class="mt-2 mb-2">
 
             <div class="media">
               <div class="media-body">
@@ -131,18 +133,18 @@ layout: default
                 {% if post.event-start-date %}
                   <div class="row">
                     <div class="col-xs-3 col-sm-3 col-lg-2">
-                      <p class="mb-0 mt-0 text-center">{{ post.event-start-date | date: "%b" }}</p>
-                      <h3 class=" text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
+                      <p class="mb-1 mt-1 text-center">{{ post.event-start-date | date: "%b" }}</p>
+                      <h3 class="text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
                     </div>
                     <div class="col-xs-9 col-sm-10">
                       <h3 class="mt-0 mb-1">
                         <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                       </h3>
                       <div class="row">
-                        <div class="col-xs-5 col-sm-3">
+                        <div class="col-xs-5 col-sm-3 grey">
                          {{ post.event-start-date | date: "%I:%M%p" }}
                         </div>
-                        <div class="col-xs-7 col-sm-9">
+                        <div class="col-xs-7 col-sm-9 grey">
                           {{ post.Location | escape }}
                         </div>
                       </div>
@@ -154,26 +156,26 @@ layout: default
 
               <!-- POST MAIN IMAGE FIELD -->
               {% if post.main-image %}
-                <a class="thumb-wrap thumb-wrap-sm d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-1 mb-3 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+                <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-xs-2 col-sm-2 mb-3 ml-4" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
               {% endif %}
 
               <!-- END POST MAIN IMAGE -->
             </div>
+            <div class="spacer-sm clearfix"></div>
 
-            <hr class="mt-2 mb-3">
 
           {% endif %}
+
+
         {% endfor %}
 
         </div>
 
-        <div class="clearfix spacer"></div>
-
       </div> <!-- END LEFT COLUMN -->
 
       <div class="col-sm-4">
-        <h5 class="mb-4">Suggest an Event</h5>
-        <hr>
+        <h5 class="mb-0">Suggest an Event</h5>
+        <hr class="mt-2 mb-2">
         <p>Have an idea for an event? Want {{ site.title }} to co-host an event?</p>
         <p><a class="btn btn-outline-primary" href="mailto:{{ site.email }}">Contact us</a></p>
       </div>
