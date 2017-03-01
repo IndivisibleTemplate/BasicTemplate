@@ -131,6 +131,10 @@ hr, .list-group-item {
     margin-right: 0!important;
   }
 
+  .join-btn {
+    margin: 9px 0 5px!important;
+  }
+
   .media img {
     max-width: 100px;
   }
@@ -329,10 +333,6 @@ p, h5 {
       height: 65px;
     }
 
-  .btn.action-v-img {
-    margin-right: -38px!important;
-  }
-
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0;
@@ -348,11 +348,19 @@ p, h5 {
     font-size: $base-font-size*1.25;
     line-height: $base-line-height*1.1;
   }
+  .btn.action-v-img {
+    margin-right: -38px!important;
+  }
+
 }
 
 @media (max-width: 768px) {
   .home-header {
-    padding-top: $spacing-unit;
+    padding-top: $spacing-unit/2;
+    padding-bottom: $spacing-unit/2;
+  }
+  .header-image {
+    height: 230px;
   }
 }
 

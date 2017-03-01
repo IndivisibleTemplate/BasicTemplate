@@ -77,6 +77,9 @@ hr.inverse, .bg-inverse hr {
   .media .btn-action {
     margin-right: 0 !important; }
 
+  .join-btn {
+    margin: 9px 0 5px !important; }
+
   .media img {
     max-width: 100px; } }
 .navbar-brand {
@@ -218,9 +221,6 @@ p, h5 {
 .thumb-wrap-sm {
   height: 65px; }
 
-.btn.action-v-img {
-  margin-right: -38px !important; }
-
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0; }
@@ -232,10 +232,17 @@ p, h5 {
   .script {
     padding: 1em;
     font-size: 22.5px;
-    line-height: 1.65; } }
+    line-height: 1.65; }
+
+  .btn.action-v-img {
+    margin-right: -38px !important; } }
 @media (max-width: 768px) {
   .home-header {
-    padding-top: 30px; } }
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+  .header-image {
+    height: 230px; } }
 .share-btns > div, .fb_iframe_widget span {
   vertical-align: top !important; }
 

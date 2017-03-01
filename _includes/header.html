@@ -10,7 +10,7 @@
         <ul class="navbar-nav d-flex flex-nowrap">
           {% for my_page in site.pages %}
            {% if my_page.title %}
-            <li class="nav-item {% if my_page.url contains "become" %}ml-auto{% endif %}" {% if my_page.url contains "become" %}style="order: 3;"{% endif %}>
+            <li class="nav-item {% if my_page.url contains "become" %}join-btn ml-auto{% endif %}" {% if my_page.url contains "become" %}style="order: 3;"{% endif %}>
               <a class="nav-link {% if my_page.url contains "become" %}btn btn-danger text-white {% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             </li>
            {% endif %}
@@ -19,7 +19,7 @@
           <li class="nav-item"><a class="nav-link" href="mailto:{{ site.email }}">Contact</a></li>
 
           {% if site.twitter_username %}
-          <li class="nav-item ml-2">
+          <li class="nav-item ml-sm-2">
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
