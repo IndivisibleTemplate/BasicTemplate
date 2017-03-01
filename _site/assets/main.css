@@ -55,6 +55,14 @@ a:hover, a:active {
   text-transform: uppercase;
   font-weight: bold; }
 
+.btn-fb {
+  background: #3b5998;
+  border-color: #3b5998; }
+
+.btn-twitter {
+  background: #00aced;
+  border-color: #00aced; }
+
 hr, .list-group-item {
   border-color: #e0e0e0;
   opacity: 1; }
@@ -161,6 +169,11 @@ p, h5 {
 
   .post-list > li {
     margin-bottom: 30px; } }
+.home-header-wrap {
+  position: relative;
+  background-size: cover;
+  background-position: center; }
+
 .home-header {
   position: relative;
   margin-top: -25px;
@@ -168,7 +181,7 @@ p, h5 {
   background-size: cover;
   background-position: center;
   padding-top: 37.5px;
-  padding-bottom: 37.5px; }
+  padding-bottom: 34.5px; }
 
 .home-header h2, .home-header h1 {
   position: relative;
@@ -191,32 +204,6 @@ p, h5 {
 
 @media (min-width: 768px) {
   padding-bottom: 30px; }
-a.alert {
-  display: block;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: bold;
-  font-size: 18px;
-  position: relative;
-  padding-right: 30px;
-  color: #fff; }
-
-a.alert strong {
-  text-transform: uppercase; }
-
-a.alert i.material-icons {
-  position: absolute;
-  top: 15%;
-  right: 0;
-  font-size: 36px; }
-
-a.alert-danger {
-  background: #d9534f;
-  border-color: #d9534f; }
-
-a.alert-primary {
-  background: #0275d8;
-  border-color: #0275d8; }
-
 .header-image, .thumb-wrap {
   display: block;
   background-size: cover;
@@ -237,6 +224,9 @@ a.alert-primary {
 .list-group-x-flush .list-group-item {
   background: transparent;
   padding-left: 0; }
+
+.event .badge {
+  margin-bottom: 5px; }
 
 @media (min-width: 768px) {
   .script {
