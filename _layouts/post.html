@@ -18,13 +18,10 @@ layout: default
     <div class="row">
       <div class="col">
         <header class="post-header">
-          {% if page.categories contains 'action' %}
-          <span class="badge badge-lg badge-danger mb-2">ACTION NEEDED</span>
-          {% endif %}
-          {% if page.categories contains 'event' %}
-          <span class="badge badge-lg badge-primary mb-2">Upcoming Event</span>
-          {% endif %}
-          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% elsif page.categories contains 'event' %}text-primary{% endif %}">{{ page.title | escape }}</h1>
+          {% for categories in page.categories %}
+          <span class="badge badge-lg mb-2 {% if page.categories contains 'event' %}badge-primary{% elsif page.categories contains 'action' %}badge-danger{% endif %}">{{ page.categories }}</span>
+          {% endfor %}
+          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% else %}text-primary{% endif %}">{{ page.title | escape }}</h1>
         </header>
       </div>
     </div>
