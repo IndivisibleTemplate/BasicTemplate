@@ -58,6 +58,7 @@ facebook_username: sahadeva
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
 mailchimp-form-id:
 member-count: '2,400'
+footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 theme: minima
 # paginate: 9

@@ -75,7 +75,7 @@ layout: default
                       </h3>
                       <div class="row">
                         <div class="col-12 col-sm-3 grey">
-                         <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }}</p>
+                         <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}to {% endif %}{{ post.event-end-date | date: "%I:%M%p" }}</p>
                         </div>
                         <div class="col-12 col-sm-9 grey">
                           <p>{{ post.Location | escape }}</p>
@@ -140,7 +140,7 @@ layout: default
 
           {% for media-items in site.media-items limit:5 %}
             <a class="media-thumbnail mb-2" href="{{ media-items.url | relative_url }}" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <h5><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
+            <h5 class="title"><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
             <hr class="mt-4 mb-3">
           {% endfor %}
           <h5><a href="/successes.html" class="btn btn-link btn-flush"><strong>More successes &rarr;</strong></a></h5>
