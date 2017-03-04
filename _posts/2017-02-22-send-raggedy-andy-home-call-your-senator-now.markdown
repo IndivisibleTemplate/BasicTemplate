@@ -3,6 +3,9 @@ title: Send Andy Home! Call Your Senator Now!
 date: 2017-02-22 00:11:00 Z
 categories:
 - action
+tags:
+- call now
+- confirmation hearing
 is featured: true
 call-script-text: "Hi, my name is ____, I'm a local constituent. My zip code is ___.
   I want Representative _____ to say NO to Andy Puzder. He is terrible choice for

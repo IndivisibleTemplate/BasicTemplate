@@ -19,20 +19,20 @@ layout: default
       <hr>
       <div class="media">
         <span class="icon-disc d-flex mr-4"><span class="disc">1</span></span>
+        {% if site.mailchimp-form-embed %}
         <div class="media-body">
-          <h4 class="mt-2 mb-2">Join the {{ site.title | escape }} Newsletter</h4>
-          <p class="card-text">This is the primary communication method for our chapter. Get email updates on meeting times, annoucements, action items, and more.</p>
+          <h4 class="mt-2 mb-2">Join {{ site.title | escape }}</h4>
+          <p class="card-text">Join our email list to get email updates on meeting times, annoucements, action items, and more.</p>
 
           <div class="row">
             <div class="col-sm-8 col-md-6">
-              <form>
-                <input class="form-control input-xs-lg mb-2" type="text" placeholder="Your email">
-                <input class="form-control input-xs-lg mb-2" type="text" placeholder="Zip code">
-                <button class="btn btn-primary btn-block mb-4" type="submit">Join In</button>
-               </form>
+
+                {{ site.mailchimp-form-embed }}
+
              </div>
            </div>
         </div>
+        {% endif %}
       </div>
 
       <hr>

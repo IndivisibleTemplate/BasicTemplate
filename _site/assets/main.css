@@ -73,6 +73,9 @@ hr.inverse, .bg-inverse hr {
 .badge {
   padding: 4px 5px; }
 
+#mc_embed_signup {
+  background: transparent !important; }
+
 @media (max-width: 768px) {
   .media .btn-action {
     margin-right: 0 !important; }
@@ -83,12 +86,12 @@ hr.inverse, .bg-inverse hr {
   .media img {
     max-width: 100px; } }
 .navbar-brand {
-  font-weight: 800; }
+  letter-spacing: .5px; }
 
 h1, h2, h3, h4, h5, .navbar-brand, .navbar .btn {
   font-weight: bold; }
 
-h1, h2, h3, h4, h5, .navbar-brand {
+h1, h2, h3, h4, h5.title, .navbar-brand {
   font-family: 'Work Sans', sans-serif; }
 
 h1 {
@@ -121,17 +124,20 @@ p, h5 {
 
 @media (max-width: 758px) {
   h1 {
-    font-size: 36px;
-    line-height: 44px; }
+    font-size: 27px;
+    line-height: 37px; }
 
   h2 {
-    font-size: 27px; }
+    font-size: 24.75px; }
 
-  h2 strong {
+  h3 {
     font-size: 22.5px; }
 
   h4 {
     font-size: 18px; }
+
+  h5, p {
+    font-size: 16.2px; }
 
   .card-title {
     margin-bottom: 0; } }

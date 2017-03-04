@@ -126,6 +126,10 @@ hr, .list-group-item {
   padding: 4px 5px;
 }
 
+#mc_embed_signup {
+  background: transparent!important;
+}
+
 @media (max-width: 768px) {
   .media .btn-action {
     margin-right: 0!important;
@@ -143,14 +147,14 @@ hr, .list-group-item {
 // TYPE
 
 .navbar-brand {
-  font-weight: 800;
+  letter-spacing: .5px;
 }
 
 h1, h2, h3, h4, h5, .navbar-brand, .navbar .btn {
   font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, .navbar-brand {
+h1, h2, h3, h4, h5.title, .navbar-brand {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -193,20 +197,25 @@ p, h5 {
 
 @media (max-width: 758px) {
   h1 {
-    font-size: $base-font-size * 2;
-    line-height: 44px;
+    font-size: $base-font-size * 1.5;
+    line-height: 37px;
   }
   h2 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size * 1.375;
   }
 
-    h2 strong {
-      font-size: $base-font-size * 1.25;
-    }
+  h3 {
+    font-size: $base-font-size * 1.25;
+  }
 
   h4 {
     font-size: $base-font-size;
   }
+
+  h5, p {
+    font-size: $base-font-size *.9;
+  }
+
   .card-title {
     margin-bottom: 0;
   }
