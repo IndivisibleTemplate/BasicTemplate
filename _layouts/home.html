@@ -75,7 +75,7 @@ layout: default
                       </h3>
                       <div class="row">
                         <div class="col-12 col-sm-3 grey">
-                         <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}to {% endif %}{{ post.event-end-date | date: "%I:%M%p" }}</p>
+                         <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%I:%M%p" }}</p>
                         </div>
                         <div class="col-12 col-sm-9 grey">
                           <p>{{ post.Location | escape }}</p>
