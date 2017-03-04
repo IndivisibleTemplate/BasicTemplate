@@ -20,30 +20,30 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    event-start-date:
-    event-end-date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    event-start-date: 
+    event-end-date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
     type: representatives
   values:
-    main-image:
-    phone-numbers:
-    website:
+    main-image: 
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: media-items
   values:
-    main-image:
+    main-image: 
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 subtitle: We are thousands of San Franciscans resisting the Trump agenda through civic
   action.
 email: sahadeva@sahadeva.com
@@ -51,7 +51,7 @@ description: Indivisible SF is a group of local residents inspired by the Indivi
   Guide, which provides a practical framework for resisting the Trump agenda. By standing
   together, we can keep the pressure on our representatives to defend progressive
   values and fight for us in Washington.
-baseurl:
+baseurl: 
 url: indivisibletemplate.com
 twitter_username: sahadeva
 github_username: sahadeva
@@ -91,6 +91,7 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics: <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-92963695-1', 'auto'); ga('send', 'pageview');
-  </script>
+google_analytics: "<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92963695-1', 'auto'); ga('send', 'pageview'); </script>"
