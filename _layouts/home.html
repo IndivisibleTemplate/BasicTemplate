@@ -43,79 +43,25 @@ layout: default
         <!-- Blog Posts -->
         <div class="post-list">
 
-          {% for post in site.posts %}
+          {% assign featured_posts = (site.posts|where_exp:"post","post['is featured'] == true") %}
+          {% assign not_featured_posts = (site.posts|where_exp:"post","post['is featured'] == false") %}
 
+          {% for post in featured_posts %}
             <hr class="mt-0 mb-2">
-
+            <span class="badge badge-danger">PINNED</span>
             <!-- POST TEMPLATE -->
+            {% include post-list.html %}
+          {% endfor %}
 
-            {% if post.categories contains 'action' %}
-              {% if post['is featured'] == true %}<span class="badge badge-danger">PINNED</span> {% endif %}
-              <span class="badge badge badge-danger mt-2">ACTION NEEDED</span>
-            {% endif %}
-
-            <div class="media">
-              <div class="media-body">
-                <!-- EVENT SPECIFIC FILEDS -->
-                {% if post.categories contains 'event' %}
-                  <div class="row event">
-                    {% if post.event-start-date %}
-                    <div class="col-3 col-lg-2">
-                      {% if post['is featured'] == true %}<span class="badge badge-primary">PINNED</span> {% endif %}
-                      <center>
-                        <span class="badge badge-primary mt-2 mb-1">Event</span>
-                      </center>
-                      <p class="mb-1 mt-1 text-center">{{ post.event-start-date | date: "%b" }}</p>
-                      <h3 class="text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
-                    </div>
-                    {% endif %}
-                    <div class="col-9 col-sm-10">
-                      <h3 class="mt-0 mb-1">
-                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                      </h3>
-                      <div class="row">
-                        <div class="col-12 col-sm-3 grey">
-                         <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%I:%M%p" }}</p>
-                        </div>
-                        <div class="col-12 col-sm-9 grey">
-                          <p>{{ post.Location | escape }}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- EVENT SPECIFIC FILEDS -->
-                  {% else %}
-                    <h3 class="mt-2">
-                      <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                    </h3>
-                    <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
-                  {% endif %}
-              </div>
-
-              <!-- CALL TO ACTION -->
-              {% if post.categories contains 'action' %}
-                <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-4 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
-              {% endif %}
-
-              {% if post.RSVP-link %}
-                <a href="{{ post.RSVP-link | escape }}" class="btn btn-primary btn-action ml-auto mt-3 mr-4 mb-1 {% if post.main-image %}action-v-img{% endif %}">RSVP</a>
-              {% endif %}
-
-              <!-- POST MAIN IMAGE FIELD -->
-              {% if post.main-image %}
-                <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-2 mb-4 ml-4 hidden-xs-down" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
-              {% endif %}
-              <!-- END POST MAIN IMAGE -->
-
-            </div><!-- END MEDIA -->
-
-            <div class="spacer-sm clearfix"></div>
-
-
+          {% for post in not_featured_posts %}
+            <hr class="mt-0 mb-2">
+            <!-- POST TEMPLATE -->
+            {% include post-list.html %}
           {% endfor %}
         </div><!-- END BLOG POSTS -->
 
         <hr class="mt-2 mb-2">
+
         <h5><a href="#" class="btn btn-link btn-flush"><strong>More posts &rarr;</strong></a></h5>
 
         <div class="spacer clearfix"></div>
