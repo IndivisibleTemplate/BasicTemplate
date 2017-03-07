@@ -34,53 +34,36 @@ layout: default
 
         <h5 class="mb-2">Actions</h5>
 
-        <div class="row">
+            <!-- ACTIONS -->
 
-          <!-- ACTIONS -->
+            {% assign featured_posts = (site.categories.action|where_exp:"post","post['is featured'] == true") %}
+            {% assign not_featured_posts = (site.categories.action|where_exp:"post","post['is featured'] == false") %}
 
-          {% for post in site.categories.action %}
-
-            <div class="col-sm-6 mt-0 grid-object">
+            {% for post in featured_posts %}
               <hr class="mt-0 mb-2">
-              <div class="media">
-                <div class="media-body">
-                  <h3 class="mt-0 mb-3">
-                    <a class="post-link text-danger"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                  </h3>
-                  {% if post.content %}
-                    <div class="grey post-body mb-2">
-                      {{ post.content | truncate: 140 }}
-                    </div>
-                  {% endif %}
-                </div>
-                {% if post.main-image %}
-                  <div class="thumb-wrap d-flex mt-3 mr-0 pr-0 col-xs-2 col-sm-3 mb-4 ml-2 hidden-xs-down" style="background-image: url('{{ post.main-image}}');"></div>
-                {% endif %}
-              </div>
-              <!-- CALL TO ACTION -->
-              <p class="mb-0 mt-0 d-flex flex-row-reverse">
-                <a href="{{ post.url | relative_url }}" class="p-2 btn btn-link btn-flush btn-emph text-danger">Act Now</a>
-              </p>
-              <div class="clearfix spacer"></div>
-            </div>
+              <span class="badge badge-danger">PINNED</span>
+              {% include action-post-header.html %}
+            {% endfor %}
 
+            {% for post in not_featured_posts %}
+              <hr class="mt-0 mb-2">
+              {% include action-post-header.html %}
             {% endfor %}
 
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <h5 class="mb-2">Suggest an Action</h5>
-          <hr class="mt-2 mb-2">
-          <p>Have an idea for an action? Want {{ site.title }} to promote it?</p>
-          <p><a class="btn btn-outline-primary" href="mailto:{{ site.email }}">Contact us</a></p>
-        </div>
+
+          <div class="col-sm-4">
+            <h5 class="mb-2">Suggest an Action</h5>
+            <hr class="mt-2 mb-2">
+            <p>Have an idea for an action? Want {{ site.title }} to promote it?</p>
+            <p><a class="btn btn-outline-primary" href="mailto:{{ site.email }}">Contact us</a></p>
+          </div>
 
 
 
           <!-- END ACTIONS -->
 
-      </div>
     </div>
 
   </div><!-- END CONTAINER -->

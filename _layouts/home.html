@@ -35,7 +35,6 @@ layout: default
       </div>
     {% endif %}
 
-
     <div class="row">
 
       <div class="col-sm-8">
@@ -58,6 +57,7 @@ layout: default
             <!-- POST TEMPLATE -->
             {% include post-list.html %}
           {% endfor %}
+
         </div><!-- END BLOG POSTS -->
 
         <hr class="mt-2 mb-2">
@@ -84,11 +84,18 @@ layout: default
           <hr class="mt-4 mb-3">
           <h5 class="mb-4">Successes</h5>
 
-          {% for media-items in site.media-items limit:5 %}
-            <a class="media-thumbnail mb-2" href="{{ media-items.url | relative_url }}" style="background-image: url('{{ media-items.main-image }}')"></a>
-            <h5 class="title"><a href="{{ media-items.url | relative_url }}">{{ media-items.title | truncate: 140 }}</a></h5>
-            <hr class="mt-4 mb-3">
+          {% assign featured_successes = (site.media-items|where_exp:"media-items","media-item['is featured'] == true") %}
+          {% assign not_featured_successes = (site.media-items|where_exp:"media-items","media-items['is featured'] == false") %}
+
+          {% for media-items in featured_successes %}
+            <span class="badge badge-success">PINNED</span>
+            {% include success-blurb.html %}
           {% endfor %}
+
+          {% for media-items in not_featured_successes %}
+            {% include success-blurb.html %}
+          {% endfor %}
+
           <h5><a href="/successes.html" class="btn btn-link btn-flush"><strong>More successes &rarr;</strong></a></h5>
 
         {% endif %}
