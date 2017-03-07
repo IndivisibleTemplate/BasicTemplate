@@ -79,20 +79,20 @@ layout: default
           </div>
         {% endif %}
 
-        {% if site.media-items %}
+        {% if site.successes %}
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-3">
           <h5 class="mb-4">Successes</h5>
 
-          {% assign featured_successes = (site.media-items|where_exp:"media-items","media-item['is featured'] == true") %}
-          {% assign not_featured_successes = (site.media-items|where_exp:"media-items","media-items['is featured'] == false") %}
+          {% assign featured_successes = (site.successes|where_exp:"successes","successes['is featured'] == true") %}
+          {% assign not_featured_successes = (site.successes|where_exp:"successes","successes['is featured'] == false") %}
 
-          {% for media-items in featured_successes %}
+          {% for successes in featured_successes %}
             <span class="badge badge-success">PINNED</span>
             {% include success-blurb.html %}
           {% endfor %}
 
-          {% for media-items in not_featured_successes %}
+          {% for successes in not_featured_successes %}
             {% include success-blurb.html %}
           {% endfor %}
 
