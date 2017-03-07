@@ -87,7 +87,6 @@ mailchimp-form-embed: "<!-- Begin MailChimp Signup Form -->\n<link href=\"//cdn-
 member-count: '2,400'
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 - jekyll-paginate
