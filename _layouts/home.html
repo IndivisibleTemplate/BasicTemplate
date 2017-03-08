@@ -42,16 +42,6 @@ layout: default
         <!-- Blog Posts -->
         <div class="post-list">
 
-          {% for post in paginator.posts %}
-            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-            <p class="author">
-              <span class="date">{{ post.date }}</span>
-            </p>
-            <div class="content">
-              {{ post.content }}
-            </div>
-          {% endfor %}
-
           {% assign featured_posts = (site.posts|where_exp:"post","post['is featured'] == true") %}
           {% assign not_featured_posts = (site.posts|where_exp:"post","post['is featured'] == false") %}
 
@@ -68,13 +58,17 @@ layout: default
             {% include post-list.html %}
           {% endfor %}
 
-
-
         </div><!-- END BLOG POSTS -->
 
-        <hr class="mt-2 mb-2">
-
-        <h5><a href="#" class="btn btn-link btn-flush"><strong>More posts &rarr;</strong></a></h5>
+        <!-- Pagination links -->
+        {% if paginator.total_pages > 1 %}
+        <hr class="mt-2 mb-4">
+        <div class="pagination">
+          {% if paginator.next_page %}
+            <a href="/archive" class="next ml-auto">More posts &rarr;</a>
+          {% endif %}
+        </div>
+        {% endif %}
 
         <div class="spacer clearfix"></div>
         <div class="spacer clearfix"></div>
@@ -108,7 +102,9 @@ layout: default
             {% include success-blurb.html %}
           {% endfor %}
 
-          <h5><a href="/successes.html" class="btn btn-link btn-flush"><strong>More successes &rarr;</strong></a></h5>
+          <div class="pagination">
+            <a href="/successes.html" class="btn btn-link btn-flush ml-auto">More successes &rarr;</a>
+          </div>
 
         {% endif %}
 

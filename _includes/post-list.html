@@ -36,7 +36,7 @@
         <h3 class="mt-2">
           <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
-        <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
+        <div class="grey post-body mb-2">{{ post.content | strip_html | truncate: 140 }}</div>
       {% endif %}
   </div>
 
