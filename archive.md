@@ -22,5 +22,7 @@ layout: default
     </div>
   </div>
 
+</div>
+
 <div class="spacer clearfix"></div>
 <div class="spacer clearfix"></div>
