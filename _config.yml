@@ -20,36 +20,36 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    event-start-date:
-    event-end-date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    event-start-date: 
+    event-end-date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
     type: representatives
   values:
-    main-image:
-    phone-numbers:
-    website:
+    main-image: 
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: successes
   values:
     is featured: false
-    main-image:
+    main-image: 
     layout: media-item
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 subtitle: We are thousands of San Franciscans resisting the Trump agenda through civic
   action.
 email: sahadeva@sahadeva.com
-baseurl:
+baseurl: 
 url: indivisibletemplate.com
 twitter_username: sahadeva
 github_username: sahadeva
