@@ -7,7 +7,7 @@ layout: default
 
   <div class="clearfix spacer"></div>
 
-  <h1 class="page-title mb-2 text-primary">Archive</h1>
+  <h1 class="page-title mb-2">Archive</h1>
 
   <div class="clearfix spacer"></div>
 
