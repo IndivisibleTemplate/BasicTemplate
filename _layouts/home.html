@@ -52,7 +52,7 @@ layout: default
             {% include post-list.html %}
           {% endfor %}
 
-          {% for post in not_featured_posts %}
+          {% for post in not_featured_posts limit:10 %}
             <hr class="mt-0 mb-2">
             <!-- POST TEMPLATE -->
             {% include post-list.html %}
@@ -61,14 +61,10 @@ layout: default
         </div><!-- END BLOG POSTS -->
 
         <!-- Pagination links -->
-        {% if paginator.total_pages > 1 %}
         <hr class="mt-2 mb-4">
         <div class="pagination">
-          {% if paginator.next_page %}
-            <a href="/archive" class="next ml-auto">More posts &rarr;</a>
-          {% endif %}
+            <a href="/archive" class="next ml-auto">All posts &rarr;</a>
         </div>
-        {% endif %}
 
         <div class="spacer clearfix"></div>
         <div class="spacer clearfix"></div>
