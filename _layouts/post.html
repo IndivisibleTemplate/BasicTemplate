@@ -19,7 +19,7 @@ layout: default
       <div class="col">
         <header class="post-header">
           {% for categories in page.categories %}
-          <span class="badge badge-lg mb-2 {% if page.categories contains 'event' %}badge-primary{% elsif page.categories contains 'action' %}badge-danger{% endif %}">{{ page.categories }}</span>
+          <span class="badge badge-lg mb-2 {% if page.categories contains 'event' %}badge-primary{% elsif page.categories contains 'action' %}badge-danger{% else %}badge-default{% endif %}">{{ page.categories }}</span>
           {% endfor %}
           <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% else %}text-primary{% endif %}">{{ page.title | escape }}</h1>
         </header>
@@ -97,14 +97,11 @@ layout: default
           <div class="card script">
             <div class="card-block">
               <h5 class="mb-4">CALL SCRIPT</h5>
-
               {{ page.call-script-text }}
-            </div>
-            <div class="card-block">
-              <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#callModal">Spoke With</a> <a href="#" class="btn btn-outline-primary">Left Voicemail</a> <a href="#" class="btn btn-outline-primary">Emailed</a>
             </div>
           </div>
           <div class="clearfix spacer"></div>
+
         {% endif %}
 
         {{ content }}

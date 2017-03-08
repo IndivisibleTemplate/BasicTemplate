@@ -1,0 +1,19 @@
+<div class="media">
+  <div class="media-body">
+    <h3 class="mt-2">
+      <a class="post-link text-danger" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h3>
+    <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
+  </div>
+
+  <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-4 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
+
+  <!-- POST MAIN IMAGE FIELD -->
+  {% if post.main-image %}
+    <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-2 mb-4 ml-4 hidden-xs-down" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+  {% endif %}
+  <!-- END POST MAIN IMAGE -->
+
+</div><!-- END MEDIA -->
+
+<div class="spacer-sm clearfix"></div>

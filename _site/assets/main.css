@@ -76,6 +76,12 @@ hr.inverse, .bg-inverse hr {
 #mc_embed_signup {
   background: transparent !important; }
 
+#mc_embed_signup form {
+  padding: 0 !important; }
+
+#mc_embed_signup .button {
+  background: #0275d8 !important; }
+
 @media (max-width: 768px) {
   .media .btn-action {
     margin-right: 0 !important; }
