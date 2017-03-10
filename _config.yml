@@ -27,12 +27,11 @@ defaults:
     Location:
     RSVP-link:
     layout: post
- -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
+- scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "page"
 - scope:
     path: ''
     type: representatives
