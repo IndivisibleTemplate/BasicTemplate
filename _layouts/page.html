@@ -7,6 +7,13 @@ layout: default
 
   <div class="container">
 
+    {% if page.main-image %}
+      <div class="clearfix spacer-sm hidden-xs-down"></div>
+      <div class="bg-medium main-img-wrap clearfix">
+        <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
+      </div>
+    {% endif %}
+
     <div class="clearfix spacer"></div>
 
     <header class="post-header">
