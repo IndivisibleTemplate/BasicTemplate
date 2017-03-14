@@ -71,16 +71,16 @@ layout: default
 
       </div>
 
-      <!-- TEAM MEDIA -->
+      <!-- SUCCESSES AND MEMBER COUNT -->
       <div class="col-sm-4">
 
-        {% if site.member-count %}
-          <div class="hidden-xs-down">
-            <hr class="mt-0 mb-4">
-            <h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
-          </div>
-        {% endif %}
+        <!-- MEMBER COUND AND INVITE MEMBERS BUTTON -->
+        <div class="hidden-xs-down">
+          <hr class="mt-0 mb-4">
+          {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> {% endif %}<a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
+        </div>
 
+        <!-- SUCCESSES -->
         {% if site.successes %}
           <!-- <div class="spacer"></div> -->
           <hr class="mt-4 mb-3">

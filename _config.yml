@@ -51,6 +51,11 @@ defaults:
     type: calendar
   values:
     embed-code:
+- scope:
+    path: ''
+    type: becomeAMember
+  values:
+    mailchimp-form-embed:
 subtitle: We are thousands of local citizens resisting the Trump agenda through civic
   action.
 email:
@@ -59,7 +64,6 @@ url:
 twitter_username:
 facebook_username:
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-mailchimp-form-embed:
 member-count: '100'
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
