@@ -156,6 +156,12 @@ p, h5 {
 .navbar-nav .nav-link svg, .navbar-nav .nav-link img {
   vertical-align: middle; }
 
+.navbar-inverse .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75); }
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.9); }
+
 @media (max-width: 767px) {
   .navbar > .container {
     width: 100%; }
