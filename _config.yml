@@ -55,6 +55,7 @@ defaults:
     path: ''
     type: becomeAMember
   values:
+    main-image:
     mailchimp-form-embed:
 subtitle: We are thousands of local citizens resisting the Trump agenda through civic
   action.
