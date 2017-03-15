@@ -20,12 +20,12 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    event-start-date:
-    event-end-date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    event-start-date: 
+    event-end-date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
@@ -36,34 +36,34 @@ defaults:
     path: ''
     type: representatives
   values:
-    main-image:
-    phone-numbers:
-    website:
+    main-image: 
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: successes
   values:
     is featured: false
-    main-image:
+    main-image: 
     layout: media-item
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 - scope:
     path: ''
     type: becomeAMember
   values:
-    main-image:
-    mailchimp-form-embed:
+    main-image: 
+    mailchimp-form-embed: 
 subtitle: We are thousands of local citizens resisting the Trump agenda through civic
   action.
-email:
-baseurl:
-url:
-twitter_username:
-facebook_username:
+email: 
+baseurl: 
+url: 
+twitter_username: 
+facebook_username: 
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
 member-count: '100'
 footer-title: Spread the word. Help build a movement.
@@ -76,4 +76,4 @@ paginate_path: "/blog/page:num/"
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics:
+google_analytics: 
