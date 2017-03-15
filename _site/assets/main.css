@@ -1,5 +1,8 @@
+.bg-primary {
+  background-color: #0057b8 !important; }
+
 .bg-inverse {
-  background-color: #002868 !important; }
+  background-color: #0057b8 !important; }
 
 .bg-dark {
   background: #f7f7f9; }
@@ -8,14 +11,25 @@
   background: #e8e8e8; }
 
 .bg-light {
-  background: #f4f7f9; }
+  background: #fafafa; }
+
+a {
+  color: #0057b8; }
 
 a:hover, a:active {
-  color: #00080e;
+  color: black;
   text-decoration: none; }
 
 .btn {
   font-family: sans-serif; }
+
+.btn-primary {
+  background: #0057b8 !important;
+  border-color: #0057b8 !important; }
+
+.btn-danger {
+  background: #e4002b !important;
+  border-color: #e4002b !important; }
 
 .btn-icon {
   position: relative; }
@@ -63,15 +77,27 @@ a:hover, a:active {
   background: #00aced;
   border-color: #00aced; }
 
+.text-danger {
+  color: #e4002b !important; }
+
+.text-primary {
+  color: #0057b8 !important; }
+
 hr, .list-group-item {
   border-color: #e0e0e0;
   opacity: 1; }
 
 hr.inverse, .bg-inverse hr {
-  border-color: #01579B; }
+  border-color: #003; }
 
 .badge {
   padding: 4px 5px; }
+
+.badge-primary {
+  background-color: #0057b8; }
+
+.badge-danger {
+  background-color: #e4002b; }
 
 #mc_embed_signup {
   background: transparent !important; }
@@ -80,7 +106,7 @@ hr.inverse, .bg-inverse hr {
   padding: 0 !important; }
 
 #mc_embed_signup .button {
-  background: #0275d8 !important; }
+  background: #0057b8 !important; }
 
 @media (max-width: 768px) {
   .media .btn-action {
@@ -198,7 +224,7 @@ p, h5 {
 .home-header {
   position: relative;
   margin-top: -25px;
-  color: #333;
+  color: #003;
   background-size: cover;
   background-position: center;
   padding-top: 37.5px;

@@ -12,13 +12,13 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$primary:          #0275d8;
+$primary:          #0057b8;
 $light:            #fff;
-$dark:             #333;
+$dark:             #003;
 
-$light-bg:         #f4f7f9;
+$light-bg:         #fafafa;
 
-$danger:           #d9534f;
+$danger:           #e4002b;
 
 $text-color:       #111;
 
@@ -33,20 +33,14 @@ $twitter:          #00aced;
 
 // RESETS
 
-.bg-inverse {
-    background-color: #002868!important;
-}
+.bg-primary { background-color: $primary!important; }
+.bg-inverse { background-color: $primary!important; }
+.bg-dark { background: #f7f7f9;}
+.bg-medium { background: $grey-color-light; }
+.bg-light { background: $light-bg; }
 
-.bg-dark {
-  background: #f7f7f9;
-}
-
-.bg-medium {
-  background: $grey-color-light;
-}
-
-.bg-light {
-  background: $light-bg;
+a {
+  color: $primary;
 }
 
 a:hover, a:active {
@@ -57,6 +51,9 @@ a:hover, a:active {
 .btn {
   font-family: sans-serif;
 }
+
+  .btn-primary { background: $primary!important; border-color: $primary!important; }
+  .btn-danger { background: $danger!important; border-color: $danger!important; }
 
 .btn-icon {
   position: relative;
@@ -113,18 +110,24 @@ a:hover, a:active {
   border-color: $twitter;
 }
 
+.text-danger { color: $danger!important; }
+.text-primary { color: $primary!important; }
+
 hr, .list-group-item {
   border-color: $border-color;
   opacity: 1;
 }
 
   hr.inverse, .bg-inverse hr {
-    border-color: #01579B;
+    border-color: $dark;
   }
 
 .badge {
   padding: 4px 5px;
 }
+
+  .badge-primary { background-color: $primary; }
+  .badge-danger { background-color: $danger; }
 
 #mc_embed_signup {
   background: transparent!important;
