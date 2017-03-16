@@ -19,6 +19,10 @@
           {% include icon-facebook.html username=site.facebook_username %}
         </li>
         {% endif %}
+
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:?subject=Join%20{{ site.title | escape }}?body={{ site.url }}"><i class="material-icons">mail_outline</i></a>
+        </li>
     </ul>
 
     <div class="spacer clearfix"></div>
@@ -29,27 +33,22 @@
 
 </nav>
 
-<hr class="mt-0 mb-0 inverse">
+{% if site.representatives | size > 0 %}
 
-<footer class="site-footer text-white bg-inverse">
+<!-- REPRESENTATIVES -->
+
+<footer class="site-footer bg-medium">
 
   <div class="container">
 
     <div class="spacer clearfix"></div>
 
-    <!-- REPRESENTATIVES -->
-    <h5 class="mb-4 mt-2">Our Local Representatives</h5>
-
-    {% if site.representatives | size > 0 %}
-
     <div class="row">
       {% for representatives in site.representatives %}
-        <div class="col-sm-6 col-lg-3 representative">
-            <hr>
-            <h5>{{ representatives.title }}</h5>
-            <hr>
+        <div class="col-sm-6 col-lg-3 representative mt-4">
+            <h5 class="mb-4">{{ representatives.title }}</h5>
             <ul>
-            {% if representatives.website %}<li><a class="text-white" href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
+            {% if representatives.website %}<li><a href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
             {% for phone-numbers in representatives.phone-numbers %}
               <li>
                 <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
@@ -59,21 +58,19 @@
         </div>
       {% endfor %}
     </div>
-    {% else %}
-      <p>No representatives listed yet.</p>
-    {% endif %}
   </div>
 
   <div class="spacer clearfix"></div>
 
 </footer>
 
-<hr class="mt-0 mb-0 inverse">
+{% endif %}
 
-<footer class="site-footer text-white bg-inverse">
+<footer class="site-footer text-white bg-dark">
 
   <div class="container">
 
+    <div class="spacer clearfix"></div>
     <div class="spacer clearfix"></div>
 
     <!-- WEB LINKS -->
@@ -83,12 +80,12 @@
       <div class="col-sm-6">
         <div class="row">
           <div class="col-sm-3 col-lg-2">
-            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-inverse text-white">exposure_plus_1</i></span>
+            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-dark text-white">exposure_plus_1</i></span>
           </div>
           <div class="col-sm-9">
             <h5 class="mt-2">Join {{ site.title | escape }}</h5>
             <p class="card-text">Get email updates on meeting times, annoucements, action items, and more.</p>
-            <a href="/become-a-member.html" class="btn btn-danger">Become A Member</a>
+            <a href="/become-a-member.html" class="btn btn-danger"><strong>Become A Member</strong></a>
           </div>
         </div>
       </div>
@@ -98,7 +95,7 @@
         <hr class="hidden-sm-up mt-4 mb-4">
         <div class="row">
           <div class="col-sm-3 col-lg-2">
-            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-inverse text-white">email</i></span>
+            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-dark text-white">email</i></span>
           </div>
           <div class="col-sm-9">
             <h5 class="mt-2 mb-3">Contact {{ site.title | escape }}</h5>
@@ -110,20 +107,15 @@
 
     </div>
 
-  </div>
-
-  <div class="spacer clearfix"></div>
-  <hr>
-  <div class="spacer clearfix"></div>
-
-  <div class="container">
+    <div class="spacer clearfix"></div>
+    <div class="spacer clearfix hidden-xs-down"></div>
 
     <div class="row">
 
       <div class="col-sm-6">
         <div class="row">
           <div class="col-sm-3 col-lg-2">
-            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-inverse text-white">import_contacts</i></span>
+            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-dark text-white">import_contacts</i></span>
           </div>
           <div class="col-sm-9">
             <h5 class="mt-2"><a href="https://www.indivisibleguide.com/" class="text-white"><u>Read The Indivisible Guide</u></a></h5>
@@ -136,7 +128,7 @@
         <hr class="hidden-sm-up mt-4 mb-4">
         <div class="row">
           <div class="col-sm-3 col-lg-2">
-            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-inverse text-white">place</i></span>
+            <span class="icon-disc d-flex mr-4 mb-2"><i class="material-icons bg-dark text-white">place</i></span>
           </div>
           <div class="col-sm-9">
             <h5 class="mt-2">Start A Local Chapter</h5>

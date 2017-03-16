@@ -35,9 +35,9 @@ $twitter:          #00aced;
 
 .bg-primary { background-color: $primary!important; }
 .bg-inverse { background-color: $primary!important; }
-.bg-dark { background: #f7f7f9;}
-.bg-medium { background: $grey-color-light; }
-.bg-light { background: $light-bg; }
+.bg-dark { background-color: $grey-color-dark!important;}
+.bg-medium { background: $grey-color-light!important; }
+.bg-light { background: $light-bg!important; }
 
 a {
   color: $primary;

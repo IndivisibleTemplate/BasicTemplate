@@ -21,11 +21,12 @@ layout: default
           {% for categories in page.categories %}
           <span class="badge badge-lg mb-2 {% if page.categories contains 'event' %}badge-primary{% elsif page.categories contains 'action' %}badge-danger{% else %}badge-default{% endif %}">{{ page.categories }}</span>
           {% endfor %}
-          <h1 class="page-title mb-2 {% if page.categories contains 'action' %}text-danger{% else %}text-primary{% endif %}">{{ page.title | escape }}</h1>
+          <h1 class="page-title mb-2">{{ page.title | escape }}</h1>
         </header>
       </div>
     </div>
 
+    <div class="clearfix spacer"></div>
     <div class="clearfix spacer"></div>
 
     <div class="row post-content" itemprop="articleBody">
@@ -35,7 +36,7 @@ layout: default
           <!-- A list of all representatives contact numbers -->
           <ul class="list-group list-group-flush representative">
           {% for representatives in site.representatives %}
-                <li class="list-group-item bg-dark"><strong>{{ representatives.title }}</strong></li>
+                <li class="list-group-item bg-medium"><strong>{{ representatives.title }}</strong></li>
                 {% for phone-numbers in representatives.phone-numbers %}
                   <li class="list-group-item">
                     <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
