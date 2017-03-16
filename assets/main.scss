@@ -44,9 +44,18 @@ a {
 }
 
 a:hover, a:active {
-  color: darken($primary, 40%);
   text-decoration: none;
 }
+
+  .btn-primary:hover {
+    background: #014c8c!important;
+    border-color: #014c8c!important;
+  }
+
+  .btn-danger:hover {
+    background: #c9302c!important;
+    border-color: #c9302c!important;
+  }
 
 .btn {
   font-family: sans-serif;
