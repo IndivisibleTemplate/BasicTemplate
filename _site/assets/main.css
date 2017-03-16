@@ -113,7 +113,7 @@ hr.inverse, .bg-inverse hr {
     margin-right: 0 !important; }
 
   .join-btn {
-    margin: 9px 0 5px !important; }
+    margin: 0 !important; }
 
   .media img {
     max-width: 100px; } }
@@ -166,7 +166,8 @@ p, h5 {
     font-size: 22.5px; }
 
   h4 {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 1.5rem; }
 
   h5, p {
     font-size: 16.2px; }
@@ -192,8 +193,31 @@ p, h5 {
   .navbar > .container {
     width: 100%; }
 
+  .navbar-brand {
+    font-size: 1rem; }
+
+  .navbar-inverse .navbar-toggler {
+    border: 0;
+    padding: 0; }
+
   .container .navbar-toggler-right {
-    right: 0; } }
+    right: 0; }
+
+  .navbar-nav {
+    margin: .5rem -1rem .5rem;
+    width: auto; }
+
+  .navbar-nav > li.nav-item {
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5); }
+
+  .navbar-nav > li.nav-item:not(.join-btn) a {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .navbar-nav > li.nav-item.join-btn {
+    padding: 1rem 1rem 0; } }
 .spacer {
   height: 30px; }
 

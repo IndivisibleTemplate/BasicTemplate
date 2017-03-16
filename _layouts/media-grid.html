@@ -27,7 +27,7 @@ layout: default
         <div class="col-sm-3 col-md-4">
           <hr class="mt-3 mb-3">
           <a href="{{ successes.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ successes.main-image }}')"></a>
-          <h4 class="mb-1"><a href="{{ successes.url | relative_url }}">{{ successes.title | truncate: 140 }}</a></h4>
+          <h3 class="mb-1"><a href="{{ successes.url | relative_url }}">{{ successes.title | truncate: 140 }}</a></h3>
           <div class="grey post-body mt-0 mb-4">{{ successes.content | truncate: 140 }}</div>
         </div>
       {% endfor %}

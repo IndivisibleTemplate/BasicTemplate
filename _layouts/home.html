@@ -30,7 +30,9 @@ layout: default
   <div class="container">
 
     {% if site.member-count %}
-      <div class="hidden-sm-up mt-4 mb-4">
+      <div class="hidden-sm-up mt-3 mb-3">
+        <a href="/become-a-member.html" class="btn btn-danger btn-block"><strong>Become a Member</strong></a>
+        <hr>
         <h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
       </div>
     {% endif %}
