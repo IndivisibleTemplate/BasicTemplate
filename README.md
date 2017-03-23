@@ -5,3 +5,11 @@ Indivisible Template is an easy to use website template specifically designed fo
 **Get your Indivisible Template website**
 
 See an example and the guide for setting up your website at [IndivisibleTemplate.com](http://indivisibletemplate.com).
+
+**Contribute**
+
+Code, copy, and design contributions are welcome. Please create a pull request for this repo.
+
+Talk to other contributors or ask questions on our [slack channel](https://indivisibletemplate.slack.com).
+
+Please also read the [Jekyll Code of Conduct](https://github.com/jekyll/jekyll/blob/master/CONDUCT.markdown), which this repo follows.
