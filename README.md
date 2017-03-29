@@ -1,3 +1,7 @@
+**THIS IS BETA SOFTWARE**
+
+Use at your own behest.
+
 # An Indivisible Website In a Box
 
 Indivisible Template is an easy to use website template specifically designed for Indivisible chapters that are inspired to political action by the [Indivisible Guide](https://www.indivisibleguide.com/). The Indivisible Template was created and designed by [Sahadeva Hammari](http://sahadeva.com) and is in no way affiliated with Indivisible Guide or any Indivisible chapter.
