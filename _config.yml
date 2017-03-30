@@ -51,12 +51,6 @@ defaults:
     type: calendar
   values:
     embed-code: 
-- scope:
-    path: ''
-    type: becomeAMember
-  values:
-    main-image: 
-    mailchimp-form-embed: 
 subtitle: we are testing things out here
 email: 
 baseurl: 
