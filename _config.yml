@@ -50,7 +50,7 @@ defaults:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 - scope:
     path: ''
     type: becomeAMember
