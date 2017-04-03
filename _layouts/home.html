@@ -29,13 +29,13 @@ layout: default
   <!-- HOMEPAGE BODY -->
   <div class="container">
 
-    {% if site.member-count %}
       <div class="hidden-sm-up mt-3 mb-3">
         <a href="/become-a-member.html" class="btn btn-danger btn-block"><strong>Become a Member</strong></a>
+        {% if site.member-count %}
         <hr>
         <h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> <a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
+        {% endif %}
       </div>
-    {% endif %}
 
     <div class="row">
 
@@ -49,7 +49,7 @@ layout: default
 
           {% for post in featured_posts %}
             <hr class="mt-0 mb-2">
-            <span class="badge badge-danger">PINNED</span>
+            <span class="badge {% if post.categories contains 'action' %}badge-danger{% else %}badge-primary{% endif %}">PINNED</span>
             <!-- POST TEMPLATE -->
             {% include post-list.html %}
           {% endfor %}
