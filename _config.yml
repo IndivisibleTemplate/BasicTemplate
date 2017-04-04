@@ -1,5 +1,5 @@
 ---
-title: Indivisible City
+title: indivisible4c
 timezone: UTC
 collections:
   posts:
@@ -59,13 +59,13 @@ defaults:
     mailchimp-form-embed: 
 subtitle: We are thousands of local citizens resisting the Trump agenda through civic
   action.
-email: 
+email: indivisible4c@gmail.com
 baseurl: 
 url: 
-twitter_username: 
-facebook_username: 
+twitter_username: "@IndivisibleCCCC"
+facebook_username: https://www.facebook.com/indivisible4c/
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: '100'
+member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
