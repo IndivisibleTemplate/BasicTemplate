@@ -1,7 +1,7 @@
 ---
 title: Reclaim Recess
 date: 2017-04-04 11:25:00 -07:00
-is featured: true
+is featured: false
 RSVP-link: https://www.indivisibleguide.com/reclaim-recess-round-2
 ---
 
