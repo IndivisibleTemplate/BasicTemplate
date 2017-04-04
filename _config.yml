@@ -1,6 +1,6 @@
 ---
 title: indivisible4c
-timezone: UTC
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -64,9 +64,10 @@ baseurl:
 url: 
 twitter_username: "@IndivisibleCCCC"
 facebook_username: https://www.facebook.com/indivisible4c/
-background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: 100
-footer-title: Spread the word. Help build a movement.
+background-image: "/uploads/IMG_3119.PNG"
+member-count: 300+
+footer-title: '"There may be times when we are powerless to prevent injustice, but
+  there must never be a time when we fail to protest." Elie Wiesel'
 markdown: kramdown
 gems:
 - jekyll-feed
