@@ -1,10 +1,12 @@
 ---
 title: Senator Dianne Feinstein
-date: 2017-02-04 01:58:00 Z
+date: 2017-02-03 17:58:00 -08:00
+main-image: "/uploads/officiaphoto-thumbl-0b945e.jpg"
 phone-numbers:
-  SF Office: "(213) 894-5000"
-  DC Office: "(202) 224-3553"
-  Sacramento Office: "(916) 448-2787"
+  SF Office: "(415) 393-0707"
+  DC Office: "(202) 224-3841"
+  Fresno Office: "(559) 485-7430"
+website: https://www.feinstein.senate.gov/public/
 ---
 
 Rad
