@@ -5,6 +5,4 @@ is featured: true
 RSVP-link: https://www.indivisibleguide.com/reclaim-recess-round-2
 ---
 
-It's that time of year, congressional recess. Join in on the Indivisible webinar on Tuesday, April 4th, 6pm PST.
-
-Rsvp at [reclaim recess](https://www.indivisibleguide.com/reclaim-recess-round-2)
+It's that time of year, congressional recess. Last time, 100k town hall participants helped save health insurance for 24 million people. What will we accomplish next? Join in on the Indivisible webinar on Tuesday, April 4th, 6pm PST.
