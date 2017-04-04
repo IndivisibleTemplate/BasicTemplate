@@ -2,6 +2,9 @@
 title: indivisible4c
 timezone: America/Los_Angeles
 collections:
+  in-the-community:
+    title: In the Community
+    output: true
   posts:
     title: Posts
     output: true
