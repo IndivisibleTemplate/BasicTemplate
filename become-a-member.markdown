@@ -2,7 +2,6 @@
 title: Become A Member
 date: 2017-02-16 19:58:00 -08:00
 position: 5
-mailchimp-form-embed: 
 layout: becomeAMember
 ---
 
