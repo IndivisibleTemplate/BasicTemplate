@@ -13,4 +13,4 @@ Yes, we are proud to be a part of indivisible4c (Central Contra Costa County). L
 
 **All are welcome.**
 
-[join our fb group](http://www.facebook.com/groups/413800492297720/)
+[request to join our fb group](http://www.facebook.com/groups/413800492297720/)
