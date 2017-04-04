@@ -1,6 +1,6 @@
 ---
-title: Send Andy Home! Call Your Senator Now!
-date: 2017-02-22 00:11:00 Z
+title: Send Andy Home! Call Your
+date: 2017-02-21 16:11:00 -08:00
 categories:
 - action
 tags:
