@@ -1,6 +1,10 @@
 ---
 title: DeSaulnier in Richmond
-date: 2017-04-04 12:32:00 -07:00
+date: 2017-04-11 18:30:00 -07:00
+categories:
+- event
+tags:
+- town hall
 main-image: "/uploads/17799423_660527457491687_9182983139122559043_n.jpg"
 event-start-date: 2017-04-11 18:30:00 -07:00
 event-end-date: 2017-04-11 20:00:00 -07:00
