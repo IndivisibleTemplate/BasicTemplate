@@ -1,6 +1,7 @@
 ---
 title: Congressman Mike Thompson
 date: 2017-04-04 11:08:00 -07:00
+main-image: "/uploads/Unknown-9e23c4.jpeg"
 phone-numbers:
   Vallejo Office: "(707) 645-1888"
   DC Office: "(202) 225-3311"
