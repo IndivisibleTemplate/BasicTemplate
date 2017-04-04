@@ -5,6 +5,6 @@ is featured: true
 RSVP-link: https://www.indivisibleguide.com/reclaim-recess-round-2
 ---
 
-It's that time of year, congressional recess. Join in on the Indivisible webinar on Tuesday, April 4th, 6pm PST. 
+It's that time of year, congressional recess. Join in on the Indivisible webinar on Tuesday, April 4th, 6pm PST.
 
-Rsvp at [reclaim recess](http://https://www.indivisibleguide.com/reclaim-recess-round-2)
+Rsvp at [reclaim recess](https://www.indivisibleguide.com/reclaim-recess-round-2)
