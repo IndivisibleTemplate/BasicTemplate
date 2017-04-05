@@ -1,5 +1,5 @@
 ---
-title: Indivisible Test
+title: Indivisible City
 timezone: UTC
 collections:
   posts:
@@ -37,9 +37,8 @@ defaults:
     type: representatives
   values:
     main-image: 
-    phone-numbers:
-      office-name: (000) 000-0000
-    website:
+    phone-numbers: 
+    website: 
 - scope:
     path: ''
     type: successes
@@ -58,14 +57,15 @@ defaults:
   values:
     main-image: 
     mailchimp-form-embed: 
-subtitle: we are testing things out here
+subtitle: We are thousands of local citizens resisting the Trump agenda through civic
+  action.
 email: 
 baseurl: 
 url: 
 twitter_username: 
 facebook_username: 
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: 100
+member-count: '100'
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
