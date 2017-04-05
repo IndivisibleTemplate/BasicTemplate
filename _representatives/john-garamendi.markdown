@@ -2,11 +2,7 @@
 title: Congressman John Garamendi
 date: 2017-04-05 09:21:00 Z
 main-image: "/uploads/hehe.png"
-phone-numbers:
-  Davis Office: "(222) 753-5301"
-  Washington, DC office: "(202) 225-1880"
-  Yuba City office: "(530) 329-8865"
-  Fairfield office: "(707) 438-1822"
+phone-numbers: 111-111-1111
 website: http://garamendi.house.gov/
 ---
 
