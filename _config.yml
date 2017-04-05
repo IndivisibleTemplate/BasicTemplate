@@ -37,7 +37,7 @@ defaults:
     type: representatives
   values:
     main-image: 
-    phone-numbers: {}
+    phone-numbers: { office-name : phone-number }
 - scope:
     path: ''
     type: successes
