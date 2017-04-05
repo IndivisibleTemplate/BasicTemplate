@@ -36,7 +36,6 @@ defaults:
     path: ''
     type: representatives
   values:
-    main-image: 
     phone-numbers:
       office-name: "(000) 000-0000"
     website: 
