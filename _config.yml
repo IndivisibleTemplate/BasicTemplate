@@ -38,7 +38,7 @@ defaults:
   values:
     main-image: 
     phone-numbers:
-      office-name: phone-number
+      office-name: (000) 000-0000
 - scope:
     path: ''
     type: successes
