@@ -38,9 +38,11 @@ layout: default
           {% for representatives in site.representatives %}
                 <li class="list-group-item bg-medium"><strong>{{ representatives.title }}</strong></li>
                 {% for phone-numbers in representatives.phone-numbers %}
-                  <li class="list-group-item">
-                    <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
-                  </li>
+                  {% if phone-numbers[0] !="office-name" %}
+                    <li class="list-group-item">
+                      <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
+                    </li>
+                  {% endif % }
                 {% endfor %}
           {% endfor %}
           </ul>
