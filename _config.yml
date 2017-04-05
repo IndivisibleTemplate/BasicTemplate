@@ -38,8 +38,7 @@ defaults:
   values:
     main-image: 
     phone-numbers:
-    - office: ''
-      phone-number: ''
+    - office: phone-number
     website: 
 - scope:
     path: ''
