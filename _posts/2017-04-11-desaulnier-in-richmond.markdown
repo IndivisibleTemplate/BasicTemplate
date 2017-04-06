@@ -12,3 +12,5 @@ Location: Lovonya Dejean Middle School, Richmond
 ---
 
 Congressman DeSaulnier is hosting a town hall meeting on Tuesday, April 11 from 6:30-8 in Richmond.
+
+Tips on town halls can be found [here](https://www.indivisibleguide.com/resources-2/stand-indivisible-town-halls)
