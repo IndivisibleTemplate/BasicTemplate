@@ -18,6 +18,6 @@ Nothing is more powerful than face-to-face contact with your members of congress
 * April 12: DeSaulnier town hall in Lafayette
   more info in events
 
-Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
+### Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
 
 More information about recess week can be found at [indivisible site](https://www.indivisibleguide.com/resources-2/2017/2/16/reclaim-recess)
