@@ -12,3 +12,6 @@ Location: Stanley Middle School, Lafayette
 ---
 
 Congressman DeSaulnier is hosting a town hall on Wednesday, April 12th from 6:30-8. Arrive early. Wear your indivisible4c shirt.
+
+
+Tips on town halls can be found [here](https://www.indivisibleguide.com/resources-2/stand-indivisible-town-halls)
