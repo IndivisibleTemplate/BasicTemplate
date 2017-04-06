@@ -5,6 +5,7 @@ categories:
 - event
 tags:
 - town hall
+is featured: true
 main-image: "/uploads/17799105_660529580824808_6174033652133063903_n.jpg"
 event-start-date: 2017-04-12 18:30:00 -07:00
 event-end-date: 2017-04-12 20:00:00 -07:00
