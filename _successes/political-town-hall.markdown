@@ -1,7 +1,21 @@
 ---
-title: Political Town Hall
+title: February Town Halls
 date: 2017-04-05 23:15:00 -07:00
 main-image: "/uploads/FullSizeRender.jpg"
 ---
 
-On February 22nd, Congressman DeSaulnier held a political town hall, sharing his thoughts and opinions with hundreds of his constituents. Leaders of indivisible4c (Christine on left, Alissa on right) had the opportunity to meet with him before the event.
+Congressman DeSaulnier held several town hall meetings during district week in February.
+
+![16831197_10212508145044351_5949461796021966513_n.jpg](/uploads/16831197_10212508145044351_5949461796021966513_n.jpg)
+Political town hall in Concord.
+![16864841_10154188728752466_5463577751141747274_n.jpg](/uploads/16864841_10154188728752466_5463577751141747274_n.jpg)
+
+![16831845_1456079951082634_1673007322014789507_n.jpg](/uploads/16831845_1456079951082634_1673007322014789507_n.jpg)
+
+Healthcare with McNerney, Thompson, and Dodd. 
+![16832002_10210508478085636_3611941398571983076_n.jpg](/uploads/16832002_10210508478085636_3611941398571983076_n.jpg)
+So many people attended, they sat in other rooms, the hallway, and stood in a line around the block!
+![16806829_1261822423938386_1768800267534418530_n.jpg](/uploads/16806829_1261822423938386_1768800267534418530_n.jpg)
+
+DVC
+![dvc.jpg](/uploads/dvc.jpg)
