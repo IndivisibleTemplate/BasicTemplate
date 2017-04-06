@@ -7,7 +7,7 @@ collections:
     output: true
   representatives:
     title: Representatives
-    output: false
+    output: true
   resources:
     title: Resources
     output: true
