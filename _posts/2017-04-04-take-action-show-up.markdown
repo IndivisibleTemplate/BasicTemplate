@@ -14,4 +14,4 @@ Nothing is more powerful than face-to-face contact with your members of congress
 * April 12: DeSaulnier town hall in Lafayette
 more info in events
 
-Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
+##Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
