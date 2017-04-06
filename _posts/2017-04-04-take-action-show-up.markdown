@@ -20,4 +20,4 @@ Nothing is more powerful than face-to-face contact with your members of congress
 
 Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
 
-More information about recess week can be found at https://www.indivisibleguide.com/resources-2/2017/2/16/reclaim-recess
+More information about recess week can be found at [indivisible site](https://www.indivisibleguide.com/resources-2/2017/2/16/reclaim-recess)
