@@ -9,7 +9,7 @@ collections:
     title: Representatives
     output: false
   resources-about-gorsuch-filibuster:
-    title: Resources about Gorsuch filibuster
+    title: Resources
     output: true
   successes:
     title: Successes
