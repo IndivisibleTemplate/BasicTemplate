@@ -1,6 +1,8 @@
 ---
 title: Visit to thank staff
 date: 2017-04-05 22:43:00 -07:00
+categories:
+- community
 ---
 
 After Congressman DeSaulnier co-signed the bill, we dropped off some treats at his Walnut Creek office.
