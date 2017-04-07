@@ -1,5 +1,5 @@
 ---
-title: Join Us!
+title: About
 date: 2017-04-04 14:17:00 -07:00
 position: 0
 ---
