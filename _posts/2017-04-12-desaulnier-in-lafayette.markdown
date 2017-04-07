@@ -3,7 +3,6 @@ title: DeSaulnier in Lafayette
 date: 2017-04-12 18:30:00 -07:00
 categories:
 - event
-- action
 tags:
 - town hall
 is featured: true
