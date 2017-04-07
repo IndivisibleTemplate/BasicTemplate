@@ -6,6 +6,7 @@ categories:
 tags:
 - meeting
 is featured: true
+main-image: "/uploads/copyinvite.jpg"
 event-start-date: 2017-04-17 19:00:00 -07:00
 event-end-date: 2017-04-17 21:00:00 -07:00
 Location: 'Martinez Masonic Lodge  700 Masonic Street, Martinez '
