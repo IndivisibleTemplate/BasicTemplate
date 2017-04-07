@@ -1,6 +1,7 @@
 ---
 title: Store
 date: 2017-04-06 22:34:00 -07:00
+position: 5
 ---
 
 Want to support indivisible4c?
