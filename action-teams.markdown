@@ -8,11 +8,11 @@ indivisible4c has ten action teams, each focused on a major issue. All of our me
 
 Action Teams
 
-* Health Care (ACA, Medicare, and Social Security)
+* Health Care
 
 * Immigration
 
-* Environment/Science 
+* Environment/Science
 
 * Women's Rights
 
