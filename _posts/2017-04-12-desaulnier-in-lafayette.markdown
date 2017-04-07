@@ -8,6 +8,7 @@ tags:
 - town hall
 is featured: true
 main-image: "/uploads/17799105_660529580824808_6174033652133063903_n.jpg"
+call-script-text: "[RSVP](https://www.facebook.com/events/1897710050459248/)"
 event-start-date: 2017-04-12 18:30:00 -07:00
 event-end-date: 2017-04-12 20:00:00 -07:00
 Location: Stanley Middle School, Lafayette
