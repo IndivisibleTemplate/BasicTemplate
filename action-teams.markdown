@@ -16,7 +16,7 @@ Action Teams
 
 * Women's Rights
 
-* LGBQT
+* LGBTQ
 
 * Education
 
