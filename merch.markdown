@@ -9,7 +9,7 @@ T-shirts, postcards, business cards, and flag pins are available for purchase. T
 
 All proceeds are used to pay for venues, supplies, etc.
 
-T-shirts $25.00-$30.00
+T-shirts $25.00-$30.00   Sizes YM, YL, S, M, L, XL, 2XL, 3XL
 
 ![Screen Shot 2017-04-06 at 10.40.47 PM.png](/uploads/Screen%20Shot%202017-04-06%20at%2010.40.47%20PM.png)
 
@@ -25,8 +25,8 @@ Medium Size (7" x 5"): 50 for $11.99, 100 for $20.99
 
 Business cards, front same as postcard (115lb glossy)
 
-Back personalized (your name and email): 100 for $20.00
+Back generic (no name, group email): 100 for $16.00 
 
-Back generic (no name, group email): 100 for $16.00
+Back personalized (your name and email): 100 for $21.00
 
 ![Screen Shot 2017-04-06 at 10.47.07 PM.png](/uploads/Screen%20Shot%202017-04-06%20at%2010.47.07%20PM.png)
