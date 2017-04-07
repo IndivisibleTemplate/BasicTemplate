@@ -1,7 +1,7 @@
 ---
 title: Join Us!
 date: 2017-04-04 14:17:00 -07:00
-position: 1
+position: 0
 ---
 
 Political Advocacy in the Suburbs?

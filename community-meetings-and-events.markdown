@@ -1,7 +1,7 @@
 ---
 title: Community Meetings & Events
 date: 2017-04-06 20:57:00 -07:00
-position: 0
+position: 4
 ---
 
 Upcoming Meetings/Events in Community (outside of indivisibl4c)
