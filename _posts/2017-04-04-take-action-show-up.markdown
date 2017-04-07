@@ -9,7 +9,7 @@ call-script-text: |-
   Hello, my name is __, my zip code is __, and I am a member of indivisible4c. Please tell the senator that I am disappointed that she does not feel it is important to meet with her constituents. She needs to plan a town hall meeting.
 ---
 
-**Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
+### Our senators have no town hall meetings planned, that isn't acceptable. Call, let them know that we expect them to do their job.
 
 Nothing is more powerful than face-to-face contact with your members of congress. Attend as many town hall meetings as possible. Ask questions. Share opinions.
 
