@@ -17,6 +17,8 @@ Congressman DeSaulnier is hosting a town hall on Wednesday, April 12th from 6:30
 
 We are hoping that the t-shirts will come that day. We will announce a time and place to meet before the town hall meeting begins.
 
+Do you have a question for the congressman? Let us know, we can coordinate to increase the chance that your question is selected.
+
 [RSVP](https://www.facebook.com/events/1897710050459248/)
 
 
