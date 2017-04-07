@@ -26,7 +26,7 @@ Medium Size (7" x 5"): 50 for $11.99, 100 for $20.99
 
 Business cards, front same as postcard (115lb glossy)
 
-Back generic (no name, group email): 100 for $16.00 
+Back generic (no name, group email): 100 for $16.00
 
 Back personalized (your name and email): 100 for $21.00
 
