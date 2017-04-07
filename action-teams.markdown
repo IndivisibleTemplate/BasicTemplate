@@ -28,4 +28,4 @@ Action Teams
 
 * Gun Control
 
-To sign up for one or more action teams, please feel out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
+To sign up for one or more action teams, please fill out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
