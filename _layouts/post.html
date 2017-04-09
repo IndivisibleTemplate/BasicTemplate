@@ -137,11 +137,9 @@ layout: default
         {% endif %}
 
         <!-- post tags -->
-        {% if page.tags %}
+        {% if !page.tags.empty? %}
           <p class="most-meta small">
-            {% for tag in post.tag %}
-              {{ page.tags }} &nbsp;
-            {% endfor %}
+            Tagged: {{ page.tags | join: ', ' }}
           </p>
         {% endif %}
         <!-- END Post tags -->
