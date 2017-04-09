@@ -21,9 +21,11 @@
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
           <div class="row">
+            {% if post.event-start-date %}
             <div class="col-12 col-sm-3 grey">
-             <p class="mb-0">{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%I:%M%p" }}</p>
+             <p class="mb-0">{{ post.event-start-date | date: "%l:%M %p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%l:%M %p" }}</p>
             </div>
+            {% endif %}
             <div class="col-12 col-sm-9 grey">
               <p>{{ post.Location | escape }}</p>
             </div>
