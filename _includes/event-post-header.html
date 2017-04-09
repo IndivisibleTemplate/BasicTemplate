@@ -6,18 +6,22 @@
 
     {% if post.event-start-date %}
       <div class="row">
+        {% if post.event-start-date %}
         <div class="col-3 col-lg-2">
           <p class="mb-1 mt-1 text-center">{{ post.event-start-date | date: "%b" }}</p>
           <h3 class="text-center"><strong>{{ post.event-start-date | date: "%-d" }}</strong></h3>
         </div>
+        {% endif %}
         <div class="col-9 col-sm-10">
           <h3 class="mt-0 mb-1">
             <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
           <div class="row">
-            <div class="col-5 col-sm-3 grey">
-              <p>{{ post.event-start-date | date: "%I:%M%p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%I:%M%p" }}</p>
+            {% if post.event-start-date %}
+            <div class="col-12 col-sm-3 grey">
+             <p class="mb-0">{{ post.event-start-date | date: "%l:%M %p" }} {% if post.event-end-date %}-{% endif %} {{ post.event-end-date | date: "%l:%M %p" }}</p>
             </div>
+            {% endif %}
             <div class="col-7 col-sm-9 grey">
               <p>{{ post.Location | escape }}</p>
             </div>
@@ -33,7 +37,7 @@
     <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-2 mb-3 ml-4 hidden-xs-down" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
   {% endif %}
   <!-- END POST MAIN IMAGE -->
-  
+
 </div>
 
 <div class="spacer-sm clearfix"></div>

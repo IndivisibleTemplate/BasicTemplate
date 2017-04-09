@@ -72,8 +72,8 @@ layout: default
           <ul class="list-group list-group-flush">
             {% if page.event-start-date %}<li class="list-group-item">{{ page.event-start-date | date: "%B %-d, %Y" }}</li>{% endif %}
             {% if page.event-start-date %}
-            <li class="list-group-item">{{ page.event-start-date | date: "%l:%M%P" }}
-              {% if page.event-end-date %} - {{ page.event-end-date | date: "%l:%M%P" }}{% endif %}
+            <li class="list-group-item">{{ page.event-start-date | date: "%l:%M %p" }}
+              {% if page.event-end-date %} - {{ page.event-end-date | date: "%l:%M %p" }}{% endif %}
             </li>
             {% endif %}
             {% if page.Location %}<li class="list-group-item">{{ page.Location | escape }}</li>{% endif %}
