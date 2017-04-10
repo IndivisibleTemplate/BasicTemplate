@@ -1,11 +1,11 @@
 ---
-title: About/Weekly Update
+title: About
 date: 2017-04-04 14:17:00 -07:00
 position: 0
 Field name: 
 ---
 
-[Weekly Update](<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Findivisible-central-contra-costa-county%2Fweekly-update-and-calls-to-action-49%2F823937337745551%2F&width=500" width="500" height="556" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>)
+[Weekly Update](https://www.facebook.com/notes/indivisible-central-contra-costa-county/weekly-update-and-calls-to-action-49/823937337745551/)
 
 Political Advocacy in the Suburbs?
 
