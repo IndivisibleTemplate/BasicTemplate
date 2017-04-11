@@ -18,8 +18,8 @@ layout: default
     <div class="row">
       <div class="col">
         <header class="post-header">
-          {% for categories in page.categories %}
-          <span class="badge badge-lg mb-2 {% if page.categories contains 'event' %}badge-primary{% elsif page.categories contains 'action' %}badge-danger{% else %}badge-default{% endif %}">{{ page.categories }}</span>
+          {% for category in page.categories %}
+          <span class="badge badge-lg mb-2 {% if category == 'event' %}badge-primary{% elsif category == 'action' %}badge-danger{% else %}badge-default{% endif %}">{{ category }}</span>
           {% endfor %}
           <h1 class="page-title mb-2">{{ page.title | escape }}</h1>
         </header>
@@ -141,11 +141,9 @@ layout: default
         {% endif %}
 
         <!-- post tags -->
-        {% if page.tags %}
+        {% if !page.tags.empty? %}
           <p class="most-meta small">
-            {% for tag in post.tag %}
-              {{ page.tags }} &nbsp;
-            {% endfor %}
+            Tagged: {{ page.tags | join: ', ' }}
           </p>
         {% endif %}
         <!-- END Post tags -->
