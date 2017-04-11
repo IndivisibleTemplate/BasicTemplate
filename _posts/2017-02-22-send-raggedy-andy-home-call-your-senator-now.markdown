@@ -7,13 +7,13 @@ tags:
 - call now
 - confirmation hearing
 is featured: true
-call-script-text: "Hi, my name is ____, I'm a local constituent. My zip code is ___.
-  I want Representative _____ to say NO to Andy Puzder. He is terrible choice for
+call-script-text: "[Example Link](http://example.com) Hi, my name is `____`, I'm a local constituent. My zip code is `___`.
+  I want Representative `_____` to say NO to Andy Puzder. He is terrible choice for
   Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food
   chain were hit with a class action lawsuit for wage suppression! \n\n..."
 ---
 
-Today's Daily Action is to call your senators to reiterate that Andy Puzder is a terrible--and now even more vulnerable--choice for Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food chain were hit with a class action lawsuit for wage suppression.
+[Example Link](http://example.com) Today's Daily Action is to call your senators to reiterate that Andy Puzder is a terrible--and now even more vulnerable--choice for Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food chain were hit with a class action lawsuit for wage suppression.
 
 If you're keeping track, Puzder is also under fire for previous comments admitting that 40% of his employees were undocumented and for personally employing an undocumented worker as his maid for years - and only paying taxes for this worker after he was nominated to the Cabinet. All of these actions are, of course, violations of the laws our Labor Department is supposed to enforce. (A normal President would have long since forced such a nominee to withdraw, but Trump assumes that if he can push Betsy DeVos through, he can do anything.)
 
