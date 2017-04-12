@@ -3,7 +3,7 @@
     <h3 class="mt-2">
       <a class="post-link text-danger" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h3>
-    <div class="grey post-body mb-2">{{ post.content | truncate: 140 }}</div>
+    <div class="grey post-body mb-2">{{ post.content | strip_html | truncate: 140 }}</div>
   </div>
 
   <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-4 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
