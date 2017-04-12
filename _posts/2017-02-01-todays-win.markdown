@@ -5,7 +5,7 @@ categories:
 - jekyll
 - update
 main-image: "/uploads/oakland.jpg"
-event-start-date: 
+event-start-date:
 layout: post
 ---
 
