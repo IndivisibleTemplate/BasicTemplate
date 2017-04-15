@@ -1,7 +1,7 @@
 ---
 title: Second Group Meeting
 date: 2017-04-05 23:26:00 -07:00
-position: 2
+position: 4
 main-image: "/uploads/17309245_10155324219011159_3310802141880703798_n.jpg"
 ---
 
