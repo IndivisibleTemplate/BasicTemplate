@@ -1,0 +1,8 @@
+---
+title: DeSaulnier in Lafayette
+date: 2017-04-14 18:40:00 -07:00
+main-image: "/uploads/17884567_10154218151971862_4820666511282933728_n.jpg"
+---
+
+We had a great turnout to Congressman DeSaulnier's town hall meeting in Lafayette. We were passing out shirts in the parking lot when the congressman came over to say hello - and walked off with an indivisible4c shirt of his own. He even posted about it on Facebook!
+![Screen Shot 2017-04-14 at 2.32.03 PM.png](/uploads/Screen%20Shot%202017-04-14%20at%202.32.03%20PM.png)
