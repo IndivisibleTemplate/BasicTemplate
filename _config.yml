@@ -77,3 +77,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 google_analytics: 
+stripe_key: pk_test_FAKE_STRIPE_KEY
