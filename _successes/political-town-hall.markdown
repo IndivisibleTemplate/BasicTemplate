@@ -1,7 +1,7 @@
 ---
 title: February Town Halls
 date: 2017-04-05 23:15:00 -07:00
-position: 5
+position: 6
 main-image: "/uploads/FullSizeRender.jpg"
 ---
 
