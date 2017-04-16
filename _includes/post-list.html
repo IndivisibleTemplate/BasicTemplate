@@ -34,6 +34,11 @@
       </div>
       <!-- EVENT SPECIFIC FILEDS -->
       {% else %}
+        {% if post.categories contains 'action' %}
+          <div style="float: left;">
+            <input name="{{ post.id | escape }}/check" type="checkbox">
+          </div>
+        {% endif %}
         <h3 class="mt-2">
           <a class="post-link {% if post.categories contains 'action' %}text-danger{% endif %}"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
