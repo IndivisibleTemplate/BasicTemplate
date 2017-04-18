@@ -45,7 +45,7 @@ layout: default
                 {% for phone-numbers in representatives.phone-numbers %}
                  {% if phone-numbers[0] !="office-name" %}
                    <li class="list-group-item">
-                     <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
+                     <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers[1] }}</strong>
                    </li>
                  {% endif %}
                 {% endfor %}
@@ -122,7 +122,7 @@ layout: default
                     <li class="list-group-item bg-medium"><strong>{{ representatives.title }}</strong></li>
                     {% for phone-numbers in representatives.phone-numbers %}
                       <li class="list-group-item">
-                        <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
+                        <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers[1] }}</strong>
                       </li>
                     {% endfor %}
               {% endfor %}
