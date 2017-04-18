@@ -1,22 +1,28 @@
-<div class="media">
-  <div class="media-body">
-    <div style="float: left;">
-      <input name="{{ post.id | escape }}/check" type="checkbox">
+
+    <div class="row">
+      <div class="col-2 col-sm-3 col-lg-2">
+        <center>
+          <label class="custom-control align-self-start custom-checkbox d-inline-block mt-1 mr-0 mb-0">
+            <input type="checkbox" class="custom-control-input" name="{{ post.id | escape }}/check">
+            <span class="custom-control-indicator"></span>
+          </label>
+          <div class="clearfix"></div>
+          <small class="text-muted hidden-sm-down">Act Now!</small>
+        </center>
+      </div>
+      <div class="col-10 {% if post.main-image %}col-sm-6 col-lg-8{% else %}col-sm-9 col-lg-10{% endif %}">
+        <h3 class="d-inline-block mb-2 mt-1 mt-sm-0">
+          <a class="post-link text-danger" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <div class="text-muted post-body mb-2">{{ post.content | truncate: 140 }}</div>
+      </div>
+      <!-- POST MAIN IMAGE FIELD -->
+      {% if post.main-image %}
+      <div class="col-sm-3 col-lg-2 hidden-xs-down mb-4">
+        <a class="thumb-wrap mt-1" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+      </div>
+      {% endif %}
+      <!-- END POST MAIN IMAGE -->
     </div>
-    <h3 class="mt-2">
-      <a class="post-link text-danger" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </h3>
-    <div class="grey post-body mb-2">{{ post.content | strip_html | truncate: 140 }}</div>
-  </div>
-
-  <a href="{{ post.url | relative_url }}" class="btn btn-danger btn-action ml-auto mt-3 mr-4 mb-4 {% if post.main-image %}action-v-img{% endif %}">Act Now</a>
-
-  <!-- POST MAIN IMAGE FIELD -->
-  {% if post.main-image %}
-    <a class="thumb-wrap d-flex mt-1 mr-0 pr-0 col-2 mb-4 ml-4 hidden-xs-down" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
-  {% endif %}
-  <!-- END POST MAIN IMAGE -->
-
-</div><!-- END MEDIA -->
 
 <div class="spacer-sm clearfix"></div>

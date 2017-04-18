@@ -24,7 +24,7 @@ $text-color:       #111;
 
 $border-color:     #e0e0e0;
 
-$grey-color:       #828282;
+$grey-color:       #636c72;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -170,20 +170,28 @@ hr, .list-group-item {
   letter-spacing: .5px;
 }
 
-h1, h2, h3, h4, h5, .navbar-brand, .navbar .btn {
+.navbar-brand, .navbar .btn {
   font-weight: bold;
+}
+
+h1, h5 {
+  font-weight: bold;
+}
+
+h2, h3, h4 {
+  font-weight: 500;
 }
 
 h1, h2, h3, h4, h5.title, .navbar-brand {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1 {
+h1, .h1 {
   font-size: $base-font-size * 4;
   line-height: 85px;
 }
 
-h2 {
+h2, .h2 {
   font-size: $base-font-size * 2.66;
   line-height: $base-line-height * 1.075;
   font-weight: 600;
@@ -194,21 +202,21 @@ h2 {
      font-weight: 100;
    }
 
-h3 {
+h3, .h3 {
   line-height: $base-line-height * .8;
 }
 
-h5 {
+h4, .h4 {
+  font-weight: 500;
+  font-size: 1.35rem
+}
+
+h5, .h5 {
   line-height: $base-line-height * .85;
 }
 
 p, h5 {
-  font-size: $base-font-size;
-}
-
-
-.grey {
-  color: $grey-color;
+  font-size: $base-font-size * .85;
 }
 
 .post-meta {
@@ -336,6 +344,24 @@ p, h5 {
   }
 }
 
+  .custom-control-indicator {
+    top: .15rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: $light-bg;
+    border: 2px solid $grey-color;
+  }
+
+    .custom-control-input:checked~.custom-control-indicator {
+      background: $danger;
+      border-color: $danger;
+    }
+
+    .custom-control-input:focus~.custom-control-indicator {
+      -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px $danger;
+      box-shadow: 0 0 0 1px #fff, 0 0 0 3px $danger;
+    }
+
 // CONTENT
 
 .home-header-wrap {
@@ -394,7 +420,7 @@ p, h5 {
   }
 
   .thumb-wrap {
-    height: 120px;
+    height: 96px;
   }
 
     .thumb-wrap-sm {
