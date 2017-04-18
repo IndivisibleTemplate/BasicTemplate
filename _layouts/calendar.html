@@ -68,7 +68,7 @@ layout: default
 
         <h5 class="mb-0">Past Events</h5>
 
-        {% unless site.categories.event | size > 0 %}
+        {% unless site.categories.event.length > 0 %}
           <hr class="mt-2 mb-2">
           <p>No posts in {{ page.title | escape }} at this time.</p>
         {% endunless %}
