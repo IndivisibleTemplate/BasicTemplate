@@ -24,9 +24,9 @@ layout: default
           <h1 class="page-title mb-2">{{ page.title | escape }}</h1>
           {% if page.categories contains 'action' %}
           <label class="custom-control align-self-start custom-checkbox d-inline-block mr-3 mt-2 mb-0">
-            <input type="checkbox" class="custom-control-input">
+            <input type="checkbox" class="custom-control-input" name="{{ page.id | escape }}/check">
             <span class="custom-control-indicator align-self-center"></span>
-            <span class="custom-control-description ml-2 text-danger">Make as done</span>
+            <span class="custom-control-description ml-2 text-danger">Mark as done</span>
           </label>
           {% endif %}
         </header>
@@ -39,9 +39,6 @@ layout: default
     <div class="row post-content" itemprop="articleBody">
       {% if page.categories contains 'action' %}
       <div class="col-sm-5 col-md-4 col-lg-3 hidden-xs-down">
-      <div style="float: left;">
-        <input name="{{ page.id | escape }}/check" type="checkbox">
-      </div>
         <div class="card">
           <!--
             A list of all representatives contact numbers
