@@ -14,7 +14,7 @@
         <h3 class="d-inline-block mb-2 mt-1 mt-sm-0">
           <a class="post-link text-danger" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
-        <div class="text-muted post-body mb-2">{{ post.content | truncate: 140 }}</div>
+        <div class="text-muted post-body mb-2">{{ post.content | strip_html | truncate: 140 }}</div>
       </div>
       <!-- POST MAIN IMAGE FIELD -->
       {% if post.main-image %}
