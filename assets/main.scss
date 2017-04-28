@@ -170,16 +170,12 @@ hr, .list-group-item {
   letter-spacing: .5px;
 }
 
-.navbar-brand, .navbar .btn {
-  font-weight: bold;
-}
-
-h1, h5 {
-  font-weight: bold;
+.navbar-brand, .navbar .btn, h5, .h5, h1 {
+  font-weight: 800;
 }
 
 h2, h3, h4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5.title, .navbar-brand {
@@ -207,7 +203,6 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-weight: 500;
   font-size: 1.35rem
 }
 
