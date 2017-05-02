@@ -1,5 +1,5 @@
 ---
-title: Indivisible City
+title: Indivisible SF
 timezone: UTC
 collections:
   posts:
@@ -65,7 +65,7 @@ url:
 twitter_username: 
 facebook_username: 
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: '100'
+member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
@@ -77,3 +77,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 google_analytics: 
+theme: jekyll-theme-cayman
