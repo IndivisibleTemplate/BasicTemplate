@@ -77,5 +77,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 google_analytics: 
-
 theme: jekyll-theme-cayman
