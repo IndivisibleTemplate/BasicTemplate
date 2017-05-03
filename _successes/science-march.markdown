@@ -1,6 +1,7 @@
 ---
 title: Science March
 date: 2017-05-03 15:12:00 -07:00
+is featured: true
 main-image: "/uploads/IMG_4012.JPG"
 ---
 
