@@ -5,28 +5,30 @@ main-image:
 layout: actions
 ---
 
-indivisible4c has ten action teams, each focused on a major issue. All of our members belong to one or more teams based on their personal interest. Action teams track legislation, keep the group up-to-date on current events, provide educational opportunities, and organize community events & service projects.
+Help the Mt Diablo School District stay united. There are multiple ways that you can help:
+* Email the five members of the County Board of Education
+* Attend one or both meetings to show your support; Tuesday May 2nd 6:00 at the Concord
+Senior Center & Wednesday May 3rd 6:00 at the Gardens at Heather Farms.
 
-Action Teams
 
-* Health Care
+[Email addresses and multiple email examples
+for County Board of Ed](http://drive.google.com/open?id=1WgvKEhSGMubdw0VA3BEXDaAAoiZU-PXxw5Wi3r3opR8)
 
-* Immigration
+#Background
+There is an attempt for five schools (Northgate High, Foothill Middle, Bancroft Elementary,
+Valle Verde Elementary, and Walnut Acres Elementary) to splinter from the MDUSD to form a
+new district.The "Northgate Community Advocacy for our Public Schools (CAPS)" claims that
+their intent is to bring local control of education to their community. While true, there are
+consequences when wealthier portions of a community split off from the larger district. Does it
+benefit the kids in the new district? Maybe. Does it hurt the other kids in the district? Absolutely.
+Educational Gerrymandering is not new, parents all over the country are fighting to redraw the
+boundaries of school districts in a way that will benefit their wealthier (and less diverse)
+neighborhoods. Yet the research is clear, this comes at a huge expense to those children living
+outside of these borders.
 
-* Environment/Science
+##Resources
+[PBS, Uncomfortable Reality(http://www.pbs.org/wgbh/frontline/article/the-uncomfortable-reality-of-community-schools/)
 
-* Women's Rights
+[The New School Segregation](http://cornelllawreview.org/files/2016/11/Wilsonfinal.pdf)
 
-* LGBTQI
-
-* Education
-
-* Government Integrity
-
-* Veterans and Foreign Affairs
-
-* Civil Rights
-
-* Gun Control
-
-To sign up for one or more action teams, please fill out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
+[Despite Racial Motive, Judge Allows Alabama City To Secede From School District](http://www.npr.org/2017/04/28/526085092/despite-racial-motive-judge-allows-alabama-city-to-secede-from-school-district)
