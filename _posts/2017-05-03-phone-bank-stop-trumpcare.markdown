@@ -1,6 +1,10 @@
 ---
 title: Phone Bank - Stop Trumpcare
 date: 2017-05-03 14:28:00 -07:00
+categories:
+- action
+tags:
+- action
 is featured: true
 ---
 
