@@ -1,6 +1,8 @@
 ---
 title: Educational Gerrymandering
 date: 2017-05-03 14:18:00 -07:00
+categories:
+- action
 ---
 
 Help the Mt Diablo School District stay united. There are multiple ways that you can help:
