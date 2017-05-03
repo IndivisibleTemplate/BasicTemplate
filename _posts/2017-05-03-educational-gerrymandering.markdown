@@ -7,9 +7,7 @@ tags:
 - action
 is featured: true
 main-image: "/uploads/public-education-540px.jpg"
-call-script-text: |-
-  [Email addresses and multiple email examples
-  for County Board of Ed](http://drive.google.com/open?id=1WgvKEhSGMubdw0VA3BEXDaAAoiZU-PXxw5Wi3r3opR8)
+call-script-text: "[Email members of board](http://drive.google.com/open?id=1WgvKEhSGMubdw0VA3BEXDaAAoiZU-PXxw5Wi3r3opR8)"
 ---
 
 Help the Mt Diablo School District stay united. There are multiple ways that you can help:
