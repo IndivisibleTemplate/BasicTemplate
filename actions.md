@@ -27,7 +27,8 @@ neighborhoods. Yet the research is clear, this comes at a huge expense to those 
 outside of these borders.
 
 Resources
-[PBS, Uncomfortable Reality(http://www.pbs.org/wgbh/frontline/article/the-uncomfortable-reality-of-community-schools/)
+
+[PBS, Uncomfortable Reality](http://www.pbs.org/wgbh/frontline/article/the-uncomfortable-reality-of-community-schools/)
 
 [The New School Segregation](http://cornelllawreview.org/files/2016/11/Wilsonfinal.pdf)
 
