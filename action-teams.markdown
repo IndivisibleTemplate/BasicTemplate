@@ -1,7 +1,6 @@
 ---
 title: Action Teams
 date: 2017-04-05 19:46:00 -07:00
-published: false
 position: 3
 ---
 
