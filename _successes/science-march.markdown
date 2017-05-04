@@ -5,6 +5,7 @@ position: 0
 is featured: true
 main-image: "/uploads/IMG_4018.JPG"
 image: "/uploads/IMG_4016.JPG"
+layout: media-grid
 ---
 
 ![IMG_4019.JPG](/uploads/IMG_4019.JPG)
