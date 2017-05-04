@@ -3,7 +3,7 @@ title: Action Team Leads
 date: 2017-04-06 14:02:00 -07:00
 categories:
 - community
-position: 4
+position: 3
 main-image: "/uploads/17361576_10155324219096159_2960083732359037458_n.jpg"
 ---
 
