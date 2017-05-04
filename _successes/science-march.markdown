@@ -14,6 +14,6 @@ layout: media-grid
 ![IMG_4012.JPG](/uploads/IMG_4012.JPG)
 ![IMG_4017.JPG](/uploads/IMG_4017.JPG)
 ![IMG_4014.JPG](/uploads/IMG_4014.JPG)
-[IMG_4015.JPG](/uploads/IMG_4015.JPG)
+![IMG_4015.JPG](/uploads/IMG_4015.JPG)
 
 A beautiful day in Walnut Creek!
