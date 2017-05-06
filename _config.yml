@@ -2,7 +2,7 @@
 title: indivisible4c
 timezone: America/Los_Angeles
 collections:
-  action:
+  take-action:
     title: Action
     output: true
   posts:
