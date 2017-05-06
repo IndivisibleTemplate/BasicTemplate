@@ -20,4 +20,4 @@ layout: post
 [The ALL NEW Don't Think of an Elephant!: Know Your Values and Frame the Debate by George Lakoff](https://www.amazon.com/ALL-NEW-Dont-Think-Elephant/dp/160358594X/ref=pd_bxgy_14_img_2?_encoding=UTF8&pd_rd_i=160358594X&pd_rd_r=VT7F7095575PE8GZAQRW&pd_rd_w=bWYZ3&pd_rd_wg=d67IL&psc=1&refRID=VT7F7095575PE8GZAQRWz)
 
 
-[The Case for Impeachment by Allen Lichtman(https://www.amazon.com/Case-Impeachment-Allan-J-Lichtman/dp/0062696823/ref=sr_1_2?s=books&ie=UTF8&qid=1494052642&sr=1-2&keywords=political+books)
+[The Case for Impeachment by Allen Lichtman](https://www.amazon.com/Case-Impeachment-Allan-J-Lichtman/dp/0062696823/ref=sr_1_2?s=books&ie=UTF8&qid=1494052642&sr=1-2&keywords=political+books)
