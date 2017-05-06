@@ -15,4 +15,4 @@ Yes, we are proud to be a part of indivisible4c (Central Contra Costa County). L
 
 [Join us!](https://www.facebook.com/groups/413800492297720/)
 
-***Our full group meets about once a month, action teams meet more often. Info will be on calendar.***
+***Our full group meets about once a month, action teams meet more often. Info will be on calendar when dates are announced.***
