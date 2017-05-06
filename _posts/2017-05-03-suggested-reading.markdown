@@ -5,7 +5,7 @@ categories:
 - resources
 tags:
 - resources
-is featured: true
+is featured: false
 layout: post
 ---
 
