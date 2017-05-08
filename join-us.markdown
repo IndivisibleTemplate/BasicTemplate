@@ -5,7 +5,7 @@ position: 0
 Field name: 
 ---
 
-[Weekly Update](https://www.facebook.com/notes/indivisible-central-contra-costa-county/weekly-update-and-calls-to-action-49/823937337745551/)
+[Weekly Update](https://m.facebook.com/notes/indivisible-central-contra-costa-county/weekly-update-and-calls-to-action-57/839103539562264/)
 
 Political Advocacy in the Suburbs?
 
