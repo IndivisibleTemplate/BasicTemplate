@@ -15,6 +15,7 @@ call-script-text: |-
 ## Call your state assemblymember and urge them to support SB54.
 
 Assemblyman Grayson: (916) 319-2014
+
 Assemblywoman Baker: (916) 319-2016
 
 SB54, The California Values Act, was written to protect the safety and well-being of all Californians by ensuring that state and local resources are not used to fuel mass deportations, separate families, or divide
