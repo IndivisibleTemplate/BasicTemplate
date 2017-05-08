@@ -5,7 +5,7 @@ categories:
 - action
 tags:
 - action
-is featured: true
+is featured: false
 main-image: "/uploads/public-education-540px.jpg"
 ---
 
