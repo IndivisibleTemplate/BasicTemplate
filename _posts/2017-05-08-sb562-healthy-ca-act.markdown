@@ -1,6 +1,10 @@
 ---
 title: SB562- Healthy CA Act
 date: 2017-05-08 15:01:00 -07:00
+categories:
+- action
+tags:
+- action
 main-image: "/uploads/C6RTZq4U4AAFqSe.jpg"
 call-script-text: |-
   Hi, my name is _____ my zip code is ___, and I am a member of Indivisible Central Contra Costa County.
