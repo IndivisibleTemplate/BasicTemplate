@@ -12,8 +12,9 @@ call-script-text: |-
   I'm calling to urge Assemblymember (X) to support SB 54, the California Values Act. This bill reflects our core values of equal treatment, community, and compassion.
 ---
 
-SB54, The California Values Act, was passed in the CA Senate on 4/3. It will prevent state and local resources from being used for mass deportations.
-
+### SB54, The California Values Act, was written to protect the safety and well-being of all Californians by ensuring that state and local resources are not used to fuel mass deportations, separate families, or divide
+Californians on the basis of race, gender, sexual orientation, religion, immigration
+status, or national or ethnic origins. 
 
 [Summary of SB54](http://acluscv.org/wp-content/uploads/2016/12/SB-54-De-Leon-CA-Values-Act-1-1.pdf)
 
