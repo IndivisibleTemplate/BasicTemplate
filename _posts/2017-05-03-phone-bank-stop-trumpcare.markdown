@@ -6,7 +6,7 @@ categories:
 tags:
 - action
 is featured: false
-main-image: "/uploads/logo.png"
+main-image: "/uploads/scc.png"
 ---
 
 Send a letter to the CA Board of State and Community Corrections (BSCC) to oppose the West County jail expansion. 
