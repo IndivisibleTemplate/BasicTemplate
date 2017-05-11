@@ -12,4 +12,4 @@ main-image: "/uploads/logo.png"
 
 Send a letter to the CA Board of State and Community Corrections (BSCC) to oppose the West County jail expansion. 
 
-On May 17th, Service Not Cells is going to Sacramento to testify against the West County Jail Expansion before the BSCC. Send a letter of support, [an example is provided here.](http://www.servicesnotcells.com/send_a_letter)
+On May 17th, Service Not Cells is going to Sacramento to testify against the West County Jail Expansion before the BSCC. Send a letter of support, [the address and an example is provided here.](http://www.servicesnotcells.com/send_a_letter)
