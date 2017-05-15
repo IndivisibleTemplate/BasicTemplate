@@ -16,8 +16,6 @@ call-script-text: |-
   ~
 
 
-  [Email Senator Harris](https://www.harris.senate.gov/content/contact-senator)
-
 
 
   **Remember, the script is fine, but natural conversation is best.
