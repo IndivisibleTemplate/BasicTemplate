@@ -8,9 +8,14 @@ main-image: "/uploads/tiesweb.png"
 call-script-text: |-
   (For Senator Feinstein and Senator Harris)
 
+
+
   My name is --, my zip code is --, and I am a member of Indivisible Central Contra Costa County.
 
+
   I am calling to thank Senator Feinstein/Harris for requesting an independent investigation into the ties between Russia and the Trump campaign. I'd like for her to show her commitment by agreeing to withhold consent for all Senate business until a special prosecutor has been appointed. She represents the voters of California, and we expect her to do everything in her power to protect our democracy. Please let Senator Feinstein/Harris her know that I'll be watching carefully to see if she listens to her constituents by objecting to all Unanimous Consent requests until an independent prosecutor has been appointed.
+
+
 
 
 
