@@ -47,3 +47,4 @@ Eventually, Trump will attempt to appoint a replacement FBI Director. If no spec
 You should make this call and send an email once a day until an independent (and acceptable) special prosecutor has been appointed.
 
 [Email Senator Harris](https://www.harris.senate.gov/content/contact-senator)
+[Email Senator Feinstein](https://www.feinstein.senate.gov/public/index.cfm/e-mail-me)
