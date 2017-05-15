@@ -6,6 +6,7 @@ phone-numbers:
   SF Office: "(415) 355-9041"
   DC Office: "(202) 224-3553"
   Sacramento Office: "(916) 448-2787"
+  Email: "[Email](https://www.harris.senate.gov/content/contact-senator)"
 website: https://www.harris.senate.gov/
 ---
 
