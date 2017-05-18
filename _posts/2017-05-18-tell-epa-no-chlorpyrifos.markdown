@@ -1,6 +1,20 @@
 ---
 title: Tell EPA - No Chlorpyrifos!
 date: 2017-05-18 11:59:00 -07:00
+call-script-text: |-
+  * Copy and paste facts to include in comments
+
+  * Exposure to small amounts of chlorpyrifos can cause runny nose, tears, and increased saliva or drooling. People may sweat, and develop headache, nausea, and dizziness.
+
+  * More serious exposures can cause vomiting, abdominal muscle cramps, muscle twitching, tremors and weakness, and loss of coordination. Sometimes people develop diarrhea or blurred or darkened vision.
+
+  * In severe poisoning cases, exposure can lead to unconsciousness, loss of bladder and bowel control, convulsions, difficulty in breathing, and paralysis.
+
+  * Children who had chlorpyrifos in their blood had more developmental delays and disorders than children who did not have chlorpyrifos in their blood. Exposed children also had more attention deficit disorders and hyperactivity disorders.
+
+  * Chlorpyrifos is very highly toxic to freshwater fish, aquatic invertebrates and estuarine and marine organisms. Cholinesterase inhibition was observed in acute toxicity tests of fish exposed to very low concentrations of this insecticide.
+
+  * Chlorpyrifos is very toxic to bees. It can poison non-target insects for up to 24 hours after it is sprayed. Chlorpyrifos can be toxic to earthworms for up to 2 weeks after it is applied to soil.
 ---
 
 Copy & Paste facts to include in comments
