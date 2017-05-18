@@ -15,7 +15,7 @@ call-script-text: "* Copy and paste facts to include in comments\n\n~\n\n* Expos
   in breathing, and paralysis.\n\n\n* Children who had chlorpyrifos in their blood
   had more developmental delays and disorders than children who did not have chlorpyrifos
   in their blood. Exposed children also had more attention deficit disorders and hyperactivity
-  disorders.\n\n\n\n* Chlorpyrifos is very highly toxic to freshwater fish, aquatic
+  disorders.\n\n\n\n* >Chlorpyrifos is very highly toxic to freshwater fish, aquatic
   invertebrates and estuarine and marine organisms. Cholinesterase inhibition was
   observed in acute toxicity tests of fish exposed to very low concentrations of this
   insecticide.             \n\n\n\n* Chlorpyrifos is very toxic to bees. It can poison
