@@ -5,7 +5,7 @@ categories:
 - action
 tags:
 - action
-call-script-text: "*** Copy and paste facts to include in comments\n\n\n\n<br/>*  Exposure
+call-script-text: "Copy and paste facts to include in comments\n\n\n\n<br/>*  Exposure
   to small amounts of chlorpyrifos can cause runny nose, tears, and increased saliva
   or drooling. People may sweat, and develop headache, nausea, and dizziness.\n\n\n\n<br/>*
   \ More serious exposures can cause vomiting, abdominal muscle cramps, muscle twitching,
@@ -23,7 +23,7 @@ call-script-text: "*** Copy and paste facts to include in comments\n\n\n\n<br/>*
   can be toxic to earthworms for up to 2 weeks after it is applied to soil.             "
 ---
 
-** Copy & Paste facts to include in comments
+** Copy & Paste facts from script to include in comments
 
 
 ### [Link to EPA comments](https://www.regulations.gov/docket?D=EPA-HQ-OPP-2007-1005)
