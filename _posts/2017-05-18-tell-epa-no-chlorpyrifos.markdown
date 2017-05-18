@@ -5,9 +5,9 @@ categories:
 - action
 tags:
 - action
-call-script-text: "Copy and paste facts to include in comments\n\n\n\n<br/>*  Exposure
-  to small amounts of chlorpyrifos can cause runny nose, tears, and increased saliva
-  or drooling. People may sweat, and develop headache, nausea, and dizziness.\n\n\n\n<br/>*
+call-script-text: "Copy and paste facts to include in comments\n<br/>[EPA Comments](https://www.regulations.gov/docket?D=EPA-HQ-OPP-2007-1005)\n\n\n\n\n<br/>*
+  \ Exposure to small amounts of chlorpyrifos can cause runny nose, tears, and increased
+  saliva or drooling. People may sweat, and develop headache, nausea, and dizziness.\n\n\n\n<br/>*
   \ More serious exposures can cause vomiting, abdominal muscle cramps, muscle twitching,
   tremors and weakness, and loss of coordination. Sometimes people develop diarrhea
   or blurred or darkened vision.\n\n\n\n<br/>*  In severe poisoning cases, exposure
