@@ -17,6 +17,7 @@ Our group meeting will be May 25th at 7:30
 [Morello Park Elementary School 1200 Morello Park Drive, Martinez](https://www.google.com/maps/place/Morello+Park+Elementary+School/@38.0016184,-122.0991669,15z/data=!4m5!3m4!1s0x0:0xad4e4adae453d6d7!8m2!3d38.0016184!4d-122.0991669)
 
 Everyone is invited, looking forward to seeing new faces!
+<br>
 
-Details soon...
-
+This will be the last full group meeting until late July/early August! In addition to meeting with action teams and discussing legislation/calls to action, we will discuss summer plans including; 4th of July parade, voter reg, partnering with a red indivisible chapter, book club, social activities, and more!
+RSVP, please! Remember, it is all about showing up!
