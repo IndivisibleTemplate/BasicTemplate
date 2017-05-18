@@ -37,3 +37,13 @@ The EPA is proposing to overturn regulations that ban toxic chemical chlorpyrifo
 Federal agencies are required to take comments from the public. You can file a comment on the proposed order by the Administrator  denying the “Petition to Revoke All Tolerances and Cancel All Registrations for the Pesticide Chlorpyrifos” (comments due by June 5th).
 
 Include one or more of the facts provided above in your comments.
+
+Additional Resources:
+
+[Washington Post: Why did Scott Pruitt refuse to ban a chemical that the EPA itself said is dangerous?](https://www.washingtonpost.com/news/monkey-cage/wp/2017/04/12/why-did-scott-pruitt-refuse-to-ban-a-chemical-that-the-epa-itself-said-is-dangerous/?utm_term=.85a7a13cc0e9)
+
+
+[Mother Jones:Trump's EPA Greenlights a Nasty Chemical. A Month Later, It Poisons a Bunch of Farmworkers](http://www.motherjones.com/environment/2017/05/california-farm-workers-just-got-poisoned-nasty-pesticide-greenlghted-trump)
+
+
+[Forbes: What We Know About Chlorpyrifos, The Pesticide The EPA Thinks Is Bad But Won't Ban](https://www.forbes.com/sites/emilywillingham/2017/03/31/what-we-know-about-chlorpyrifos-the-pesticide-the-epa-thinks-is-bad-but-wont-ban/#e5a9767181fe)
