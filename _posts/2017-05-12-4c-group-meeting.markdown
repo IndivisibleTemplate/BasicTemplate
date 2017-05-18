@@ -9,6 +9,9 @@ is featured: true
 main-image: "/uploads/IMG_4218.PNG"
 event-start-date: 2017-05-25 19:30:00 -07:00
 event-end-date: 2017-05-25 21:00:00 -07:00
+Location: |-
+  Morello Park Elementary School
+  1200 Morello Park Drive, Martinez
 RSVP-link: https://www.facebook.com/events/1484458338258865/
 ---
 
