@@ -1,6 +1,7 @@
 ---
 title: Amplify App
 date: 2017-04-06 21:59:00 -07:00
+published: false
 position: 1
 ---
 
