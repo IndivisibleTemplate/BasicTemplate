@@ -23,4 +23,12 @@ A set of bills regarding regulations have passed in the house, cleared Senate co
 * S21 Regulations from the Executive in Need of Scrutiny (REINS) Act: Essentially gives Congress more power to reject regulations. Federal agencies would be required to seek approval before issuing major rules.
 * S584 The Small Business Regulatory Flexibility Improvements Act: Requires agencies to assess potential direct and indirect impacts of regulations on small businesses (EPA, OSHA, and CFPB), undermining the implementation of health and safety rules mandated by law.
 <br>
-These bills have all passed in the house, a senate vote will put them on Trump’s desk! All of these laws would prevent basic protections of water, food, consumer items, workplace safety, and more, and they will all benefit large corporations. 
+These bills have all passed in the house, a senate vote will put them on Trump’s desk! All of these laws would prevent basic protections of water, food, consumer items, workplace safety, and more, and they will all benefit large corporations.
+
+
+Resources:
+[Senate Committee Takes on Regulatory Reform](http://www.powermag.com/senate-committee-takes-on-regulatory-reform/)
+
+[OPPOSE HARMFUL "REGULATORY REFORM" BILLS](https://www.risestronger.org/newsroom/call-to-action-demand-your-senator-oppose-harmful-regulatory-reform-bills)
+
+[Report from hearing on Small Business Reg Flex Act](https://www.sbc.senate.gov/public/?a=Files.Serve&File_id=34E55CCA-484D-4519-AFEB-AE2959369062)
