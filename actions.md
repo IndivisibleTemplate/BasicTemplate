@@ -17,6 +17,8 @@ Get set up:
 3. Enter the indivisible4c code : 118-350-982.
 
 4. Take and action and cheer others on!
+
 <br>
+
 [Weekly updates](https://www.facebook.com/notes/indivisible-central-contra-costa-county/weekly-updatecall-to-action-522/847578005381484/) include calls to action. 
 Be sure to sign up for Amplify to have easy access to phone numbers, scripts, and background information. 
