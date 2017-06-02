@@ -2,9 +2,9 @@
 title: Educational Gerrymandering
 date: 2017-05-03 14:03:00 -07:00
 categories:
-- action
+- local action
 tags:
-- action
+- local action
 is featured: false
 main-image: "/uploads/public-education-540px.jpg"
 ---
