@@ -14,11 +14,13 @@ layout: default
   <div class="row">
 
     <!-- STEPS -->
+    {% capture _ %}{% increment step %}{% endcapture %}
     <div class="col-sm-7 col-md-8">
 
       <hr>
       <div class="media">
-        <span class="icon-disc d-flex mr-4"><span class="disc">1</span></span>
+        {% assign step = 1 %}
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
 
         <div class="media-body">
           <h4 class="mt-2 mb-2">Join {{ site.title | escape }}</h4>
@@ -40,7 +42,7 @@ layout: default
 
       <hr>
       <div class="media">
-        <span class="icon-disc d-flex mr-4"><span class="disc">2</span></span>
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
         <div class="media-body">
           <h4 class="mt-2 mb-2">Attend a Meeting</h4>
           <p class="card-text">Take part in upcoming meetings, events, and town halls.</p>
@@ -50,7 +52,7 @@ layout: default
 
       <hr>
       <div class="media">
-        <span class="icon-disc d-flex mr-4"><span class="disc">3</span></span>
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
         <div class="media-body">
           <h4 class="mt-2 mb-2">Take Action</h4>
           <p class="card-text">Review the list of current actions and get started.</p>
@@ -58,9 +60,38 @@ layout: default
         </div>
       </div>
 
+      {% if page.amplify-code %}
       <hr>
       <div class="media">
-        <span class="icon-disc d-flex mr-4"><span class="disc">4</span></span>
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
+        <div class="media-body">
+          <h4 class="mt-2 mb-2">Join Us On The Amplify App</h4>
+          <p class="card-text">We all want to be in the habit of doing
+            the weekly {{ site.title }} actions. But it's hard to do if we're
+            each acting alone. Join us on the Amplify mobile app built
+            by Indivisible SF. We update it each week with our list of
+            actions, and you can view call scripts and call members of
+            congress right from the app. You can also see the stream
+            of actions taken by other members, and press the "cheer"
+            button to cheer them on.
+
+            <p>
+            Join us on the app:
+
+            <p>
+            <ol>
+              <li>Install the app for <a href="https://getamplify.org/iphone">iPhone</a> or <a href="https://getamplify.org/android">Android</a>
+              <li>Press 'Create New Account' to sign up
+              <li>Enter the {{ site.title }} invite code: {{ page.amplify-code }}
+              <li>Take an action & cheer others on!
+            </ol>
+        </div>
+      </div>
+      {% endif %}
+
+      <hr>
+      <div class="media">
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
         <div class="media-body">
           <h4 class="mt-2 mb-2">Read the Indivisible Guide</h4>
           <p class="card-text">A practical guide to resisting the Trump agenda. Former congressional staffers reveal best practices for making Congress listen.</p>
@@ -70,7 +101,7 @@ layout: default
 
       <hr>
       <div class="media">
-        <span class="icon-disc d-flex mr-4"><span class="disc">5</span></span>
+        <span class="icon-disc d-flex mr-4"><span class="disc">{% increment step %}</span></span>
         <div class="media-body">
           <h4 class="mt-2 mb-2">Invite Your Friends</h4>
           <p class="card-text">The more members we have, the more impact our local chapter has on the national agenda.</p>
