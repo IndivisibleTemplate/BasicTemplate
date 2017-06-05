@@ -37,6 +37,12 @@ layout: default
         {% endif %}
       </div>
 
+      {% if site.stripe_key %}
+        <div class="">
+          <button id="stripe-button">Donate</button>
+        </div>
+      {% endif %}
+
     <div class="row">
 
       <div class="col-sm-8">
@@ -114,3 +120,34 @@ layout: default
   <div class="spacer clearfix"></div>
 
 </div>
+
+{% if site.stripe_key %}
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+  <script>
+    var handler = StripeCheckout.configure({
+      key: '{{ site.stripe_key }}',
+      image: '/favicon.jpg',
+      locale: 'auto',
+      token: function(token) {
+      // You can access the token ID with `token.id`.
+      // Get the token ID to your server-side code for use.
+      }
+    });
+
+    document.getElementById('stripe-button').addEventListener('click', function(e) {
+      // Open Checkout with further options:
+      handler.open({
+        amount: 2700,
+        name: '{{ site.title }}',
+        description: "Make a donation",
+        currency: "usd",
+        panelLabel: "Donate"
+      });
+      e.preventDefault();
+    });
+
+    // Close Checkout on page navigation:
+    window.addEventListener('popstate', function() { handler.close(); });
+  </script>
+{% endif %}
