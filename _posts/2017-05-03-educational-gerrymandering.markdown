@@ -1,6 +1,7 @@
 ---
 title: Educational Gerrymandering
 date: 2017-05-03 14:03:00 -07:00
+published: false
 categories:
 - local action
 tags:
