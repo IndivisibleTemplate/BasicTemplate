@@ -5,6 +5,7 @@ categories:
 - action
 tags:
 - action
+is featured: true
 main-image: "/uploads/562.png"
 call-script-text: |-
   Hi, my name is _____ my zip code is ___, and I am a member of Indivisible Central Contra Costa County.
