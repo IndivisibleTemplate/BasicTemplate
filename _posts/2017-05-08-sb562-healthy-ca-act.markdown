@@ -1,7 +1,6 @@
 ---
 title: SB562- Healthy CA Act
 date: 2017-05-08 15:01:00 -07:00
-published: false
 categories:
 - action
 tags:
