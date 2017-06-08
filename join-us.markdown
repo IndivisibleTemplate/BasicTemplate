@@ -15,6 +15,9 @@ While our mission is to beat the Trump administration, we do much more than call
 
 **New members are always welcome.**
 
-## [Join us!](https://www.facebook.com/groups/413800492297720/)
+## [Join our FB group!](https://www.facebook.com/groups/413800492297720/)
 
 ***Our full group meets about once a month, action teams meet more often. Info will be on calendar when dates are announced.***
+
+
+## [Join an Action Team](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link)
