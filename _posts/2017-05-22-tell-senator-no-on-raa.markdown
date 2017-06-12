@@ -5,7 +5,7 @@ categories:
 - action
 tags:
 - action
-is featured: true
+is featured: false
 main-image: "/uploads/raa2.png"
 call-script-text: "My name is -, my zip code is -, and I'm a member of Indivisible
   Central Contra Costa County.\n\n* \n\nI am calling to urge Senator - to vote no
