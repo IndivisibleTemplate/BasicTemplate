@@ -1,6 +1,11 @@
 ---
 title: Stop the ACHA!
 date: 2017-06-11 22:40:00 -07:00
+categories:
+- action
+tags:
+- action
+is featured: true
 main-image: "/uploads/masa.png"
 ---
 
