@@ -20,5 +20,5 @@ Get set up:
 
 <br>
 
-[Weekly updates](https://www.facebook.com/notes/indivisible-central-contra-costa-county/weekly-updatecall-to-action-522/847578005381484/) include calls to action. 
+[Weekly updates](https://www.facebook.com/notes/indivisible-central-contra-costa-county/611-stop-the-acha/857566527715965/)  include calls to action. 
 Be sure to sign up for Amplify to have easy access to phone numbers, scripts, and background information. 
