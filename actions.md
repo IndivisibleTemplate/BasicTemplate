@@ -5,7 +5,7 @@ main-image:
 layout: actions
 ---
 
-Amplify - All of our calls to action on your phone!
+*Amplify - All of our calls to action on your phone!
 Join us on the Amplify mobile app built by Indivisible SF. We update it each week with our list of actions, and you can view call scripts and call members of congress right from the app.
 <br>
 Get set up:
@@ -21,4 +21,4 @@ Get set up:
 <br>
 
 [Weekly updates](https://www.facebook.com/notes/indivisible-central-contra-costa-county/611-stop-the-acha/857566527715965/)  include calls to action. 
-Be sure to sign up for Amplify to have easy access to phone numbers, scripts, and background information. 
+Be sure to sign up for Amplify to have easy access to phone numbers, scripts, and background information. *
