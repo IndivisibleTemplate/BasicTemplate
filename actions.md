@@ -6,7 +6,7 @@ layout: actions
 ---
 
 *Amplify - All of our calls to action on your phone!
-Join us on the Amplify mobile app built by Indivisible SF. We update it each week with our list of actions, and you can view call scripts and call members of congress right from the app.
+**Join us on the Amplify mobile app built by Indivisible SF. We update it each week with our list of actions, and you can view call scripts and call members of congress right from the app.
 <br>
 Get set up:
 
