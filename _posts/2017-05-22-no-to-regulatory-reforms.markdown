@@ -14,8 +14,6 @@ call-script-text: My name is X, my zip code is X, and I am a member of Indivisib
   reject these dangerous and irresponsible bills. Thank you.
 ---
 
-![war.png](/uploads/war.png)
-
 A set of bills regarding regulations have passed in the house, cleared Senate committees, and will be up to vote on the Senate floor within the week. Dubbed “regulatory reform” by the gop, these bills would effectively paralyze the EPA and other federal agencies from passing regulations to protect our health, safety and welfare. These bills are supported by Koch Industries and other large corporations. If passed by the Senate, they will have a significant, and negative, impact on our lives. The bills include:
 <br>
 * S34 The Midnight Rules Relief Act: Allows congress to strike down multiple regulations with one vote.
