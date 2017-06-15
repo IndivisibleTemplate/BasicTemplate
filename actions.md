@@ -14,6 +14,8 @@ Please follow the instructions below to join us on the app:
 2. Create a new account.
 
 3. Enter the indivisible4c code : 118-350-982.
+
+*Sign up for our weekly update - includes more info and resources for calls to action, events, and other important indivisible4c info. Weekly updates go out every Sunday (or Monday).
 <br>
 <div class="AW-Form-1840326786"></div>
 <script type="text/javascript">(function(d, s, id) {
