@@ -4,9 +4,11 @@ position: 2
 main-image: 
 ---
 
-Amplify - All of our calls to action on your phone! No need to search for phone numbers or scripts, just open the app and click to call!
-<br>
-Get set up:
+Amplify - all of our calls to action on your phone!
+On Amplify, you can view scripts and call Members of Congress right from the app, so it will be easy to take action whenever you have a few minutes.
+
+Please follow the instructions below to join us on the app:
+
 1. Install the Amplify app for iPhone or Android (look for the American flag).
 
 2. Create a new account.
