@@ -2,7 +2,6 @@
 title: Add Amplify & Take Action
 position: 2
 main-image: 
-layout: actions
 ---
 
 Amplify - All of our calls to action on your phone! No need to search for phone numbers or scripts, just open the app and click to call!
