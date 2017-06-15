@@ -28,6 +28,8 @@ Sign up for our weekly update and calls to action
 
 ## [Join an Action Team](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link)
 
-###[Sign up for Amplify, all of our calls to action on your phone!](http://indivisible4c.com/actions.html)
+### [Sign up for Amplify, all of our calls to action on your phone!](http://indivisible4c.com/actions.html)
+
 <br>
+
 ***Our full group meets about once a month, action teams meet more often. Info will be on [our calendar](http://indivisible4c.com/calendar.html) when dates are announced.***
