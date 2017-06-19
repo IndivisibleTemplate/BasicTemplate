@@ -16,8 +16,17 @@ What can we do?
 
 * Call "moderate" Senators and ask them to vote no. While we don't live in their states, we spend money there. Let them know if they take away our insurance, we take away our dollars.
 
-
 All names, phone numbers, and scripts are on our Amplify app. The code for indivisible4c is 118-350-982. If you have used a different code with Amplify, you will need to delete the app and reload using this one.
+
+### Resources
+
+[Indivisible Guide:STOP TRUMPCARE IN JUNE: ACTION PLAN](https://www.indivisibleguide.com/resource/stop-trumpcare-june-action-plan/)
+
+[What is a vote-a-rama?](http://keithhennessey.com/2010/03/25/vote-a-rama/)
+
+[WaPo:Dems ramping up tactics against health bill. Here’s the only way it will work](https://www.washingtonpost.com/blogs/plum-line/wp/2017/06/19/democrats-are-ramping-up-their-tactics-against-the-gop-health-bill-heres-the-only-way-it-will-work/?utm_term=.f25aa7c05c92)
+
+
 
 
 [Weekly Update](https://www.facebook.com/notes/indivisible-central-contra-costa-county/611-stop-the-acha/857566527715965/) includes info about calls we can make.
