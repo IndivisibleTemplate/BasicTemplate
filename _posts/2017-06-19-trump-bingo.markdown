@@ -1,6 +1,7 @@
 ---
 title: Trump Bingo
 date: 2017-06-19 15:14:00 -07:00
+main-image: "/uploads/trumppic.png"
 ---
 
 Because sometimes we need to laugh...
