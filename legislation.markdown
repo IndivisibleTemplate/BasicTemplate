@@ -20,6 +20,7 @@ State:
 * Bail Reform: The ACLU of California is working with several organizations to co-sponsor legislation that will reform California’s money bail system. The current system isn’t working. 
 
 Resources:
+<br>
 [ACLU:California Money Bail Reform Act of 2017](https://www.aclunc.org/article/california-money-bail-reform-act-2017)
 
 [Text of AB42](http://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB42)
