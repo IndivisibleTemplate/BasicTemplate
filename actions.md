@@ -1,5 +1,5 @@
 ---
-title: Add Amplify & Take Action
+title: Amplify & Action
 position: 2
 main-image: 
 ---
