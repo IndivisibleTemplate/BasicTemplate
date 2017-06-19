@@ -5,6 +5,8 @@ main-image: "/uploads/trumppic.png"
 ---
 
 Because sometimes we need to laugh...
+![trumppic.png](/uploads/trumppic.png)
+
 
 Every time Trump fills a square, you take an action! Four different bingo cards.
 
