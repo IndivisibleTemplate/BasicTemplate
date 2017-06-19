@@ -8,28 +8,27 @@ indivisible4c has eleven action teams, each focused on a major issue. All of our
 
 Action Teams
 
-* Health Care
+* Health Care [Join FB Group](https://www.facebook.com/groups/Indivisible4cHealthActionTeam/)
 
-* Immigration
+* Immigration [Join FB Group](https://www.facebook.com/groups/1254970301218485/)
 
-* Environment/Science
+* Environment/Science [Join FB Group](https://www.facebook.com/groups/162210187631587/)
 
-* Women's Rights
+* Women's Rights [Join FB Group](https://www.facebook.com/groups/417949661882871/)
 
 * LGBTQI
 
-* Education
+* Public Education [Join FB Group](https://www.facebook.com/groups/1680839972215915/)
 
-* Government Integrity
+* Government Integrity [Join FB Group](https://www.facebook.com/groups/Indivisible4cEthicsAction/)
 
-* Veterans and Foreign Affairs
+* Veterans and Foreign Affairs [Join FB Group](https://www.facebook.com/groups/Indivisible4CVeterans/)
 
-* Civil Rights
+* Civil Rights [Join FB Group](https://www.facebook.com/groups/1796273630398207/)
 
 * Gun Control
 
-* Budget/Economy
-
+* Budget/Taxes/Trade [Join FB Group](https://www.facebook.com/groups/230322974125186/)
 
 
 ### [Join one or more action teams](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
