@@ -18,6 +18,7 @@ State:
 * [SB562: Healthy California](http://indivisible4c.com/action/2017/05/08/sb562-healthy-ca-act.html)
 
 * Bail Reform: The ACLU of California is working with several organizations to co-sponsor legislation that will reform California’s money bail system. The current system isn’t working. 
+
 Resources:
 [ACLU:California Money Bail Reform Act of 2017](https://www.aclunc.org/article/california-money-bail-reform-act-2017)
 
