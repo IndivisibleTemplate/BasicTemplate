@@ -1,6 +1,10 @@
 ---
 title: Protect our Public Lands
 date: 2017-06-19 16:31:00 -07:00
+categories:
+- action
+tags:
+- action
 ---
 
 From the League of Conservation Voters:
