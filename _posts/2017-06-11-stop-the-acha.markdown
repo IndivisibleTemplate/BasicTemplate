@@ -26,6 +26,8 @@ All names, phone numbers, and scripts are on our Amplify app. The code for indiv
 
 [WaPo:Dems ramping up tactics against health bill. Here’s the only way it will work](https://www.washingtonpost.com/blogs/plum-line/wp/2017/06/19/democrats-are-ramping-up-their-tactics-against-the-gop-health-bill-heres-the-only-way-it-will-work/?utm_term=.f25aa7c05c92)
 
+Using Social Media [NoAHCASocialMedia.pdf](/uploads/NoAHCASocialMedia.pdf)
+
 
 
 
