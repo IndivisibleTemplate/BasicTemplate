@@ -31,4 +31,4 @@ Action Teams
 * Budget/Taxes/Trade [Join FB Group](https://www.facebook.com/groups/230322974125186/)
 
 
-### [Join one or more action teams](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
+### [Sign up for one or more action teams](https://docs.google.com/forms/d/e/1FAIpQLSdRzg-pwBPM0hc_B4jxO_vazOFBbwYEvngTPFQsL3fd6dY2rg/viewform?usp=sf_link).
