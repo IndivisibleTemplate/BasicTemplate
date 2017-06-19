@@ -23,7 +23,7 @@ Resources:
 <br>
 
 [ACLU:California Money Bail Reform Act of 2017](https://www.aclunc.org/article/california-money-bail-reform-act-2017)
-
+<br>
 [Text of AB42](http://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB42)
 <br>
 [Text of SB10](http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB10)
