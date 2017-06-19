@@ -1,6 +1,6 @@
 ---
 title: Amplify & Action
-position: 2
+position: 1
 main-image: 
 ---
 
