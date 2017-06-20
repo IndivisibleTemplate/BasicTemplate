@@ -37,3 +37,5 @@ Excellent article written by the CA Attorney General, Xavier Becerra.
 <br>
 
 [Regulation.gov tips on submitting effective comments](https://www.regulations.gov/docs/Tips_For_Submitting_Effective_Comments.pdf)
+
+PDF w/info and links [ProtectourNationalMonuments.pdf](/uploads/ProtectourNationalMonuments.pdf)
