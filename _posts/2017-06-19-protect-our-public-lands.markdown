@@ -31,6 +31,8 @@ In California, seven national monuments are threatened:
 Excellent article written by the CA Attorney General, Xavier Becerra.
  Includes information and photos of California monuments[Trump Administration Threatens Protections for California’s Cherished National Monuments](https://medium.com/@AGBecerra/trump-administration-threatens-protections-for-californias-cherished-national-monuments-22dcf519975e)
 <br>
+<br>
+<br>
 [Click here to comment: Comments are being accepted until July 10th](https://www.regulations.gov/comment?D=DOI-2017-0002-0001)
 <br>
 
