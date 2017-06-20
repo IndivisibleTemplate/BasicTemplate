@@ -8,9 +8,8 @@ tags:
 main-image: "/uploads/dej.png"
 ---
 
-![maine_1200_082416.jpg](/uploads/maine_1200_082416.jpg)
+![park.png](/uploads/park.png)
 
-### Protect our National Monuments!
 On June 8, 1906, Congress approved the Antiquities Act, which authorized the president to designate federally managed lands as national monuments to conserve important historic, scientific and archaeological sites. After more than a century of success, the Antiquities Act and some of the monuments created using the law are in danger. An executive order by President Trump has mandated a review of 27 national monuments designated since 1996. That review could result in recommendations to rescind the designations in their entirety or significantly alter the monuments.
  
 As part of that process, the public is being invited to weigh in on the review as a whole via written comments or an online portal. The White House is calling it the “first ever formal public comment period for members of the public to officially weigh in on monument designations under the Antiquities Act of 1906,” which of course ignores the years-long process of proposals, legislative efforts, and public comments that went into the vast majority of these monuments.
