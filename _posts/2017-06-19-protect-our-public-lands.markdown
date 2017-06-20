@@ -7,14 +7,9 @@ tags:
 - action
 ---
 
-From the League of Conservation Voters:
-
-The Department of the Interior is accepting public comments about the public protected lands review until July 10, 2017. We have set a goal of 100,000 comments by the end of the public comment period so Trump and Zinke see that THIS IS UNACCEPTABLE. Being President doesn’t give him the right to try and eliminate or shrink any national monuments or parks.
-
-[Click here: Public lands belong in public hands!](https://secure3.convio.net/lcv/site/Advocacy?cmd=display&page=UserAction&id=3830&s_src=Website&s_subsrc=SaveOurPublicLands)
+![maine_1200_082416.jpg](/uploads/maine_1200_082416.jpg)
 
 ### Protect our National Monuments!
-
 
 On June 8, 1906, Congress approved the Antiquities Act, which authorized the president to designate federally managed lands as national monuments to conserve important historic, scientific and archaeological sites. After more than a century of success, the Antiquities Act and some of the monuments created using the law are in danger. An executive order by President Trump has mandated a review of 27 national monuments designated since 1996. That review could result in recommendations to rescind the designations in their entirety or significantly alter the monuments.
 
