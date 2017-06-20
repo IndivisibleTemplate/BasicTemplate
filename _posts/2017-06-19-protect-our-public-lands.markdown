@@ -5,6 +5,7 @@ categories:
 - action
 tags:
 - action
+main-image: "/uploads/dej.png"
 ---
 
 ![maine_1200_082416.jpg](/uploads/maine_1200_082416.jpg)
