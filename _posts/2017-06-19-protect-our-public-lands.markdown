@@ -29,7 +29,7 @@ In California, seven national monuments are threatened:
 * The Cascade-Siskiyou National Monument
 
 Excellent article written by the CA Attorney General, Xavier Becerra.
- Includes information and photos of California monuments  [Trump Administration Threatens Protections for California’s Cherished National Monuments](https://medium.com/@AGBecerra/trump-administration-threatens-protections-for-californias-cherished-national-monuments-22dcf519975e)
+ Includes information and photos of California monuments:  [Trump Administration Threatens Protections for California’s Cherished National Monuments](https://medium.com/@AGBecerra/trump-administration-threatens-protections-for-californias-cherished-national-monuments-22dcf519975e)
 <br>
 <br>
 <br>
