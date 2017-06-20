@@ -1,5 +1,5 @@
 ---
-title: Protect our Public Lands
+title: Protect Public Land & Monuments
 date: 2017-06-19 16:31:00 -07:00
 categories:
 - action
