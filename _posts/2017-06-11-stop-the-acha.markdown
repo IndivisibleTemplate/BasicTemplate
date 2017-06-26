@@ -9,7 +9,9 @@ is featured: true
 main-image: "/uploads/masa.png"
 ---
 
-The Better Care Reconciliation Act of 2017, aka Trumpcare, has been released. What do we know?
+The Better Care Reconciliation Act of 2017, aka Trumpcare, has been released. What do we know?![C_D9tU8XgAAZW_L.jpg](/uploads/C_D9tU8XgAAZW_L.jpg)
+
+
 
 "The Senate bill, unveiled today, is not a health care bill. It’s a massive transfer of wealth from middle-class and poor families to the richest people in America." ~President Obama, June 22nd.
 
