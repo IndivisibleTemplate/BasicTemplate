@@ -20,6 +20,8 @@ It's important to be able to discuss this issue using facts. Take some time to r
 
 ## What you need to know to talk about the bill
 
+The CBO score is in. You can [read the 50 page report](https://www.cbo.gov/system/files/115th-congress-2017-2018/costestimate/52849-hr1628senate.pdf) or the [CBO summary](https://www.cbo.gov/publication/52849). WaPo's article [CBO: Senate GOP health-care bill would leave 22 million more people uninsured by 2026](https://www.washingtonpost.com/national/health-science/imminent-cbo-report-could-prove-pivotal-for-senate-republicans-health-care-bill/2017/06/26/cb8d61e2-59f7-11e7-a9f6-7c3296387341_story.html?hpid=hp_hp-top-table-main_cbosenate-12pm%3Ahomepage%2Fstory&utm_term=.7cfb9059ddd1) provides a clear overview of the report.
+
 The basics, [NPR's Chart: Who Wins, Who Loses With the Senate Health Care Bill](http://www.npr.org/sections/health-shots/2017/06/22/533942041/who-wins-who-loses-with-senate-health-care-bill)
 <br>
 
