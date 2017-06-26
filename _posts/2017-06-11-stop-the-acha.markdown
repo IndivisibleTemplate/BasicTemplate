@@ -9,14 +9,14 @@ is featured: true
 main-image: "/uploads/masa.png"
 ---
 
-The Better Care Reconciliation Act of 2017, aka Trumpcare, has been released. What do we know?![C_D9tU8XgAAZW_L.jpg](/uploads/C_D9tU8XgAAZW_L.jpg)
-
-
+The Better Care Reconciliation Act of 2017, aka Trumpcare, has been released. What do we know?
 
 "The Senate bill, unveiled today, is not a health care bill. It’s a massive transfer of wealth from middle-class and poor families to the richest people in America." ~President Obama, June 22nd.
 
 It is not a health bill, it is a tax cut.
-The results will be devastating, people will die.
+The results will be devastating, people will die.![td.png](/uploads/td.png)
+
+
 
 It's important to be able to discuss this issue using facts. Take some time to review the information so that you can tell the people you know why they should call their Senators today.
 
