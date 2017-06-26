@@ -39,6 +39,9 @@ What can we do?
 
 All names, phone numbers, and scripts are on our Amplify app. The code for indivisible4c is 118-350-982. If you have used a different code with Amplify, you will need to delete the app and reload using this one.
 
+The bad news? The strategies being utilized [by the democrats have limits](https://www.washingtonpost.com/news/politics/wp/2017/06/19/senate-leaders-plan-to-rush-a-health-care-bill-to-a-vote-and-theres-nothing-democrats-can-do-about-it/?utm_term=.a1ebe7b43eb7). It may not pass this week, but if it's postponed (or even voted down) expect to see it rise from the dead before August break. The Republicans ran campaigns based on repealing Obamacare, and many feel they will lose their seats if they don't [accomplish that goal](https://www.washingtonpost.com/opinions/replacing-obamacare-is-a-make-or-break-moment-for-republicans/2017/06/25/c5f7775a-59c9-11e7-9fc6-c7ef4bc58d13_story.html?utm_term=.d7ccc275d528).That doesn't mean you should give up, but we need to be realistic, only the republicans can stop this bill. [Senate Republicans want to get to yes on the health care bill](https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/06/23/daily-202-senate-republicans-want-to-get-to-yes-on-the-health-care-bill/594c147de9b69b2fb981de1e/?utm_term=.640bbfb6d6b4).
+
+
 ### Resources
 
 [Indivisible Guide:STOP TRUMPCARE IN JUNE: ACTION PLAN](https://www.indivisibleguide.com/resource/stop-trumpcare-june-action-plan/)
