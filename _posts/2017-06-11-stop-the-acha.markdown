@@ -48,12 +48,18 @@ While Republicans argue the Senate bill is better because it doesn't allow insur
 Who is opposed to the bill? It's not just the Democrats in Congress. [President Obama's Facebook Post](https://www.facebook.com/barackobama/posts/10154996557026749) explains, "It would raise costs, reduce coverage, roll back protections, and ruin Medicaid as we know it." It's also the [American Medical Association](https://www.ama-assn.org/ama-health-reform-vision), [American Association of Pediatrics](https://www.aap.org/en-us/about-the-aap/aap-press-room/Pages/SenateHealthCareBill.aspx), [American Cancer Society](https://www.acscan.org/releases/patients-would-pay-more-less-coverage-under-senate-health-bill), [American Lung Association](http://www.lung.org/about-us/media/press-releases/ALA-Urges-Senate-to-Oppose-Healthcare-Bill.html?referrer=http://www.businessinsider.com/senate-republican-health-care-plan-slammed-by-doctors-and-patient-advocates-2017-6), [American Psychological Association](http://www.apa.org/news/press/releases/2017/06/better-care-reconciliation.aspx), and so many more. The AARP wrote an article titled, ["Senate Unveils Health Bill - and It's Bad"](http://www.aarp.org/politics-society/advocacy/info-2017/senate-health-care-bill.html?intcmp=AE-HP-FLXSLDR-SLIDE1). This is a small sample of groups that have expressed opposition, in fact, it is difficult to find anyone outside of a fraction of Congress and the White House that support the bill.
 
 ## Why You Should Be Worried
-As of 6/25, the vote is scheduled for Thursday, June 29th. Currently there are enough republican senators expressing doubt to assume it won't pass, but don't be fooled. We said this before. This was expected, McConnell may be heartless, but he is no fool. Great explanation in this article from Slate, [We Know How This Ends](http://www.slate.com/articles/news_and_politics/politics/2017/06/trumpcare_is_right_where_republicans_want_it.html).
+Senate Majority Leader Mitch McConnell announced Tuesday that he would cut the chamber’s August recess in half, saying the GOP needed more time to achieve its legislative goals given the protracted negotiations over health-care legislation and continued opposition from Democrats on several fronts. He has scheduled a pivotal meeting Thursday for all Republican senators to discuss the party's beleaguered effort to repeal Obamacare.
+
+The conference, which remains deeply divided on the health bill, will meet at 11:30 am. on Thursday in the Capitol.
+
+ [We Know How This Ends](http://www.slate.com/articles/news_and_politics/politics/2017/06/trumpcare_is_right_where_republicans_want_it.html).
 
 What can we do?
 * Call our Senators and ask them to withhold consent and filibuster by amendment.
 
 * Call "moderate" Senators and ask them to vote no. While we don't live in their states, we spend money there. Let them know if they take away our insurance, we take away our dollars. ~It is important to be honest, please do not lie about where you live.~
+
+* Using Social Media [NoAHCASocialMedia.pdf](/uploads/NoAHCASocialMedia.pdf)
 
 All names, phone numbers, and scripts are on our Amplify app. The code for indivisible4c is 118-350-982. If you have used a different code with Amplify, you will need to delete the app and reload using this one.
 
@@ -63,15 +69,8 @@ The bad news? The strategies being utilized [by the democrats have limits](https
 <br>
 
 
-* Resources
 
-[Indivisible Guide:STOP TRUMPCARE IN JUNE: ACTION PLAN](https://www.indivisibleguide.com/resource/stop-trumpcare-june-action-plan/)
 
-[What is a vote-a-rama?](http://keithhennessey.com/2010/03/25/vote-a-rama/)
-
-[WaPo:Dems ramping up tactics against health bill. Here’s the only way it will work](https://www.washingtonpost.com/blogs/plum-line/wp/2017/06/19/democrats-are-ramping-up-their-tactics-against-the-gop-health-bill-heres-the-only-way-it-will-work/?utm_term=.f25aa7c05c92)
-
-Using Social Media [NoAHCASocialMedia.pdf](/uploads/NoAHCASocialMedia.pdf)
 
 
 
