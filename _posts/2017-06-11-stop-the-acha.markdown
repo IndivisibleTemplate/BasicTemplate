@@ -9,8 +9,9 @@ is featured: true
 main-image: "/uploads/masa.png"
 ---
 
-The Better Care Reconciliation Act of 2017, aka Trumpcare, has been released. What do we know?
 
+
+Actions can be found on Amplify! [Instructions to set up amplify on your phone](http://indivisible4c.com/actions.html)
 
 Updates (as of 7/12)
 [Feinstein and Harris press release on Republican Health Care Plan](https://www.feinstein.senate.gov/public/index.cfm/press-releases?id=34E8D29E-B00B-41CF-92AD-28B670FE5F62GOP)
