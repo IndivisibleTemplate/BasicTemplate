@@ -19,6 +19,7 @@ Tell Congressman DeSaulnier or Congressman Thompson to oppose HR 23!
 ~~Update: HR 23 is now being brought to a vote under the same rules as the military appropriations bill. This will limit debate.
 
 Letters opposing the bill:
+
 [Governor Brown](https://www.nrdc.org/sites/default/files/media-uploads/hr_23_governor_brown_oppose.pdf),
 
 [Senators Feinstein and Harris](https://www.feinstein.senate.gov/public/index.cfm/press-releases?ID=1E243FC5-4351-409F-BF12-3B0C8A4ED9D8AG),
