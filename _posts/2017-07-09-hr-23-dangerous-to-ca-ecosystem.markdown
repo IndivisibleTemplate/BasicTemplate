@@ -16,6 +16,21 @@ call-script-text: 'Hi, my name is x, my zip code is x, and I am a member of indi
   bill and would like him to vote no. Thank you. '
 ---
 
+~~Update: HR 23 is now being brought to a vote under the same rules as the military appropriations bill. This will limit debate.
+
+Letters opposing the bill:
+[Governor Brown](https://www.nrdc.org/sites/default/files/media-uploads/hr_23_governor_brown_oppose.pdf),
+
+[Senators Feinstein and Harris](https://www.feinstein.senate.gov/public/index.cfm/press-releases?ID=1E243FC5-4351-409F-BF12-3B0C8A4ED9D8AG),
+
+[Attorney General Becerra](https://www.nrdc.org/sites/default/files/media-uploads/ag_becerra_hr_23_oppose.pdf),
+ 
+[Environmental Groups including the NRDC, Audubon CA, Friends of the River, League of Conservation Voters](https://www.nrdc.org/sites/default/files/media-uploads/hr_23_ngo_oppose_letter.pdf),
+
+[The Yurok Tribe](https://www.nrdc.org/sites/default/files/media-uploads/yurok_tribe_oppose_hr_23.pdf)
+
+ 
+
 H.R. 23, co-sponsored by a group of California San Joaquin Valley Republican members of Congress led by David Valadao (R-Hanford), is formally titled the “Gaining Responsibility on Water Act of 2017.” While is has been laying low, suddenly it has resurfaced and could have a full house vote this week.  125 pages in length, the bill seeks to make numerous changes to the way the federally-constructed and administered Central Valley Project (CVP) operates to deliver water throughout California’s Central Valley.
 
 By easing environmental flow restrictions, it will "cut red tape" in order to build dams, tunnels, and other systems. It would even prevent state water regulators from imposing any restrictions on new projects.
