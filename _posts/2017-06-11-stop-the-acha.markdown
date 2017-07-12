@@ -10,7 +10,6 @@ main-image: "/uploads/masa.png"
 ---
 
 
-
 Actions can be found on Amplify! [Instructions to set up amplify on your phone](http://indivisible4c.com/actions.html)
 
 <br>
@@ -18,7 +17,14 @@ Actions can be found on Amplify! [Instructions to set up amplify on your phone](
 Updates (as of 7/12)
 [Feinstein and Harris press release on Republican Health Care Plan](https://www.feinstein.senate.gov/public/index.cfm/press-releases?id=34E8D29E-B00B-41CF-92AD-28B670FE5F62GOP)
 
-Update 7/12 - Can we use reconciliation rules to stop the bill?  [NYT: Democrats to Use Senate Rules to Challenge Health Care Bill](https://www.nytimes.com/2017/07/12/us/politics/health-care-bill-senate.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&_r=0)
+[Ted Cruz’s health-care plan works great unless you need health care](https://www.washingtonpost.com/news/wonk/wp/2017/07/11/ted-cruzs-big-health-care-idea-screwing-middle-class-sick-people/?utm_term=.92f6ffd5d4c5)
+
+
+[Trump says he’ll be ‘angry’ if Senate health care bill flops](https://www.washingtonpost.com/politics/federal_government/gop-ready-to-try-pushing-new-health-bill-through-senate/2017/07/12/c8df173a-66cf-11e7-94ab-5b1f0ff459df_story.html?utm_term=.e53b50791502)
+
+
+Can we use reconciliation rules to stop the bill?  
+[NYT: Democrats to Use Senate Rules to Challenge Health Care Bill](https://www.nytimes.com/2017/07/12/us/politics/health-care-bill-senate.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&_r=0)
 
 7/11 [G.O.P. Senators Vow to Unveil Health Bill Thursday, Despite Deep Divisions](https://www.nytimes.com/2017/07/11/us/politics/senate-republicans-health-bill.html?rref=collection%2Ftimestopic%2FHealth%20Care%20Reform&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=3&pgtype=collection)
 
