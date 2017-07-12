@@ -6,15 +6,15 @@ categories:
 tags:
 - action
 main-image: "/uploads/delta.png"
-call-script-text: 'Hi, my name is x, my zip code is x, and I am a member of indivisible
-  4c.I have recently learned that HR 23, the GROW act, might be voted on soon. Does
-  Congressman DeSaulnier plan to oppose this legislation? (if yes, thank you -- If
-  no answer or maybe keep going!) I am concerned that this bill will significantly
-  hurt CA''s ecosystem. It exempts projects of the CVP and SWP from the federal endangered
-  species act. It would allow the fed gov''t to override CA laws and regulations to
-  protect our delta. Please let Congressman DeSaulnier know that I am opposed to this
-  bill and would like him to vote no. Thank you. '
+call-script-text: |-
+  Hi, my name is x, my zip code is x, and I am a member of indivisible 4c.
+
+  I am very concerned about HR 23, the Gaining Responsibility of Water Act. This bill could permanently harm our rivers and the Bay-Delta estuary. It will override CA environmental law and prevent implementation of the Endangered Species Act. Please tell the Congressman that I am alarmed at recent legislation to speed this bill to a floor vote and that I strongly oppose this dangerous legislation.
+
+  Thank you.
 ---
+
+Tell Congressman DeSaulnier or Congressman Thompson to oppose HR 23!
 
 ~~Update: HR 23 is now being brought to a vote under the same rules as the military appropriations bill. This will limit debate.
 
@@ -35,7 +35,7 @@ H.R. 23, co-sponsored by a group of California San Joaquin Valley Republican mem
 
 By easing environmental flow restrictions, it will "cut red tape" in order to build dams, tunnels, and other systems. It would even prevent state water regulators from imposing any restrictions on new projects.
 
-Let's make sure this doesn't slide under the radar, call Rep DeSaulnier and ask if he is committed to voting no on HR23!
+Let's make sure this doesn't slide under the radar, call Rep DeSaulnier or Rep Thompson and tell him you oppose HR 23!
 
 Resources:
 
