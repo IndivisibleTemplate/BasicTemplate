@@ -52,7 +52,7 @@ Senate Majority Leader Mitch McConnell announced Tuesday that he would cut the c
 
 The conference, which remains deeply divided on the health bill, will meet at 11:30 am. on Thursday in the Capitol.
 
- [We Know How This Ends](http://www.slate.com/articles/news_and_politics/politics/2017/06/trumpcare_is_right_where_republicans_want_it.html).
+McConnell is not new to this game, excellent article on the Senator and his strategy. [We Know How This Ends](http://www.slate.com/articles/news_and_politics/politics/2017/06/trumpcare_is_right_where_republicans_want_it.html).
 
 What can we do?
 * Call our Senators and ask them to withhold consent and filibuster by amendment.
