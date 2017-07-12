@@ -9,6 +9,8 @@ is featured: true
 main-image: "/uploads/masa.png"
 ---
 
+[G.O.P. Senators Vow to Unveil Health Bill Thursday, Despite Deep Divisions](https://www.nytimes.com/2017/07/11/us/politics/senate-republicans-health-bill.html?rref=collection%2Ftimestopic%2FHealth%20Care%20Reform&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=3&pgtype=collection)
+
 
 Actions can be found on Amplify! [Instructions to set up amplify on your phone](http://indivisible4c.com/actions.html)
 
@@ -26,7 +28,6 @@ Updates (as of 7/12)
 Can we use reconciliation rules to stop the bill?  
 [NYT: Democrats to Use Senate Rules to Challenge Health Care Bill](https://www.nytimes.com/2017/07/12/us/politics/health-care-bill-senate.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&_r=0)
 
-7/11 [G.O.P. Senators Vow to Unveil Health Bill Thursday, Despite Deep Divisions](https://www.nytimes.com/2017/07/11/us/politics/senate-republicans-health-bill.html?rref=collection%2Ftimestopic%2FHealth%20Care%20Reform&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=3&pgtype=collection)
 
 "The Senate bill, unveiled today, is not a health care bill. It’s a massive transfer of wealth from middle-class and poor families to the richest people in America." ~President Obama, June 22nd.
 
