@@ -11,6 +11,8 @@ What legislation are we currently tracking? Click on links for more information.
 * AHCA: [HR 1628 passed on 5/4](https://www.congress.gov/bill/115th-congress/house-bill/1628?q=%7B%22search%22%3A%5B%22hr+1628%22%5D%7D&r=1), No Senate bill to track. 
 [More info on AHCA](http://indivisible4c.com/action/2017/06/11/stop-the-acha.html)
 
+* Water in CA: [H.R.23 - Gaining Responsibility on Water Act of 2017](https://www.congress.gov/bill/115th-congress/house-bill/23/text) has been put on fast-track to a floor vote - [H Res 431](https://www.congress.gov/bill/115th-congress/house-resolution/431). More info [on our site](http://indivisible4c.com/action/2017/07/09/hr-23-dangerous-to-ca-ecosystem.html).
+
 * Regulatory Reform Bills: [S34](https://www.congress.gov/bill/115th-congress/senate-bill/34?q=%7B%22search%22%3A%5B%22s+34%22%5D%7D&r=1), [S951](https://www.congress.gov/bill/115th-congress/senate-bill/951?q=%7B%22search%22%3A%5B%22s+951%22%5D%7D&r=1), [S21](https://www.congress.gov/bill/115th-congress/senate-bill/21?q=%7B%22search%22%3A%5B%22s+21%22%5D%7D&r=1), [S584](https://www.congress.gov/bill/115th-congress/senate-bill/584?q=%7B%22search%22%3A%5B%22s+584%22%5D%7D&r=1)
 
 Resource:
