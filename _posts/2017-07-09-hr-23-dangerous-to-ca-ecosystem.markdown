@@ -9,7 +9,7 @@ main-image: "/uploads/delta.png"
 call-script-text: |-
   Hi, my name is x, my zip code is x, and I am a member of indivisible 4c.
 
-  I am very concerned about HR 23, the Gaining Responsibility of Water Act. This bill could permanently harm our rivers and the Bay-Delta estuary. It will override CA environmental law and prevent implementation of the Endangered Species Act. Please tell the Congressman that I am alarmed at recent legislation to speed this bill to a floor vote and that I strongly oppose this dangerous legislation.
+  I am very concerned about HR 23, the Gaining Responsibility of Water Act. This bill could permanently harm our rivers and the Bay-Delta estuary. It will override CA environmental law and prevent implementation of the Endangered Species Act. Please tell the Congressman that I am alarmed at recent legislation to speed this bill to a floor vote and that I strongly oppose this bill.
 
   Thank you.
 ---
