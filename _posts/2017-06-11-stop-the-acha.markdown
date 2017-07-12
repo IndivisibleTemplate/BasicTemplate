@@ -9,12 +9,17 @@ is featured: true
 main-image: "/uploads/masa.png"
 ---
 
-[G.O.P. Senators Vow to Unveil Health Bill Thursday, Despite Deep Divisions](https://www.nytimes.com/2017/07/11/us/politics/senate-republicans-health-bill.html?rref=collection%2Ftimestopic%2FHealth%20Care%20Reform&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=3&pgtype=collection)
+"The Senate bill, unveiled today, is not a health care bill. It’s a massive transfer of wealth from middle-class and poor families to the richest people in America." ~President Obama, June 22nd.
 
+It is not a health bill, it is a tax cut.
+The results will be devastating, people will die.![td.png](/uploads/td.png)
+
+
+It's important to be able to discuss this issue using facts. Take some time to review the information so that you can tell the people you know why they should call their Senators today.
 
 Actions can be found on Amplify! [Instructions to set up amplify on your phone](http://indivisible4c.com/actions.html)
 
-<br>
+[G.O.P. Senators Vow to Unveil Health Bill Thursday, Despite Deep Divisions](https://www.nytimes.com/2017/07/11/us/politics/senate-republicans-health-bill.html?rref=collection%2Ftimestopic%2FHealth%20Care%20Reform&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=3&pgtype=collection)
 
 Updates (as of 7/12)
 [Feinstein and Harris press release on Republican Health Care Plan](https://www.feinstein.senate.gov/public/index.cfm/press-releases?id=34E8D29E-B00B-41CF-92AD-28B670FE5F62GOP)
@@ -28,15 +33,6 @@ Updates (as of 7/12)
 Can we use reconciliation rules to stop the bill?  
 [NYT: Democrats to Use Senate Rules to Challenge Health Care Bill](https://www.nytimes.com/2017/07/12/us/politics/health-care-bill-senate.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&_r=0)
 
-
-"The Senate bill, unveiled today, is not a health care bill. It’s a massive transfer of wealth from middle-class and poor families to the richest people in America." ~President Obama, June 22nd.
-
-It is not a health bill, it is a tax cut.
-The results will be devastating, people will die.![td.png](/uploads/td.png)
-
-
-
-It's important to be able to discuss this issue using facts. Take some time to review the information so that you can tell the people you know why they should call their Senators today.
 
 ## What you need to know to talk about the bill
 
