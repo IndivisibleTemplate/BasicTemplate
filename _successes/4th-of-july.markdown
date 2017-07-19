@@ -6,7 +6,7 @@ main-image: "/uploads/IMG_5109.JPG"
 
 
 !
-[(/uploads/IMG_5111.JPG](/uploads/IMG_5111.JPG)
+[/uploads/IMG_5111.JPG](/uploads/IMG_5111.JPG)
 
 [IMG_5112.JPG](/uploads/IMG_5112.JPG)
 
