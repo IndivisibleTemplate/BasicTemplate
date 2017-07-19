@@ -3,6 +3,8 @@ title: Visit to thank staff
 date: 2017-04-27 22:43:00 -07:00
 categories:
 - community
+tags:
+- success
 position: 5
 main-image: "/uploads/IMG_2350.JPG"
 ---
