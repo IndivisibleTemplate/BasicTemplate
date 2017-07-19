@@ -9,16 +9,10 @@ main-image: "/uploads/IMG_4018.JPG"
 layout: media-grid
 ---
 
-![IMG_4019.JPG](/uploads/IMG_4019.JPG)
+[IMG_4018-d3fae4.JPG](/uploads/IMG_4018-d3fae4.JPG)
 
-![IMG_4013.JPG](/uploads/IMG_4013.JPG)
+![science marchsigns.jpg](/uploads/science%20marchsigns.jpg)
 
-![IMG_4012.JPG](/uploads/IMG_4012.JPG)
-
-![IMG_4017.JPG](/uploads/IMG_4017.JPG)
-
-![IMG_4014.JPG](/uploads/IMG_4014.JPG)
-
-![IMG_4015.JPG](/uploads/IMG_4015.JPG)
+![fun4kidsci.jpg](/uploads/fun4kidsci.jpg)
 
 A beautiful day in Walnut Creek!
