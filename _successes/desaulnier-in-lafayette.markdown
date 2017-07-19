@@ -1,6 +1,8 @@
 ---
 title: DeSaulnier in Lafayette
 date: 2017-03-27 18:40:00 -07:00
+tags:
+- success
 position: 1
 is featured: false
 main-image: "/uploads/IMG_3669-8ba4cb.JPG"
