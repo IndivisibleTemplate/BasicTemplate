@@ -1,10 +1,8 @@
 ---
 title: "#TDOV"
 date: 2017-04-19 13:30:00 -07:00
-categories:
-- successes
 tags:
-- successes
+- success
 position: 2
 main-image: "/uploads/17757649_10158425033255125_7324625096471456557_n.jpg"
 ---
