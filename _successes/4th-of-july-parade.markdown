@@ -7,19 +7,17 @@ is featured: true
 main-image: "/uploads/FullSizeRender%2021.jpg"
 ---
 
-indivisible4c participated in the Pleasant Hill 4th of July parade.
+Indivisible4c participated in the Pleasant Hill 4th of July parade.
 
-![FullSizeRender 20.jpg](/uploads/FullSizeRender%2020.jpg)
-Our float!
-![FullSizeRender 22.jpg](/uploads/FullSizeRender%2022.jpg)
+![float.jpg](/uploads/float.jpg)
+indivisible4c float!
 
-
-![FullSizeRender 24.jpg](/uploads/FullSizeRender%2024.jpg)
+![4thgroup.jpg](/uploads/4thgroup.jpg)
 This is what democracy looks like!
 
+![4thn.jpg](/uploads/4thn.jpg)
+Our special guest!!
 
-![FullSizeRender 19.jpg](/uploads/FullSizeRender%2019.jpg)
-Our special guest!
 
-![FullSizeRender 25.jpg](/uploads/FullSizeRender%2025.jpg)
+
 
