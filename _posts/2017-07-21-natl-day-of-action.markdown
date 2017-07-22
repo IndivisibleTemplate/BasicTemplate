@@ -2,6 +2,7 @@
 title: Nat'l Day of Action
 date: 2017-07-21 19:17:00 -07:00
 is featured: true
+main-image: "/uploads/FullSizeRender%2027.jpg"
 ---
 
 Indivisible4c spend Tuesday afternoon on the highway 24 overpass in Walnut Creek, fighting to protect our healthcare. We were thrilled when Rachel Maddow retweeted us! Also proud that we were included in a short movie put together by national indivisible and featured on Maddow's twitter page!
