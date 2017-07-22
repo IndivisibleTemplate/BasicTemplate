@@ -7,7 +7,7 @@ main-image: "/uploads/FullSizeRender%2027.jpg"
 
 ![national_day_of_action.png](/uploads/national_day_of_action.png)
 
-Indivisible4c spend Tuesday afternoon on the highway 24 overpass in Walnut Creek, fighting to protect our healthcare. We were thrilled when Rachel Maddow retweeted us! Also proud that we were included in a short movie put together by national indivisible and featured on Maddow's twitter page!
+## Indivisible4c spend Tuesday afternoon on the highway 24 overpass in Walnut Creek, fighting to protect our healthcare. We were thrilled when Rachel Maddow retweeted us! Also proud that we were included in a short movie put together by national indivisible and featured on Maddow's twitter page!
 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/IndivisibleTeam">@IndivisibleTeam</a> This overpass has seen many tea party protests, today we took it back. <a href="https://twitter.com/hashtag/killthebill?src=hash">#killthebill</a> <a href="https://twitter.com/hashtag/standindivisible?src=hash">#standindivisible</a> <a href="https://twitter.com/hashtag/TheResistance?src=hash">#TheResistance</a> <a href="https://t.co/odIcPr8iHH">pic.twitter.com/odIcPr8iHH</a></p>&mdash; indivisible4c (@IndivisibleCCCC) <a href="https://twitter.com/IndivisibleCCCC/status/887543698539429889">July 19, 2017</a></blockquote>
