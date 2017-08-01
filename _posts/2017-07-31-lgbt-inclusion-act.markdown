@@ -1,6 +1,7 @@
 ---
 title: LGBT Inclusion Act
 date: 2017-07-31 20:17:00 -07:00
+main-image: "/uploads/lbpic.png"
 call-script-text: "Hi, my name is __, my zip code is __, and I am from indivisible4c.\n\nI'm
   calling to find out why the congressman is not a cosponsor of HR 3273, the LGBT
   Data Inclusion Act? This bill would help ensure that policy makers have the information
