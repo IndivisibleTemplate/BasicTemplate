@@ -2,14 +2,14 @@
 title: LGBT Inclusion Act
 date: 2017-07-31 20:17:00 -07:00
 main-image: "/uploads/lbpic.png"
-call-script-text: "Hi, my name is __, my zip code is __, and I am from indivisible4c.\n\nI'm
+call-script-text: "Hi, my name is __, my zip code is __, and I am from indivisible4c.\n<br>\nI'm
   calling to find out why the congressman is not a cosponsor of HR 3273, the LGBT
   Data Inclusion Act? This bill would help ensure that policy makers have the information
   they need to serve the communities they represent. Is the congressman planning to
-  cosponsor the bill?\n\n\n\nCongressmen Swalwell, Garamendi and Congresswomen Lee
-  and Speier, along with 82 other members of the house have already cosigned. I will
-  be disappointed if our representative does not feel this legislation is important,
-  and I'd like your office to let me know his decision as soon as possible. \n\n(give
+  cosponsor the bill?\n\n<br>\n\nCongressmen Swalwell, Garamendi and Congresswomen
+  Lee and Speier, along with 82 other members of the house have already cosigned.
+  I will be disappointed if our representative does not feel this legislation is important,
+  and I'd like your office to let me know his decision as soon as possible. \n<br>\n(give
   them your email)"
 ---
 
