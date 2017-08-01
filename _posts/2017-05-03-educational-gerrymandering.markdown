@@ -32,8 +32,6 @@ outside of these borders. It's not a coincidence that the research used by the g
 
 [Daily Kos: School segregation increases as communities secede from school districts to create wealthier ones](https://www.dailykos.com/stories/2017/7/27/1684656/-School-segregation-increases-as-communities-secede-from-school-districts-to-create-wealthier-ones)
 
-[Video: School Segregation: Last Week Tonight with John Oliver, October 2016]
-
 
 ### Local Info
 
