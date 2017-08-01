@@ -17,6 +17,8 @@ H.R. 3273, The LGBT Inclusion Act, would require federal surveys to include data
 
 Currently, 86 members of the house have co-signed the bill. Two names are not on that list, Congressman DeSaulnier and Congressman Thompson. Please give your rep a call and ask him to co-sign the bill.
 
+Please use Amplify for the most updated script and info!
+
 
 [Congress.gov H.R. 3273](https://www.congress.gov/bill/115th-congress/house-bill/3273/committees?q=%7B%22search%22%3A%5B%22lgbt%22%5D%7D&r=1)
 
