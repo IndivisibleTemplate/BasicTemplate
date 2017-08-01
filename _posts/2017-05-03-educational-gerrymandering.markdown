@@ -7,14 +7,11 @@ categories:
 tags:
 - local action
 is featured: false
-main-image: "/uploads/public-education-540px.jpg"
+main-image: "/uploads/mdusd.png"
 ---
 
-Help the Mt Diablo School District stay united. Here is how you can help:
-* Email the five members of the County Board of Education
+Please attend the Aug 29th CCC Board of Education meeting!
 
-**[Email addresses and multiple email examples
-for County Board of Ed](http://drive.google.com/open?id=1WgvKEhSGMubdw0VA3BEXDaAAoiZU-PXxw5Wi3r3opR8)**
 
 Background
 There is an attempt for five schools (Northgate High, Foothill Middle, Bancroft Elementary,
@@ -24,13 +21,16 @@ their intent is to bring local control of education to their community. While tr
 consequences when wealthier portions of a community split off from the larger district. Does it
 benefit the kids in the new district? Maybe. Does it hurt the other kids in the district? Absolutely.
 
-
-
-
+<br>
 Educational Gerrymandering is not new, parents all over the country are fighting to redraw the
 boundaries of school districts in a way that will benefit their wealthier (and less diverse)
 neighborhoods. Yet the research is clear, this comes at a huge expense to those children living
-outside of these borders.
+outside of these borders. It's not a coincidence that the research used by the group attempting to leave the district was funded by the Koch brothers and other right-wing groups. Segregation is alive and well, let's make sure we don't let it happen in our community.
+<br>
+
+[Vox: School segregation didn’t go away. It just evolved.](https://www.vox.com/policy-and-politics/2017/7/27/16004084/school-segregation-evolution)
+
+[Daily Kos: School segregation increases as communities secede from school districts to create wealthier ones](https://www.dailykos.com/stories/2017/7/27/1684656/-School-segregation-increases-as-communities-secede-from-school-districts-to-create-wealthier-ones)
 
 
 ### Local Info
@@ -41,7 +41,7 @@ outside of these borders.
 
 [East Bay Times My Word: Walnut Creek council wrong on new school district](http://www.eastbaytimes.com/2017/05/01/my-word-walnut-creek-council-wrong-on-new-school-district/)
 
-### Resources on the issue
+### More resources on the issue
 
 [PBS, Uncomfortable Reality](http://www.pbs.org/wgbh/frontline/article/the-uncomfortable-reality-of-community-schools/)
 
