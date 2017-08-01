@@ -1,10 +1,6 @@
 ---
 title: SB54 - CA Values Act
 date: 2017-05-08 14:48:00 -07:00
-categories:
-- action
-tags:
-- action
 main-image: "/uploads/54.png"
 call-script-text: |-
   Hi, my name is _____ my zip code is ___, and I am a member of Indivisible Central Contra Costa County.
