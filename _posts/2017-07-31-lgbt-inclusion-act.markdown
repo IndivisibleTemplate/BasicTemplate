@@ -6,9 +6,9 @@ call-script-text: "Hi, my name is __, my zip code is __, and I am from indivisib
   calling to find out why the congressman is not a cosponsor of HR 3273, the LGBT
   Data Inclusion Act? This bill would help ensure that policy makers have the information
   they need to serve the communities they represent. Is the congressman planning to
-  cosponsor the bill?\n\nCongressmen Swalwell, Garamendi and Congresswomen Lee and
-  Speier, along with 82 other members of the house have already cosigned. I will be
-  disappointed if our representative does not feel this legislation is important,
+  cosponsor the bill?\n\n\n\nCongressmen Swalwell, Garamendi and Congresswomen Lee
+  and Speier, along with 82 other members of the house have already cosigned. I will
+  be disappointed if our representative does not feel this legislation is important,
   and I'd like your office to let me know his decision as soon as possible. \n\n(give
   them your email)"
 ---
