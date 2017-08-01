@@ -10,8 +10,9 @@ is featured: false
 main-image: "/uploads/mdusd.png"
 ---
 
-Please attend the Aug 29th CCC Board of Education meeting!
+Mark Your Calendar! The Contra Costa County Board of Education (County Committee on School District Organization) Hearing will be held on Tuesday, August 29th at 4:00 p.m. in the Pleasant Hill Middle School Multi-Use Room: 1 Santa Barbara Road, Pleasant Hill 94523.
 
+Updated info can be found on the [Northgate Uncapped FB Page](https://www.facebook.com/northgateuncapped/)
 
 Background
 There is an attempt for five schools (Northgate High, Foothill Middle, Bancroft Elementary,
@@ -25,7 +26,7 @@ benefit the kids in the new district? Maybe. Does it hurt the other kids in the 
 Educational Gerrymandering is not new, parents all over the country are fighting to redraw the
 boundaries of school districts in a way that will benefit their wealthier (and less diverse)
 neighborhoods. Yet the research is clear, this comes at a huge expense to those children living
-outside of these borders. It's not a coincidence that the research used by the group attempting to leave the district was funded by the Koch brothers and other right-wing groups. Segregation is alive and well, let's make sure we don't let it happen in our community.
+outside of these borders. It's not a coincidence that the research used by the group attempting to leave the district was funded by the Koch brothers and other right-wing groups. Segregation is alive and well in some parts of the United States, let's make sure we don't let it happen in our community.
 <br>
 
 [Vox: School segregation didn’t go away. It just evolved.](https://www.vox.com/policy-and-politics/2017/7/27/16004084/school-segregation-evolution)
