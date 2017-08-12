@@ -6,5 +6,3 @@ main-image: "/uploads/IMG_5590.JPG"
 ---
 
 Meet at 100 Gregory Lane (city hall) in Pleasant Hill at 7:30 tonight (Saturday) to stand in solidarity with Virginia.
-
-[IMG_5590.JPG](/uploads/IMG_5590.JPG)
