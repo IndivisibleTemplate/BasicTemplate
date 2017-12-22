@@ -1,5 +1,5 @@
 ---
-title: Indivisible City
+title: Indivisible MN CD3
 timezone: UTC
 collections:
   posts:
@@ -57,15 +57,21 @@ defaults:
   values:
     main-image: 
     mailchimp-form-embed: 
-subtitle: We are thousands of local citizens resisting the Trump agenda through civic
-  action.
+subtitle: |-
+  We are engaged, patriotic citizens whose mission is to help constituents in Third Congressional District become involved in the political process, and educate these constituents that:
+
+  Each citizen has a role and responsibility in the American political process;
+
+  Our democracy works best when we collectively hold our elected officials accountable for their legislative positions and voting records.
+
+  We are inspired by the ideas set forth by the national Indivisible movement.
 email: 
 baseurl: 
 url: 
-twitter_username: 
-facebook_username: 
+twitter_username: https://twitter.com/IndivisibleMN03
+facebook_username: https://www.facebook.com/groups/1846023959014280/
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: '100'
+member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
