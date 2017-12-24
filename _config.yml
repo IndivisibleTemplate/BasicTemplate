@@ -55,10 +55,9 @@ defaults:
     path: ''
     type: becomeAMember
   values:
-    main-image: 
+    main-image:
     mailchimp-form-embed:
-subtitle: We are engaged, patriotic citizens whose mission is to help constituents
-  in Third Congressional District become involved in the political process, and educate.
+subtitle: 
 email:
 baseurl:
 url:
