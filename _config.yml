@@ -1,5 +1,5 @@
 ---
-title: Indivisible City
+title: Indivisible MN CD3
 timezone: UTC
 collections:
   posts:
@@ -55,17 +55,16 @@ defaults:
     path: ''
     type: becomeAMember
   values:
-    main-image: 
-    mailchimp-form-embed: 
-subtitle: We are thousands of local citizens resisting the Trump agenda through civic
-  action.
-email: 
-baseurl: 
-url: 
-twitter_username: 
-facebook_username: 
-background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: '100'
+    main-image:
+    mailchimp-form-embed:
+subtitle: 
+email:
+baseurl:
+url:
+twitter_username: https://twitter.com/IndivisibleMN03
+facebook_username: https://www.facebook.com/groups/1846023959014280/
+background-image: "/uploads/logo_large_indivisible_mncd3.png"
+member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
@@ -78,3 +77,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 google_analytics: 
+theme: jekyll-theme-cayman
