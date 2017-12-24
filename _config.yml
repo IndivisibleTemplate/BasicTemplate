@@ -20,12 +20,12 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image:
-    call-script-text:
-    event-start-date:
-    event-end-date:
-    Location:
-    RSVP-link:
+    main-image: 
+    call-script-text: 
+    event-start-date: 
+    event-end-date: 
+    Location: 
+    RSVP-link: 
     layout: post
 - scope:
     path: ''
@@ -38,19 +38,19 @@ defaults:
   values:
     phone-numbers:
       office-name: "(000) 000-0000"
-    website:
+    website: 
 - scope:
     path: ''
     type: successes
   values:
     is featured: false
-    main-image:
+    main-image: 
     layout: media-item
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code:
+    embed-code: 
 - scope:
     path: ''
     type: becomeAMember
@@ -76,5 +76,5 @@ paginate_path: "/blog/page:num/"
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics:
+google_analytics: 
 theme: jekyll-theme-cayman
