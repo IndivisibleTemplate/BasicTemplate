@@ -20,12 +20,12 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image: 
-    call-script-text: 
-    event-start-date: 
-    event-end-date: 
-    Location: 
-    RSVP-link: 
+    main-image:
+    call-script-text:
+    event-start-date:
+    event-end-date:
+    Location:
+    RSVP-link:
     layout: post
 - scope:
     path: ''
@@ -38,30 +38,30 @@ defaults:
   values:
     phone-numbers:
       office-name: "(000) 000-0000"
-    website: 
+    website:
 - scope:
     path: ''
     type: successes
   values:
     is featured: false
-    main-image: 
+    main-image:
     layout: media-item
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code: 
+    embed-code:
 - scope:
     path: ''
     type: becomeAMember
   values:
     main-image: 
-    mailchimp-form-embed: 
+    mailchimp-form-embed:
 subtitle: We are engaged, patriotic citizens whose mission is to help constituents
   in Third Congressional District become involved in the political process, and educate.
-email: 
-baseurl: 
-url: 
+email:
+baseurl:
+url:
 twitter_username: https://twitter.com/IndivisibleMN03
 facebook_username: https://www.facebook.com/groups/1846023959014280/
 background-image: "/uploads/logo_large_indivisible_mncd3.png"
@@ -77,5 +77,5 @@ paginate_path: "/blog/page:num/"
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics: 
+google_analytics:
 theme: jekyll-theme-cayman
